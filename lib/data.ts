@@ -32,7 +32,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 548000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "277 sq.ft",
+    "builtUp": "1277 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -51,7 +51,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2900000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "113 sq.ft",
+    "builtUp": "5113 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -68,7 +68,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 4922000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "939 sq.ft",
+    "builtUp": "2939 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -85,7 +85,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 249318,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "049 sq.ft",
+    "builtUp": "4049 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -102,7 +102,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 592000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "679 sq.ft",
+    "builtUp": "6679 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -119,7 +119,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 453600,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "690 sq.ft",
+    "builtUp": "1690 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -136,7 +136,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 631800,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "765 sq.ft",
+    "builtUp": "1765 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -153,7 +153,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 468000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "216 sq.ft",
+    "builtUp": "1216 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -187,7 +187,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "374 sq.ft",
+    "builtUp": "2374 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -204,7 +204,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "030 sq.ft",
+    "builtUp": "1030 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -221,7 +221,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "023 sq.ft",
+    "builtUp": "1023 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -238,7 +238,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "411 sq.ft",
+    "builtUp": "2411 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -255,7 +255,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 5427000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "170 sq.ft",
+    "builtUp": "15170 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -272,7 +272,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 630000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -289,7 +289,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1080000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "239 sq.ft",
+    "builtUp": "2239 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -323,7 +323,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 590000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "645 sq.ft",
+    "builtUp": "6645 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -340,7 +340,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "561 sq.ft",
+    "builtUp": "1561 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -357,7 +357,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 619650,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "693 sq.ft",
+    "builtUp": "3693 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -374,7 +374,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1800000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -391,7 +391,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "507 sq.ft",
+    "builtUp": "1507 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -409,7 +409,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "593 sq.ft",
+    "builtUp": "1593 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -427,7 +427,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "593 sq.ft",
+    "builtUp": "1593 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -445,7 +445,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 795000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "666 sq.ft",
+    "builtUp": "1666 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -462,7 +462,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 800000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "702 sq.ft",
+    "builtUp": "3702 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -496,7 +496,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 3000000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "609 sq.ft",
+    "builtUp": "6609 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -513,7 +513,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "133 sq.ft",
+    "builtUp": "3133 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -530,7 +530,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "650 sq.ft",
+    "builtUp": "1650 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -581,7 +581,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 750000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "668 sq.ft",
+    "builtUp": "1668 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -598,7 +598,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1093500,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "2400 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -649,7 +649,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 456000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "109 sq.ft",
+    "builtUp": "1109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -666,7 +666,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 177147,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -685,7 +685,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 590500,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "490 sq.ft",
+    "builtUp": "3490 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -719,7 +719,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 613000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "524 sq.ft",
+    "builtUp": "2524 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -736,7 +736,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 765000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "777 sq.ft",
+    "builtUp": "2777 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -771,7 +771,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "860 sq.ft",
+    "builtUp": "1860 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -788,7 +788,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -824,7 +824,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 630000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "221 sq.ft",
+    "builtUp": "1221 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -841,7 +841,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 364500,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "637 sq.ft",
+    "builtUp": "2637 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -858,7 +858,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 810000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "671 sq.ft",
+    "builtUp": "3671 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -875,7 +875,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 475000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "388 sq.ft",
+    "builtUp": "2388 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -892,7 +892,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "595 sq.ft",
+    "builtUp": "3595 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -909,7 +909,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 3190000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "278 sq.ft",
+    "builtUp": "9278 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -943,7 +943,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1944000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "388 sq.ft",
+    "builtUp": "6388 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -960,7 +960,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "304 sq.ft",
+    "builtUp": "2304 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -994,7 +994,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "152 sq.ft",
+    "builtUp": "1152 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1012,7 +1012,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 468000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -1046,7 +1046,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "109 sq.ft",
+    "builtUp": "1109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1063,7 +1063,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "323 sq.ft",
+    "builtUp": "1323 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -1080,7 +1080,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 3600000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "913 sq.ft",
+    "builtUp": "9913 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -1097,7 +1097,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -1131,7 +1131,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 408240,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -1148,7 +1148,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 570807,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "799 sq.ft",
+    "builtUp": "2799 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -1165,7 +1165,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "787 sq.ft",
+    "builtUp": "1787 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1183,7 +1183,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1700000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "650 sq.ft",
+    "builtUp": "1650 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -1200,7 +1200,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "205 sq.ft",
+    "builtUp": "1205 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1218,7 +1218,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 795000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "095 sq.ft",
+    "builtUp": "5095 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -1307,7 +1307,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 520000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "422 sq.ft",
+    "builtUp": "2422 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -1324,7 +1324,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1440000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "165 sq.ft",
+    "builtUp": "2165 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -1431,7 +1431,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1448,7 +1448,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1215000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "488 sq.ft",
+    "builtUp": "3488 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1482,7 +1482,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 656100,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "422 sq.ft",
+    "builtUp": "2422 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1521,7 +1521,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 702000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "422 sq.ft",
+    "builtUp": "2422 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1612,7 +1612,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 365000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "152 sq.ft",
+    "builtUp": "1152 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1648,7 +1648,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 580000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "259 sq.ft",
+    "builtUp": "1259 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1665,7 +1665,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "066 sq.ft",
+    "builtUp": "1066 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1683,7 +1683,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1620000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -1700,7 +1700,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1440000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "842 sq.ft",
+    "builtUp": "2842 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -1735,7 +1735,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 634230,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "356 sq.ft",
+    "builtUp": "1356 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1771,7 +1771,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 800000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "528 sq.ft",
+    "builtUp": "1528 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1806,7 +1806,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "055 sq.ft",
+    "builtUp": "1055 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1824,7 +1824,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 495000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "787 sq.ft",
+    "builtUp": "1787 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1841,7 +1841,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1878,7 +1878,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1913,7 +1913,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -1930,7 +1930,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "097 sq.ft",
+    "builtUp": "1097 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1947,7 +1947,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 607500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "636 sq.ft",
+    "builtUp": "1636 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -1982,7 +1982,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1539000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -1999,7 +1999,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2051,7 +2051,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 730000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2069,7 +2069,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 750000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "356 sq.ft",
+    "builtUp": "1356 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2104,7 +2104,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 945967.5,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "920 sq.ft",
+    "builtUp": "1920 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -2121,7 +2121,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 138176,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2174,7 +2174,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 329000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "396 sq.ft",
+    "builtUp": "1396 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2194,7 +2194,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 218000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "004 sq.ft",
+    "builtUp": "1004 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2228,7 +2228,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 631800,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "800 sq.ft",
+    "builtUp": "1800 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2245,7 +2245,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1890000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "286 sq.ft",
+    "builtUp": "3286 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -2280,7 +2280,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1314000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2297,7 +2297,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "249 sq.ft",
+    "builtUp": "1249 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2332,7 +2332,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "992 sq.ft",
+    "builtUp": "1992 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2349,7 +2349,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2700000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "286 sq.ft",
+    "builtUp": "3286 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -2367,7 +2367,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "170 sq.ft",
+    "builtUp": "1170 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2384,7 +2384,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2418,7 +2418,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "497 sq.ft",
+    "builtUp": "2497 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2452,7 +2452,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "259 sq.ft",
+    "builtUp": "1259 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2505,7 +2505,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "100 sq.ft",
+    "builtUp": "1100 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2541,7 +2541,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "441 sq.ft",
+    "builtUp": "1441 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2558,7 +2558,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 780000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "800 sq.ft",
+    "builtUp": "1800 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2575,7 +2575,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1080000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "637 sq.ft",
+    "builtUp": "2637 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2592,7 +2592,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "120 sq.ft",
+    "builtUp": "1120 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2609,7 +2609,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 229500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "701 sq.ft",
+    "builtUp": "2701 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -2626,7 +2626,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 670000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "138 sq.ft",
+    "builtUp": "2138 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2643,7 +2643,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 620000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2660,7 +2660,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 710000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2677,7 +2677,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2694,7 +2694,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 342000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2711,7 +2711,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 5314410,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "836 sq.ft",
+    "builtUp": "7836 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -2745,7 +2745,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 800000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "357 sq.ft",
+    "builtUp": "2357 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2779,7 +2779,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1000000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "201 sq.ft",
+    "builtUp": "7201 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -2830,7 +2830,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 750000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "410 sq.ft",
+    "builtUp": "1410 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2881,7 +2881,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 780000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "410 sq.ft",
+    "builtUp": "1410 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2898,7 +2898,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 448000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "475 sq.ft",
+    "builtUp": "1475 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2987,7 +2987,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 475000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "313 sq.ft",
+    "builtUp": "1313 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3004,7 +3004,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 259200,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "012 sq.ft",
+    "builtUp": "1012 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3021,7 +3021,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 389000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "130 sq.ft",
+    "builtUp": "1130 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3199,7 +3199,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1049760,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "950 sq.ft",
+    "builtUp": "4950 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -3216,7 +3216,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 976000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "711 sq.ft",
+    "builtUp": "3711 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3233,7 +3233,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 308000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3339,7 +3339,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 322000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "180 sq.ft",
+    "builtUp": "1180 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3357,7 +3357,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 249000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "173 sq.ft",
+    "builtUp": "1173 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3395,7 +3395,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1080000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "143 sq.ft",
+    "builtUp": "2143 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3412,7 +3412,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 990000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "873 sq.ft",
+    "builtUp": "1873 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -3447,7 +3447,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3481,7 +3481,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3498,7 +3498,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3516,7 +3516,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1050000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "290 sq.ft",
+    "builtUp": "2290 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3533,7 +3533,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "561 sq.ft",
+    "builtUp": "1561 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -3550,7 +3550,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "000 sq.ft",
+    "builtUp": "1000 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3567,7 +3567,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "972 sq.ft",
+    "builtUp": "1972 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -3584,7 +3584,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3602,7 +3602,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "080 sq.ft",
+    "builtUp": "1080 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3619,7 +3619,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 440000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3636,7 +3636,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 5300000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "17400 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -3670,7 +3670,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 3500000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "049 sq.ft",
+    "builtUp": "6049 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3738,7 +3738,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 585000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "020 sq.ft",
+    "builtUp": "2020 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3775,7 +3775,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1000000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "426 sq.ft",
+    "builtUp": "4426 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3792,7 +3792,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "088 sq.ft",
+    "builtUp": "2088 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3809,7 +3809,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 306000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "059 sq.ft",
+    "builtUp": "1059 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -3826,7 +3826,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "012 sq.ft",
+    "builtUp": "1012 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3845,7 +3845,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 309000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "1200 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4033,7 +4033,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "281 sq.ft",
+    "builtUp": "1281 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4067,7 +4067,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 690000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "765 sq.ft",
+    "builtUp": "2765 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -4084,7 +4084,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4101,7 +4101,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 631800,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "439 sq.ft",
+    "builtUp": "2439 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4118,7 +4118,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "841 sq.ft",
+    "builtUp": "1841 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4224,7 +4224,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324400,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "421 sq.ft",
+    "builtUp": "1421 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -4242,7 +4242,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320760,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "398 sq.ft",
+    "builtUp": "1398 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -4294,7 +4294,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "173 sq.ft",
+    "builtUp": "1173 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4311,7 +4311,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1500000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -4328,7 +4328,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 790000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "570 sq.ft",
+    "builtUp": "1570 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -4346,7 +4346,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 630000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4367,7 +4367,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "012 sq.ft",
+    "builtUp": "1012 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -4402,7 +4402,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "180 sq.ft",
+    "builtUp": "1180 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4420,7 +4420,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 388800,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "940 sq.ft",
+    "builtUp": "2940 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -4437,7 +4437,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "820 sq.ft",
+    "builtUp": "2820 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -4454,7 +4454,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4471,7 +4471,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 549000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "894 sq.ft",
+    "builtUp": "1894 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4488,7 +4488,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 364500,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "680 sq.ft",
+    "builtUp": "1680 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4505,7 +4505,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 226800,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "356 sq.ft",
+    "builtUp": "1356 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4539,7 +4539,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 567000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4556,7 +4556,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550800,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "259 sq.ft",
+    "builtUp": "1259 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4573,7 +4573,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 328050,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "356 sq.ft",
+    "builtUp": "1356 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4607,7 +4607,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4624,7 +4624,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 388800,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4658,7 +4658,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4675,7 +4675,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4693,7 +4693,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 399000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4710,7 +4710,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "000 sq.ft",
+    "builtUp": "1000 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4745,7 +4745,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "905 sq.ft",
+    "builtUp": "1905 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4762,7 +4762,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "440 sq.ft",
+    "builtUp": "1440 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4779,7 +4779,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4796,7 +4796,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 378000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "380 sq.ft",
+    "builtUp": "1380 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4813,7 +4813,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150903,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4830,7 +4830,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 245057,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "485 sq.ft",
+    "builtUp": "1485 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -4847,7 +4847,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 401533,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "760 sq.ft",
+    "builtUp": "1760 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4864,7 +4864,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "207 sq.ft",
+    "builtUp": "3207 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -4881,7 +4881,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1100000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "003 sq.ft",
+    "builtUp": "3003 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -4898,7 +4898,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "422 sq.ft",
+    "builtUp": "2422 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -4933,7 +4933,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "550 sq.ft",
+    "builtUp": "1550 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4950,7 +4950,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "1238 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4967,7 +4967,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 469800,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "331 sq.ft",
+    "builtUp": "1331 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -4984,7 +4984,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "134 sq.ft",
+    "builtUp": "1134 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5018,7 +5018,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 585000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "755 sq.ft",
+    "builtUp": "1755 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5052,7 +5052,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1010000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "917 sq.ft",
+    "builtUp": "2917 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5069,7 +5069,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 630000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5086,7 +5086,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1300000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "805 sq.ft",
+    "builtUp": "8805 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5103,7 +5103,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 4500000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "957 sq.ft",
+    "builtUp": "9957 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5120,7 +5120,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5137,7 +5137,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1000000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "367 sq.ft",
+    "builtUp": "1367 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -5155,7 +5155,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "593 sq.ft",
+    "builtUp": "1593 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -5173,7 +5173,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "173 sq.ft",
+    "builtUp": "1173 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5190,7 +5190,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "040 sq.ft",
+    "builtUp": "1040 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5224,7 +5224,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 730000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "900 sq.ft",
+    "builtUp": "1900 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5241,7 +5241,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 204000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "356 sq.ft",
+    "builtUp": "1356 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5275,7 +5275,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "345 sq.ft",
+    "builtUp": "1345 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5292,7 +5292,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 874800,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "077 sq.ft",
+    "builtUp": "2077 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5309,7 +5309,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 461700,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "216 sq.ft",
+    "builtUp": "1216 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5328,7 +5328,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "668 sq.ft",
+    "builtUp": "1668 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5345,7 +5345,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400950,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "130 sq.ft",
+    "builtUp": "1130 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5365,7 +5365,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 421200,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "066 sq.ft",
+    "builtUp": "1066 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5439,7 +5439,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 567000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5476,7 +5476,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "109 sq.ft",
+    "builtUp": "1109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5597,7 +5597,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 268000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "141 sq.ft",
+    "builtUp": "1141 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5633,7 +5633,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "388 sq.ft",
+    "builtUp": "1388 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5650,7 +5650,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 842400,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5685,7 +5685,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307062.5,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "393 sq.ft",
+    "builtUp": "1393 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -5755,7 +5755,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 810000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "298 sq.ft",
+    "builtUp": "3298 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5772,7 +5772,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 333000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "229 sq.ft",
+    "builtUp": "1229 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5789,7 +5789,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "330 sq.ft",
+    "builtUp": "2330 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5806,7 +5806,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1050000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "936 sq.ft",
+    "builtUp": "2936 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -5840,7 +5840,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 546750,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "261 sq.ft",
+    "builtUp": "3261 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5857,7 +5857,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1170000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "418 sq.ft",
+    "builtUp": "4418 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5874,7 +5874,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 530000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "799 sq.ft",
+    "builtUp": "2799 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -5891,7 +5891,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "475 sq.ft",
+    "builtUp": "1475 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5925,7 +5925,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1600000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "281 sq.ft",
+    "builtUp": "5281 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -5942,7 +5942,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 950000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "519 sq.ft",
+    "builtUp": "2519 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6061,7 +6061,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1100000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "229 sq.ft",
+    "builtUp": "3229 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -6095,7 +6095,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 558000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "442 sq.ft",
+    "builtUp": "1442 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6112,7 +6112,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "174 sq.ft",
+    "builtUp": "2174 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -6146,7 +6146,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "164 sq.ft",
+    "builtUp": "2164 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6180,7 +6180,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210600,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6233,7 +6233,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 233300,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "152 sq.ft",
+    "builtUp": "1152 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6251,7 +6251,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6268,7 +6268,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 567000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "281 sq.ft",
+    "builtUp": "1281 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6286,7 +6286,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1863000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "971 sq.ft",
+    "builtUp": "2971 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -6303,7 +6303,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 520000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "087 sq.ft",
+    "builtUp": "1087 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6374,7 +6374,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1650000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "894 sq.ft",
+    "builtUp": "1894 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -6409,7 +6409,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1100000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "100 sq.ft",
+    "builtUp": "3100 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6426,7 +6426,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2600000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "046 sq.ft",
+    "builtUp": "4046 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -6443,7 +6443,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 486000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6462,7 +6462,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "141 sq.ft",
+    "builtUp": "1141 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6498,7 +6498,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 874800,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "292 sq.ft",
+    "builtUp": "2292 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6516,7 +6516,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1500000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "068 sq.ft",
+    "builtUp": "3068 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -6533,7 +6533,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 760000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "862 sq.ft",
+    "builtUp": "1862 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6570,7 +6570,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 517590,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "755 sq.ft",
+    "builtUp": "1755 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6587,7 +6587,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320760,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "356 sq.ft",
+    "builtUp": "1356 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6604,7 +6604,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 255200,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "733 sq.ft",
+    "builtUp": "1733 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -6621,7 +6621,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 607500,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "417 sq.ft",
+    "builtUp": "2417 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6638,7 +6638,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 656100,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "862 sq.ft",
+    "builtUp": "1862 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6655,7 +6655,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 105300,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6706,7 +6706,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "163 sq.ft",
+    "builtUp": "1163 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6740,7 +6740,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1935000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "105 sq.ft",
+    "builtUp": "8105 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6774,7 +6774,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 468000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "596 sq.ft",
+    "builtUp": "1596 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6791,7 +6791,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 810000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "100 sq.ft",
+    "builtUp": "2100 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6808,7 +6808,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1080000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "3300 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -6861,7 +6861,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 486000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "336 sq.ft",
+    "builtUp": "1336 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -6896,7 +6896,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 580000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6913,7 +6913,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "232 sq.ft",
+    "builtUp": "6232 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -6930,7 +6930,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "615 sq.ft",
+    "builtUp": "1615 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6948,7 +6948,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1800000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "015 sq.ft",
+    "builtUp": "4015 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -6965,7 +6965,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "500 sq.ft",
+    "builtUp": "1500 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -6982,7 +6982,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2250000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "755 sq.ft",
+    "builtUp": "1755 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -6999,7 +6999,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "216 sq.ft",
+    "builtUp": "1216 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7016,7 +7016,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "070 sq.ft",
+    "builtUp": "1070 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7033,7 +7033,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 567000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "713 sq.ft",
+    "builtUp": "2713 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7188,7 +7188,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7205,7 +7205,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "926 sq.ft",
+    "builtUp": "1926 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7239,7 +7239,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 475000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "610 sq.ft",
+    "builtUp": "1610 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7256,7 +7256,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 750000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "079 sq.ft",
+    "builtUp": "3079 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -7273,7 +7273,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "100 sq.ft",
+    "builtUp": "1100 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7307,7 +7307,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340200,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7324,7 +7324,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 218700,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "184 sq.ft",
+    "builtUp": "1184 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7341,7 +7341,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7358,7 +7358,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "196 sq.ft",
+    "builtUp": "1196 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7375,7 +7375,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1900000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "549 sq.ft",
+    "builtUp": "5549 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -7392,7 +7392,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1400000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "832 sq.ft",
+    "builtUp": "3832 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -7409,7 +7409,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 567000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "948 sq.ft",
+    "builtUp": "1948 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -7426,7 +7426,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "528 sq.ft",
+    "builtUp": "1528 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -7443,7 +7443,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "744 sq.ft",
+    "builtUp": "1744 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7529,7 +7529,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 3118500,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "173 sq.ft",
+    "builtUp": "11173 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -7546,7 +7546,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "023 sq.ft",
+    "builtUp": "1023 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7564,7 +7564,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "216 sq.ft",
+    "builtUp": "1216 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7601,7 +7601,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 262440,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "130 sq.ft",
+    "builtUp": "1130 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7636,7 +7636,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 880000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "432 sq.ft",
+    "builtUp": "1432 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7722,7 +7722,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 680400,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "646 sq.ft",
+    "builtUp": "1646 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7739,7 +7739,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 259200,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "109 sq.ft",
+    "builtUp": "1109 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7756,7 +7756,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 608000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -7773,7 +7773,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 263000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "227 sq.ft",
+    "builtUp": "1227 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7825,7 +7825,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 477000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7842,7 +7842,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "066 sq.ft",
+    "builtUp": "1066 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7859,7 +7859,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 940000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7876,7 +7876,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "307 sq.ft",
+    "builtUp": "1307 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -7893,7 +7893,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "461 sq.ft",
+    "builtUp": "1461 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -7910,7 +7910,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 874800,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "000 sq.ft",
+    "builtUp": "4000 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -7927,7 +7927,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7944,7 +7944,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 242757,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7961,7 +7961,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "116 sq.ft",
+    "builtUp": "1116 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7978,7 +7978,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -7995,7 +7995,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "099 sq.ft",
+    "builtUp": "2099 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8029,7 +8029,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1300000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "748 sq.ft",
+    "builtUp": "5748 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -8046,7 +8046,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 730000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "542 sq.ft",
+    "builtUp": "1542 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8063,7 +8063,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 620000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "131 sq.ft",
+    "builtUp": "2131 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -8080,7 +8080,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -8097,7 +8097,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 520000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8114,7 +8114,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 490000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "063 sq.ft",
+    "builtUp": "2063 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8131,7 +8131,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 172800,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8148,7 +8148,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "292 sq.ft",
+    "builtUp": "1292 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8167,7 +8167,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8184,7 +8184,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 620000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8201,7 +8201,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 590490,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "035 sq.ft",
+    "builtUp": "3035 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8269,7 +8269,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "401 sq.ft",
+    "builtUp": "3401 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -8286,7 +8286,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 247500,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8320,7 +8320,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 252000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8337,7 +8337,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2880000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "495 sq.ft",
+    "builtUp": "10495 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8354,7 +8354,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "356 sq.ft",
+    "builtUp": "1356 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8371,7 +8371,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 306180,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "249 sq.ft",
+    "builtUp": "1249 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8389,7 +8389,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8427,7 +8427,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "464 sq.ft",
+    "builtUp": "1464 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8444,7 +8444,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "012 sq.ft",
+    "builtUp": "1012 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8462,7 +8462,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 740000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "464 sq.ft",
+    "builtUp": "1464 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8479,7 +8479,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 730000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "066 sq.ft",
+    "builtUp": "1066 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8496,7 +8496,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8530,7 +8530,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 641520,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "386 sq.ft",
+    "builtUp": "1386 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8547,7 +8547,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "927 sq.ft",
+    "builtUp": "1927 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8568,7 +8568,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 364500,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "1238 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8587,7 +8587,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 401700,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "180 sq.ft",
+    "builtUp": "2180 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8604,7 +8604,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 329000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8672,7 +8672,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "816 sq.ft",
+    "builtUp": "1816 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8740,7 +8740,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8757,7 +8757,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "313 sq.ft",
+    "builtUp": "1313 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8774,7 +8774,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "065 sq.ft",
+    "builtUp": "1065 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8808,7 +8808,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8825,7 +8825,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "299 sq.ft",
+    "builtUp": "1299 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8859,7 +8859,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "130 sq.ft",
+    "builtUp": "1130 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8877,7 +8877,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "615 sq.ft",
+    "builtUp": "1615 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8894,7 +8894,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 548000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -8911,7 +8911,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 486000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "608 sq.ft",
+    "builtUp": "1608 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8928,7 +8928,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 396000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "296 sq.ft",
+    "builtUp": "1296 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8945,7 +8945,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "356 sq.ft",
+    "builtUp": "1356 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8962,7 +8962,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 675000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "650 sq.ft",
+    "builtUp": "1650 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -8979,7 +8979,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "600 sq.ft",
+    "builtUp": "1600 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -8996,7 +8996,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "023 sq.ft",
+    "builtUp": "1023 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9031,7 +9031,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1500000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "250 sq.ft",
+    "builtUp": "3250 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9048,7 +9048,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "440 sq.ft",
+    "builtUp": "1440 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9082,7 +9082,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 13000000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "908 sq.ft",
+    "builtUp": "45908 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9116,7 +9116,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9133,7 +9133,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1000000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "714 sq.ft",
+    "builtUp": "3714 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9150,7 +9150,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 4500000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "864 sq.ft",
+    "builtUp": "3864 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -9167,7 +9167,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "286 sq.ft",
+    "builtUp": "1286 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9184,7 +9184,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "1200 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9201,7 +9201,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "100 sq.ft",
+    "builtUp": "1100 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9218,7 +9218,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 255000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "087 sq.ft",
+    "builtUp": "1087 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9253,7 +9253,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 365000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "152 sq.ft",
+    "builtUp": "1152 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9289,7 +9289,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 684000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "066 sq.ft",
+    "builtUp": "1066 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9306,7 +9306,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "340 sq.ft",
+    "builtUp": "2340 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9323,7 +9323,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "500 sq.ft",
+    "builtUp": "2500 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9340,7 +9340,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 880000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "905 sq.ft",
+    "builtUp": "1905 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9391,7 +9391,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 710000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9444,7 +9444,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9495,7 +9495,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 306000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9599,7 +9599,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9616,7 +9616,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "033 sq.ft",
+    "builtUp": "1033 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9654,7 +9654,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 580000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "816 sq.ft",
+    "builtUp": "1816 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9671,7 +9671,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "604 sq.ft",
+    "builtUp": "1604 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9688,7 +9688,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "092 sq.ft",
+    "builtUp": "1092 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9705,7 +9705,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9722,7 +9722,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "965 sq.ft",
+    "builtUp": "2965 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9739,7 +9739,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 680000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "633 sq.ft",
+    "builtUp": "1633 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9808,7 +9808,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -9842,7 +9842,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1170000,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "753 sq.ft",
+    "builtUp": "1753 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -9996,7 +9996,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 423000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "173 sq.ft",
+    "builtUp": "1173 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10013,7 +10013,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10030,7 +10030,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 348300,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10099,7 +10099,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 252000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10116,7 +10116,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10167,7 +10167,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 4665600,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "338 sq.ft",
+    "builtUp": "14338 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10184,7 +10184,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 503000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "410 sq.ft",
+    "builtUp": "1410 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10201,7 +10201,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 356400,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "109 sq.ft",
+    "builtUp": "1109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10218,7 +10218,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400950,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "345 sq.ft",
+    "builtUp": "1345 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10235,7 +10235,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 304000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10252,7 +10252,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 770000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "164 sq.ft",
+    "builtUp": "2164 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10269,7 +10269,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "237 sq.ft",
+    "builtUp": "1237 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10320,7 +10320,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10337,7 +10337,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "141 sq.ft",
+    "builtUp": "1141 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10355,7 +10355,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 670000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "916 sq.ft",
+    "builtUp": "1916 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10390,7 +10390,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2100000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "497 sq.ft",
+    "builtUp": "2497 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10461,7 +10461,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "012 sq.ft",
+    "builtUp": "1012 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10513,7 +10513,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1358127,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "835 sq.ft",
+    "builtUp": "5835 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -10564,7 +10564,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 364500,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10601,7 +10601,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1350000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "747 sq.ft",
+    "builtUp": "3747 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -10618,7 +10618,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10654,7 +10654,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2340000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "900 sq.ft",
+    "builtUp": "3900 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -10671,7 +10671,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1080000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "679 sq.ft",
+    "builtUp": "1679 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10688,7 +10688,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "916 sq.ft",
+    "builtUp": "1916 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10739,7 +10739,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "186 sq.ft",
+    "builtUp": "2186 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10791,7 +10791,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340200,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "054 sq.ft",
+    "builtUp": "1054 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10876,7 +10876,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1215000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "528 sq.ft",
+    "builtUp": "4528 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10910,7 +10910,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -10961,7 +10961,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "292 sq.ft",
+    "builtUp": "1292 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11012,7 +11012,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 3000000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "854 sq.ft",
+    "builtUp": "3854 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11046,7 +11046,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 259200,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "012 sq.ft",
+    "builtUp": "1012 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11082,7 +11082,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11099,7 +11099,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11116,7 +11116,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "020 sq.ft",
+    "builtUp": "1020 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11133,7 +11133,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 329000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "593 sq.ft",
+    "builtUp": "1593 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11239,7 +11239,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "249 sq.ft",
+    "builtUp": "1249 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11256,7 +11256,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 418500,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "701 sq.ft",
+    "builtUp": "2701 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -11273,7 +11273,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "849 sq.ft",
+    "builtUp": "1849 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11290,7 +11290,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "820 sq.ft",
+    "builtUp": "2820 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -11325,7 +11325,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 800000,
     "auctionDate": "27th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -11342,7 +11342,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "27th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "020 sq.ft",
+    "builtUp": "1020 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11376,7 +11376,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "141 sq.ft",
+    "builtUp": "1141 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11393,7 +11393,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1125000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "273 sq.ft",
+    "builtUp": "4273 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -11410,7 +11410,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 520000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "783 sq.ft",
+    "builtUp": "1783 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11461,7 +11461,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "1238 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11478,7 +11478,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "109 sq.ft",
+    "builtUp": "1109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11565,7 +11565,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 236925,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "249 sq.ft",
+    "builtUp": "1249 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11601,7 +11601,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 299700,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "600 sq.ft",
+    "builtUp": "1600 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11618,7 +11618,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 510300,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "112 sq.ft",
+    "builtUp": "1112 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11635,7 +11635,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 432000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11652,7 +11652,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 820000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "440 sq.ft",
+    "builtUp": "1440 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11669,7 +11669,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1094000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "598 sq.ft",
+    "builtUp": "6598 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11686,7 +11686,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "1200 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11703,7 +11703,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "033 sq.ft",
+    "builtUp": "1033 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11720,7 +11720,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 680000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11771,7 +11771,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "500 sq.ft",
+    "builtUp": "1500 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -11839,7 +11839,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "109 sq.ft",
+    "builtUp": "1109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11929,7 +11929,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1182000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "586 sq.ft",
+    "builtUp": "2586 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -11946,7 +11946,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 5589000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "566 sq.ft",
+    "builtUp": "6566 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -11998,7 +11998,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12015,7 +12015,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1100000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12049,7 +12049,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 490000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "259 sq.ft",
+    "builtUp": "1259 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12153,7 +12153,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 612000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "000 sq.ft",
+    "builtUp": "3000 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12170,7 +12170,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "800 sq.ft",
+    "builtUp": "1800 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12187,7 +12187,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 432000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "321 sq.ft",
+    "builtUp": "1321 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12256,7 +12256,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "765 sq.ft",
+    "builtUp": "1765 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12274,7 +12274,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "636 sq.ft",
+    "builtUp": "1636 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12291,7 +12291,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 734000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "211 sq.ft",
+    "builtUp": "9211 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -12308,7 +12308,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 236196,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12325,7 +12325,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 607500,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "056 sq.ft",
+    "builtUp": "2056 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12359,7 +12359,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12376,7 +12376,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "100 sq.ft",
+    "builtUp": "1100 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12393,7 +12393,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12427,7 +12427,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "367 sq.ft",
+    "builtUp": "1367 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12445,7 +12445,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "8th Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "604 sq.ft",
+    "builtUp": "1604 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12462,7 +12462,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 364500,
     "auctionDate": "8th Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "679 sq.ft",
+    "builtUp": "1679 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12479,7 +12479,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12496,7 +12496,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 648000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "787 sq.ft",
+    "builtUp": "1787 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12513,7 +12513,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 778000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12531,7 +12531,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 365000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "109 sq.ft",
+    "builtUp": "1109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12565,7 +12565,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "485 sq.ft",
+    "builtUp": "1485 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12582,7 +12582,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 575000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "593 sq.ft",
+    "builtUp": "1593 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12619,7 +12619,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "442 sq.ft",
+    "builtUp": "1442 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12653,7 +12653,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 985000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "885 sq.ft",
+    "builtUp": "2885 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -12670,7 +12670,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "360 sq.ft",
+    "builtUp": "1360 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12705,7 +12705,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "465 sq.ft",
+    "builtUp": "2465 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12739,7 +12739,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1350000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "267 sq.ft",
+    "builtUp": "4267 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -12756,7 +12756,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 580000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12808,7 +12808,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 729000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "249 sq.ft",
+    "builtUp": "1249 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12826,7 +12826,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "044 sq.ft",
+    "builtUp": "1044 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12860,7 +12860,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 6700000,
     "auctionDate": "17th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "761 sq.ft",
+    "builtUp": "7761 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12877,7 +12877,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2114000,
     "auctionDate": "17th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "650 sq.ft",
+    "builtUp": "3650 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -12894,7 +12894,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 672300,
     "auctionDate": "17th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12911,7 +12911,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2100000,
     "auctionDate": "17th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "900 sq.ft",
+    "builtUp": "3900 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12928,7 +12928,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "17th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "134 sq.ft",
+    "builtUp": "5134 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -12945,7 +12945,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "17th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12962,7 +12962,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "17th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12979,7 +12979,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1180000,
     "auctionDate": "18th Dec 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "267 sq.ft",
+    "builtUp": "3267 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -12996,7 +12996,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "18th Dec 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13047,7 +13047,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 670000,
     "auctionDate": "11th Jan 2027 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13098,7 +13098,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 800000,
     "auctionDate": "29th Jan 2027 (Fri)",
     "landArea": "—",
-    "builtUp": "916 sq.ft",
+    "builtUp": "1916 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13149,7 +13149,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 265000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13168,7 +13168,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "691 sq.ft",
+    "builtUp": "2691 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13236,7 +13236,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13275,7 +13275,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 234000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "205 sq.ft",
+    "builtUp": "1205 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13328,7 +13328,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "765 sq.ft",
+    "builtUp": "1765 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13347,7 +13347,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "873 sq.ft",
+    "builtUp": "1873 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13366,7 +13366,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13383,7 +13383,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 50000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "1238 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13436,7 +13436,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 423000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "154 sq.ft",
+    "builtUp": "2154 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13453,7 +13453,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "765 sq.ft",
+    "builtUp": "1765 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13489,7 +13489,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "993 sq.ft",
+    "builtUp": "3993 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13506,7 +13506,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 255150,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "432 sq.ft",
+    "builtUp": "1432 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13523,7 +13523,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13541,7 +13541,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 585000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "218 sq.ft",
+    "builtUp": "3218 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13558,7 +13558,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 301500,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "410 sq.ft",
+    "builtUp": "1410 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13576,7 +13576,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "337 sq.ft",
+    "builtUp": "2337 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13597,7 +13597,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13614,7 +13614,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 592000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "298 sq.ft",
+    "builtUp": "7298 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13631,7 +13631,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 306180,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "797 sq.ft",
+    "builtUp": "1797 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13649,7 +13649,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 355000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "063 sq.ft",
+    "builtUp": "1063 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13666,7 +13666,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "106 sq.ft",
+    "builtUp": "2106 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13684,7 +13684,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13702,7 +13702,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13720,7 +13720,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "718 sq.ft",
+    "builtUp": "1718 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13738,7 +13738,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "285 sq.ft",
+    "builtUp": "2285 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13757,7 +13757,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 396900,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13774,7 +13774,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 86000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13794,7 +13794,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "453 sq.ft",
+    "builtUp": "1453 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13814,7 +13814,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "044 sq.ft",
+    "builtUp": "1044 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -13831,7 +13831,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "410 sq.ft",
+    "builtUp": "1410 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13849,7 +13849,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13867,7 +13867,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13885,7 +13885,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13902,7 +13902,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "701 sq.ft",
+    "builtUp": "1701 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13919,7 +13919,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 976000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "801 sq.ft",
+    "builtUp": "4801 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13936,7 +13936,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "679 sq.ft",
+    "builtUp": "1679 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13974,7 +13974,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "17th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -13991,7 +13991,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "20th Jan 2027 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14011,7 +14011,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 179000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14028,7 +14028,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14045,7 +14045,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14062,7 +14062,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "060 sq.ft",
+    "builtUp": "1060 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14079,7 +14079,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "081 sq.ft",
+    "builtUp": "1081 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14096,7 +14096,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14130,7 +14130,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 6210000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "311 sq.ft",
+    "builtUp": "30311 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -14147,7 +14147,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "249 sq.ft",
+    "builtUp": "2249 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14164,7 +14164,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 194400,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "604 sq.ft",
+    "builtUp": "1604 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14181,7 +14181,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14198,7 +14198,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 113400,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14215,7 +14215,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 72900,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "410 sq.ft",
+    "builtUp": "1410 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14232,7 +14232,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 194400,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "514 sq.ft",
+    "builtUp": "8514 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -14249,7 +14249,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170100,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14266,7 +14266,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14283,7 +14283,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 141750,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14300,7 +14300,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 130000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14317,7 +14317,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14351,7 +14351,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14368,7 +14368,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 140000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14385,7 +14385,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 219300,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14419,7 +14419,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "531 sq.ft",
+    "builtUp": "3531 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14436,7 +14436,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 80000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14453,7 +14453,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14470,7 +14470,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14487,7 +14487,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14521,7 +14521,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1800000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "210 sq.ft",
+    "builtUp": "5210 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -14538,7 +14538,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 441000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14589,7 +14589,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14606,7 +14606,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "798 sq.ft",
+    "builtUp": "1798 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14623,7 +14623,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 990000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -14657,7 +14657,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1000000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "561 sq.ft",
+    "builtUp": "1561 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -14674,7 +14674,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 616500,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "415 sq.ft",
+    "builtUp": "6415 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14691,7 +14691,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 3125750,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "733 sq.ft",
+    "builtUp": "5733 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14725,7 +14725,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 567000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "034 sq.ft",
+    "builtUp": "2034 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14742,7 +14742,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 226800,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "776 sq.ft",
+    "builtUp": "1776 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14759,7 +14759,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14793,7 +14793,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14827,7 +14827,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "501 sq.ft",
+    "builtUp": "6501 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14844,7 +14844,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14861,7 +14861,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 387000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "006 sq.ft",
+    "builtUp": "6006 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14878,7 +14878,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160380,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "550 sq.ft",
+    "builtUp": "1550 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14895,7 +14895,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "476 sq.ft",
+    "builtUp": "2476 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14912,7 +14912,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 178200,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14929,7 +14929,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400950,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "197 sq.ft",
+    "builtUp": "3197 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14946,7 +14946,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230850,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "618 sq.ft",
+    "builtUp": "4618 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -14963,7 +14963,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "000 sq.ft",
+    "builtUp": "1000 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14980,7 +14980,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "002 sq.ft",
+    "builtUp": "1002 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -14997,7 +14997,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "196 sq.ft",
+    "builtUp": "3196 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -15014,7 +15014,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "357 sq.ft",
+    "builtUp": "3357 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15031,7 +15031,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 194400,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "637 sq.ft",
+    "builtUp": "2637 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -15048,7 +15048,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 218700,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15099,7 +15099,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 285000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15116,7 +15116,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "147 sq.ft",
+    "builtUp": "1147 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15133,7 +15133,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15150,7 +15150,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 194400,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "511 sq.ft",
+    "builtUp": "5511 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -15167,7 +15167,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 228000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "916 sq.ft",
+    "builtUp": "1916 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -15184,7 +15184,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 468000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -15201,7 +15201,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 117000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15218,7 +15218,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 117000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15235,7 +15235,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 207000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15252,7 +15252,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 130000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15269,7 +15269,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 184000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15286,7 +15286,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 333000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "035 sq.ft",
+    "builtUp": "3035 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15303,7 +15303,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "218 sq.ft",
+    "builtUp": "3218 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15320,7 +15320,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 102060,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "227 sq.ft",
+    "builtUp": "1227 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15337,7 +15337,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "097 sq.ft",
+    "builtUp": "1097 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15354,7 +15354,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 99000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15422,7 +15422,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "884 sq.ft",
+    "builtUp": "2884 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -15524,7 +15524,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15609,7 +15609,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15626,7 +15626,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15660,7 +15660,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 147623,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "010 sq.ft",
+    "builtUp": "1010 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15677,7 +15677,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "020 sq.ft",
+    "builtUp": "1020 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15694,7 +15694,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15711,7 +15711,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "1200 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15728,7 +15728,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15745,7 +15745,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 105300,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15762,7 +15762,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15779,7 +15779,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "938 sq.ft",
+    "builtUp": "1938 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15796,7 +15796,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15813,7 +15813,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 140000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15830,7 +15830,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "604 sq.ft",
+    "builtUp": "1604 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -15847,7 +15847,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 204120,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "486 sq.ft",
+    "builtUp": "2486 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15864,7 +15864,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15898,7 +15898,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 349200,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15915,7 +15915,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15932,7 +15932,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "789 sq.ft",
+    "builtUp": "2789 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15949,7 +15949,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -15966,7 +15966,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "626 sq.ft",
+    "builtUp": "2626 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -15983,7 +15983,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "690 sq.ft",
+    "builtUp": "2690 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16000,7 +16000,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16017,7 +16017,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16034,7 +16034,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 144000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "2098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16051,7 +16051,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 117000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "046 sq.ft",
+    "builtUp": "3046 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16085,7 +16085,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 648000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "646 sq.ft",
+    "builtUp": "1646 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -16119,7 +16119,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 140000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16204,7 +16204,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "582 sq.ft",
+    "builtUp": "1582 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16238,7 +16238,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16255,7 +16255,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170100,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16272,7 +16272,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16289,7 +16289,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -16306,7 +16306,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16323,7 +16323,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16340,7 +16340,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "021 sq.ft",
+    "builtUp": "1021 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16357,7 +16357,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 129600,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "347 sq.ft",
+    "builtUp": "2347 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16374,7 +16374,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "2400 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -16391,7 +16391,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16408,7 +16408,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "604 sq.ft",
+    "builtUp": "1604 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16442,7 +16442,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16459,7 +16459,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "454 sq.ft",
+    "builtUp": "2454 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -16476,7 +16476,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16493,7 +16493,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "595 sq.ft",
+    "builtUp": "3595 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16527,7 +16527,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16561,7 +16561,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16578,7 +16578,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16595,7 +16595,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16612,7 +16612,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "008 sq.ft",
+    "builtUp": "1008 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16629,7 +16629,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "564 sq.ft",
+    "builtUp": "1564 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16646,7 +16646,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "426 sq.ft",
+    "builtUp": "1426 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16663,7 +16663,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 224000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "885 sq.ft",
+    "builtUp": "2885 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16680,7 +16680,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "099 sq.ft",
+    "builtUp": "2099 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -16714,7 +16714,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 121500,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16731,7 +16731,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 90000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16748,7 +16748,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16765,7 +16765,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "431 sq.ft",
+    "builtUp": "1431 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16782,7 +16782,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "790 sq.ft",
+    "builtUp": "1790 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16799,7 +16799,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "432 sq.ft",
+    "builtUp": "1432 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16816,7 +16816,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 275400,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "358 sq.ft",
+    "builtUp": "3358 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -16833,7 +16833,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1800000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "369 sq.ft",
+    "builtUp": "3369 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -16850,7 +16850,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16867,7 +16867,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "320 sq.ft",
+    "builtUp": "1320 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16884,7 +16884,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 126000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16901,7 +16901,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 306000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "550 sq.ft",
+    "builtUp": "1550 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16918,7 +16918,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16935,7 +16935,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16952,7 +16952,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "143 sq.ft",
+    "builtUp": "3143 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -16969,7 +16969,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17037,7 +17037,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 583200,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "193 sq.ft",
+    "builtUp": "3193 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -17173,7 +17173,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "099 sq.ft",
+    "builtUp": "2099 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17190,7 +17190,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 387000,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "108 sq.ft",
+    "builtUp": "1108 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -17207,7 +17207,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "052 sq.ft",
+    "builtUp": "1052 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -17224,7 +17224,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "615 sq.ft",
+    "builtUp": "1615 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17241,7 +17241,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "164 sq.ft",
+    "builtUp": "2164 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17258,7 +17258,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "389 sq.ft",
+    "builtUp": "1389 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17275,7 +17275,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "099 sq.ft",
+    "builtUp": "2099 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17292,7 +17292,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 750000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "595 sq.ft",
+    "builtUp": "3595 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -17326,7 +17326,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1060000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "615 sq.ft",
+    "builtUp": "1615 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -17343,7 +17343,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "907 sq.ft",
+    "builtUp": "1907 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17360,7 +17360,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 379080,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "389 sq.ft",
+    "builtUp": "2389 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -17377,7 +17377,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 416000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "228 sq.ft",
+    "builtUp": "2228 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -17394,7 +17394,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 648900,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "866 sq.ft",
+    "builtUp": "5866 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17411,7 +17411,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 202500,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "981 sq.ft",
+    "builtUp": "1981 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -17428,7 +17428,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280800,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "342 sq.ft",
+    "builtUp": "2342 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17445,7 +17445,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "249 sq.ft",
+    "builtUp": "1249 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17496,7 +17496,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 680000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "337 sq.ft",
+    "builtUp": "2337 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -17513,7 +17513,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17530,7 +17530,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17547,7 +17547,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 90000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17564,7 +17564,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 167670,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "432 sq.ft",
+    "builtUp": "1432 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17598,7 +17598,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 414000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17734,7 +17734,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 453600,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "376 sq.ft",
+    "builtUp": "2376 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -17751,7 +17751,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "196 sq.ft",
+    "builtUp": "3196 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17768,7 +17768,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 3040000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "7200 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -17785,7 +17785,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17802,7 +17802,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "291 sq.ft",
+    "builtUp": "1291 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17819,7 +17819,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 388000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17836,7 +17836,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 171000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17853,7 +17853,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17870,7 +17870,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "600 sq.ft",
+    "builtUp": "1600 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17887,7 +17887,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 273600,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "118 sq.ft",
+    "builtUp": "1118 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17904,7 +17904,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17921,7 +17921,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "656 sq.ft",
+    "builtUp": "1656 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17955,7 +17955,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 469800,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "003 sq.ft",
+    "builtUp": "3003 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -17989,7 +17989,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 468000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -18074,7 +18074,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "584 sq.ft",
+    "builtUp": "2584 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18125,7 +18125,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18176,7 +18176,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "163 sq.ft",
+    "builtUp": "2163 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18193,7 +18193,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 284310,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "292 sq.ft",
+    "builtUp": "1292 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18210,7 +18210,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1100000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "379 sq.ft",
+    "builtUp": "3379 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -18227,7 +18227,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340200,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "135 sq.ft",
+    "builtUp": "2135 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18244,7 +18244,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "237 sq.ft",
+    "builtUp": "1237 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18261,7 +18261,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160380,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "464 sq.ft",
+    "builtUp": "1464 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18278,7 +18278,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "431 sq.ft",
+    "builtUp": "1431 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18312,7 +18312,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "170 sq.ft",
+    "builtUp": "1170 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18329,7 +18329,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18346,7 +18346,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "154 sq.ft",
+    "builtUp": "3154 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -18363,7 +18363,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18380,7 +18380,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18397,7 +18397,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 90000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "593 sq.ft",
+    "builtUp": "1593 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18414,7 +18414,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "485 sq.ft",
+    "builtUp": "1485 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18431,7 +18431,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 648000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "646 sq.ft",
+    "builtUp": "1646 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -18448,7 +18448,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160380,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18465,7 +18465,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18482,7 +18482,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 140000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18499,7 +18499,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18516,7 +18516,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 143000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18533,7 +18533,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18550,7 +18550,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18567,7 +18567,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 80000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18601,7 +18601,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 505197,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "668 sq.ft",
+    "builtUp": "1668 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18635,7 +18635,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 80190,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "927 sq.ft",
+    "builtUp": "1927 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18652,7 +18652,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 185000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18669,7 +18669,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 171000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18686,7 +18686,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 226800,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18703,7 +18703,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 136800,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18720,7 +18720,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "342 sq.ft",
+    "builtUp": "2342 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18737,7 +18737,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18771,7 +18771,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -18788,7 +18788,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 561000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "433 sq.ft",
+    "builtUp": "2433 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -18822,7 +18822,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 765000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "110 sq.ft",
+    "builtUp": "2110 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -18856,7 +18856,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 259200,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "291 sq.ft",
+    "builtUp": "1291 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18873,7 +18873,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 580000,
     "auctionDate": "8th Nov 2026 (Sun)",
     "landArea": "—",
-    "builtUp": "648 sq.ft",
+    "builtUp": "2648 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -18890,7 +18890,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 264000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18907,7 +18907,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 208000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18924,7 +18924,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "442 sq.ft",
+    "builtUp": "1442 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18941,7 +18941,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 226800,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18958,7 +18958,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "431 sq.ft",
+    "builtUp": "1431 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18975,7 +18975,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "208 sq.ft",
+    "builtUp": "1208 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -18992,7 +18992,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "259 sq.ft",
+    "builtUp": "1259 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -19009,7 +19009,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "948 sq.ft",
+    "builtUp": "1948 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -19026,7 +19026,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19043,7 +19043,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19060,7 +19060,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 54000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19094,7 +19094,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19128,7 +19128,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1053000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "093 sq.ft",
+    "builtUp": "3093 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -19179,7 +19179,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -19196,7 +19196,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 263000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "780 sq.ft",
+    "builtUp": "1780 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19213,7 +19213,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 414000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "668 sq.ft",
+    "builtUp": "1668 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -19281,7 +19281,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "842 sq.ft",
+    "builtUp": "2842 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19315,7 +19315,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1035000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "758 sq.ft",
+    "builtUp": "4758 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -19332,7 +19332,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "100 sq.ft",
+    "builtUp": "1100 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19383,7 +19383,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19400,7 +19400,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "687 sq.ft",
+    "builtUp": "2687 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19434,7 +19434,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 131220,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19468,7 +19468,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -19485,7 +19485,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19502,7 +19502,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "465 sq.ft",
+    "builtUp": "2465 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -19519,7 +19519,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 100000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19536,7 +19536,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 117000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "261 sq.ft",
+    "builtUp": "3261 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19553,7 +19553,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "056 sq.ft",
+    "builtUp": "2056 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19570,7 +19570,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19604,7 +19604,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 356400,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19621,7 +19621,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "507 sq.ft",
+    "builtUp": "1507 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19638,7 +19638,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "180 sq.ft",
+    "builtUp": "1180 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19655,7 +19655,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "403 sq.ft",
+    "builtUp": "5403 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19672,7 +19672,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19689,7 +19689,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "674 sq.ft",
+    "builtUp": "6674 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19706,7 +19706,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19723,7 +19723,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19740,7 +19740,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19757,7 +19757,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 129600,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19791,7 +19791,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19808,7 +19808,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19825,7 +19825,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "323 sq.ft",
+    "builtUp": "1323 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19842,7 +19842,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "550 sq.ft",
+    "builtUp": "1550 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19859,7 +19859,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 688500,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "024 sq.ft",
+    "builtUp": "3024 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -19876,7 +19876,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "141 sq.ft",
+    "builtUp": "1141 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19910,7 +19910,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19944,7 +19944,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "808 sq.ft",
+    "builtUp": "1808 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19961,7 +19961,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19978,7 +19978,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 131220,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -19995,7 +19995,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2170800,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "030 sq.ft",
+    "builtUp": "8030 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20046,7 +20046,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "699 sq.ft",
+    "builtUp": "2699 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -20063,7 +20063,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2250000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "040 sq.ft",
+    "builtUp": "7040 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20080,7 +20080,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "451 sq.ft",
+    "builtUp": "3451 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -20097,7 +20097,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -20114,7 +20114,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "196 sq.ft",
+    "builtUp": "3196 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20131,7 +20131,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 108000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20148,7 +20148,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "434 sq.ft",
+    "builtUp": "3434 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20165,7 +20165,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "154 sq.ft",
+    "builtUp": "3154 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -20182,7 +20182,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "678 sq.ft",
+    "builtUp": "1678 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20199,7 +20199,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "522 sq.ft",
+    "builtUp": "5522 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -20216,7 +20216,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "799 sq.ft",
+    "builtUp": "2799 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -20250,7 +20250,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20267,7 +20267,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "765 sq.ft",
+    "builtUp": "1765 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20335,7 +20335,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 333000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20369,7 +20369,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 211410,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "087 sq.ft",
+    "builtUp": "1087 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20420,7 +20420,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 440000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "578 sq.ft",
+    "builtUp": "1578 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -20437,7 +20437,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 440000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "776 sq.ft",
+    "builtUp": "1776 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20488,7 +20488,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20505,7 +20505,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20522,7 +20522,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "798 sq.ft",
+    "builtUp": "2798 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -20556,7 +20556,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "240 sq.ft",
+    "builtUp": "1240 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20573,7 +20573,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "873 sq.ft",
+    "builtUp": "1873 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -20624,7 +20624,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 429300,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "130 sq.ft",
+    "builtUp": "1130 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -20641,7 +20641,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 490000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20675,7 +20675,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 167670,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "981 sq.ft",
+    "builtUp": "1981 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -20692,7 +20692,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 392000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "640 sq.ft",
+    "builtUp": "2640 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -20709,7 +20709,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 137700,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20726,7 +20726,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "160 sq.ft",
+    "builtUp": "1160 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20743,7 +20743,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "179 sq.ft",
+    "builtUp": "3179 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20760,7 +20760,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20777,7 +20777,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "862 sq.ft",
+    "builtUp": "1862 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20811,7 +20811,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20828,7 +20828,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 90000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "798 sq.ft",
+    "builtUp": "1798 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20845,7 +20845,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20862,7 +20862,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "603 sq.ft",
+    "builtUp": "1603 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20896,7 +20896,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "259 sq.ft",
+    "builtUp": "1259 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -20913,7 +20913,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20930,7 +20930,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20947,7 +20947,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -20964,7 +20964,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "099 sq.ft",
+    "builtUp": "2099 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -20998,7 +20998,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21032,7 +21032,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "080 sq.ft",
+    "builtUp": "1080 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21049,7 +21049,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "835 sq.ft",
+    "builtUp": "1835 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -21066,7 +21066,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21083,7 +21083,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 603000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21134,7 +21134,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21185,7 +21185,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "790 sq.ft",
+    "builtUp": "2790 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -21202,7 +21202,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "288 sq.ft",
+    "builtUp": "1288 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21236,7 +21236,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "1238 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21253,7 +21253,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "361 sq.ft",
+    "builtUp": "6361 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21270,7 +21270,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21287,7 +21287,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "358 sq.ft",
+    "builtUp": "3358 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -21304,7 +21304,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "771 sq.ft",
+    "builtUp": "1771 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21321,7 +21321,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 251100,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "637 sq.ft",
+    "builtUp": "2637 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -21338,7 +21338,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "802 sq.ft",
+    "builtUp": "1802 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -21355,7 +21355,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21372,7 +21372,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 186300,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -21389,7 +21389,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 64800,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21406,7 +21406,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "431 sq.ft",
+    "builtUp": "1431 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21423,7 +21423,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21440,7 +21440,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21457,7 +21457,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "292 sq.ft",
+    "builtUp": "1292 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -21474,7 +21474,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21508,7 +21508,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "798 sq.ft",
+    "builtUp": "1798 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21525,7 +21525,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 870000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "229 sq.ft",
+    "builtUp": "3229 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -21542,7 +21542,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 820000,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "256 sq.ft",
+    "builtUp": "4256 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -21559,7 +21559,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 202500,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21576,7 +21576,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 299700,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "679 sq.ft",
+    "builtUp": "1679 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21593,7 +21593,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 137700,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "120 sq.ft",
+    "builtUp": "1120 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21610,7 +21610,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "1200 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21627,7 +21627,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21644,7 +21644,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21661,7 +21661,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21678,7 +21678,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "434 sq.ft",
+    "builtUp": "3434 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -21695,7 +21695,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "085 sq.ft",
+    "builtUp": "1085 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21712,7 +21712,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 178200,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "270 sq.ft",
+    "builtUp": "1270 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21729,7 +21729,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "102 sq.ft",
+    "builtUp": "2102 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21746,7 +21746,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "099 sq.ft",
+    "builtUp": "2099 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21763,7 +21763,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 189000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21780,7 +21780,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "458 sq.ft",
+    "builtUp": "2458 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21797,7 +21797,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "112 sq.ft",
+    "builtUp": "5112 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21814,7 +21814,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "099 sq.ft",
+    "builtUp": "1099 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21831,7 +21831,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "454 sq.ft",
+    "builtUp": "2454 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21848,7 +21848,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21899,7 +21899,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 554040,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "894 sq.ft",
+    "builtUp": "1894 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21933,7 +21933,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 306000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "087 sq.ft",
+    "builtUp": "1087 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -21967,7 +21967,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1350000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "162 sq.ft",
+    "builtUp": "3162 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -21984,7 +21984,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "970 sq.ft",
+    "builtUp": "1970 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22001,7 +22001,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 393660,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22035,7 +22035,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 204120,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "024 sq.ft",
+    "builtUp": "1024 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22052,7 +22052,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 356400,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "637 sq.ft",
+    "builtUp": "2637 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22069,7 +22069,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2600000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "700 sq.ft",
+    "builtUp": "2700 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22086,7 +22086,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2800000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "595 sq.ft",
+    "builtUp": "3595 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22103,7 +22103,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "696 sq.ft",
+    "builtUp": "1696 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22120,7 +22120,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22137,7 +22137,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "981 sq.ft",
+    "builtUp": "1981 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22154,7 +22154,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 129600,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "099 sq.ft",
+    "builtUp": "1099 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22171,7 +22171,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 175000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22205,7 +22205,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 432000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "713 sq.ft",
+    "builtUp": "2713 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22222,7 +22222,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 234000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22239,7 +22239,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22256,7 +22256,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22273,7 +22273,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "800 sq.ft",
+    "builtUp": "1800 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22290,7 +22290,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22307,7 +22307,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "196 sq.ft",
+    "builtUp": "3196 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22324,7 +22324,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 750000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "391 sq.ft",
+    "builtUp": "3391 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22358,7 +22358,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "819 sq.ft",
+    "builtUp": "1819 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22460,7 +22460,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "585 sq.ft",
+    "builtUp": "4585 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22477,7 +22477,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "100 sq.ft",
+    "builtUp": "1100 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22494,7 +22494,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "930 sq.ft",
+    "builtUp": "1930 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22528,7 +22528,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "3200 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22545,7 +22545,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "512 sq.ft",
+    "builtUp": "1512 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22562,7 +22562,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 110000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22579,7 +22579,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22596,7 +22596,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 11000000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "815 sq.ft",
+    "builtUp": "225815 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -22613,7 +22613,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 113400,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22647,7 +22647,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 567000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "601 sq.ft",
+    "builtUp": "3601 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22664,7 +22664,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 423000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "004 sq.ft",
+    "builtUp": "4004 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22681,7 +22681,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "803 sq.ft",
+    "builtUp": "5803 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22698,7 +22698,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "493 sq.ft",
+    "builtUp": "7493 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -22715,7 +22715,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 234000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "1200 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22732,7 +22732,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "074 sq.ft",
+    "builtUp": "2074 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22749,7 +22749,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 105100,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22800,7 +22800,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "307 sq.ft",
+    "builtUp": "5307 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22817,7 +22817,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "420 sq.ft",
+    "builtUp": "2420 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22834,7 +22834,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22851,7 +22851,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 178200,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22885,7 +22885,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22902,7 +22902,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "024 sq.ft",
+    "builtUp": "1024 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22919,7 +22919,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "163 sq.ft",
+    "builtUp": "1163 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22936,7 +22936,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 418000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "798 sq.ft",
+    "builtUp": "1798 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22970,7 +22970,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "144 sq.ft",
+    "builtUp": "1144 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -22987,7 +22987,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "271 sq.ft",
+    "builtUp": "2271 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -23004,7 +23004,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 441000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "055 sq.ft",
+    "builtUp": "1055 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -23055,7 +23055,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 620000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "3300 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -23106,7 +23106,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "380 sq.ft",
+    "builtUp": "1380 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23123,7 +23123,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "930 sq.ft",
+    "builtUp": "1930 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23140,7 +23140,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "444 sq.ft",
+    "builtUp": "3444 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23157,7 +23157,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "080 sq.ft",
+    "builtUp": "1080 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -23174,7 +23174,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 275000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "019 sq.ft",
+    "builtUp": "1019 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23191,7 +23191,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 249480,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "173 sq.ft",
+    "builtUp": "1173 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23208,7 +23208,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 205200,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "088 sq.ft",
+    "builtUp": "1088 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23225,7 +23225,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23242,7 +23242,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 90000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23259,7 +23259,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "512 sq.ft",
+    "builtUp": "1512 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23276,7 +23276,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -23310,7 +23310,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "701 sq.ft",
+    "builtUp": "1701 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23327,7 +23327,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 85000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23361,7 +23361,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1200000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "486 sq.ft",
+    "builtUp": "2486 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -23412,7 +23412,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "432 sq.ft",
+    "builtUp": "1432 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23429,7 +23429,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 121500,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23446,7 +23446,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 171000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "110 sq.ft",
+    "builtUp": "1110 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23463,7 +23463,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 176000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23480,7 +23480,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "388 sq.ft",
+    "builtUp": "2388 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23497,7 +23497,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2304000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "136 sq.ft",
+    "builtUp": "4136 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -23514,7 +23514,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 422900,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -23548,7 +23548,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 492075,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "658 sq.ft",
+    "builtUp": "1658 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -23565,7 +23565,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400950,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23582,7 +23582,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 413100,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "270 sq.ft",
+    "builtUp": "1270 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -23616,7 +23616,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 236196,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "240 sq.ft",
+    "builtUp": "1240 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23633,7 +23633,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23650,7 +23650,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "800 sq.ft",
+    "builtUp": "2800 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -23667,7 +23667,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 144000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23684,7 +23684,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 510300,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "625 sq.ft",
+    "builtUp": "2625 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -23701,7 +23701,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "497 sq.ft",
+    "builtUp": "2497 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23718,7 +23718,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 612000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "799 sq.ft",
+    "builtUp": "2799 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -23735,7 +23735,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23752,7 +23752,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "562 sq.ft",
+    "builtUp": "2562 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23786,7 +23786,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23803,7 +23803,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "026 sq.ft",
+    "builtUp": "2026 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23820,7 +23820,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "711 sq.ft",
+    "builtUp": "1711 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -23888,7 +23888,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -23905,7 +23905,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "498 sq.ft",
+    "builtUp": "3498 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -23922,7 +23922,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "621 sq.ft",
+    "builtUp": "2621 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -23939,7 +23939,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "156 sq.ft",
+    "builtUp": "1156 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24007,7 +24007,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 511800,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "389 sq.ft",
+    "builtUp": "1389 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24075,7 +24075,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "691 sq.ft",
+    "builtUp": "12691 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -24109,7 +24109,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 382500,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "595 sq.ft",
+    "builtUp": "3595 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -24126,7 +24126,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24143,7 +24143,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24160,7 +24160,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24262,7 +24262,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 308000,
     "auctionDate": "8th Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "970 sq.ft",
+    "builtUp": "2970 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24279,7 +24279,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 299700,
     "auctionDate": "8th Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "990 sq.ft",
+    "builtUp": "1990 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24296,7 +24296,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "8th Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "604 sq.ft",
+    "builtUp": "1604 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24330,7 +24330,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "8th Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "414 sq.ft",
+    "builtUp": "5414 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24364,7 +24364,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24483,7 +24483,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -24500,7 +24500,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 520000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24517,7 +24517,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 27000,
     "auctionDate": "17th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "464 sq.ft",
+    "builtUp": "2464 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -24551,7 +24551,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "23rd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "218 sq.ft",
+    "builtUp": "1218 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24568,7 +24568,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "23rd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "464 sq.ft",
+    "builtUp": "1464 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -24585,7 +24585,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "23rd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "751 sq.ft",
+    "builtUp": "2751 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -24602,7 +24602,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "30th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "370 sq.ft",
+    "builtUp": "4370 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -24619,7 +24619,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "30th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "692 sq.ft",
+    "builtUp": "3692 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24636,7 +24636,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 558000,
     "auctionDate": "11th Feb 2027 (Thu)",
     "landArea": "—",
-    "builtUp": "153 sq.ft",
+    "builtUp": "2153 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24653,7 +24653,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "30th Mar 2027 (Tue)",
     "landArea": "—",
-    "builtUp": "359 sq.ft",
+    "builtUp": "1359 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24687,7 +24687,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "227 sq.ft",
+    "builtUp": "1227 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24721,7 +24721,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 90000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24738,7 +24738,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1140000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "712 sq.ft",
+    "builtUp": "2712 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24755,7 +24755,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "926 sq.ft",
+    "builtUp": "1926 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24789,7 +24789,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 440000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "094 sq.ft",
+    "builtUp": "1094 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24806,7 +24806,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "764 sq.ft",
+    "builtUp": "1764 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24823,7 +24823,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1460000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "005 sq.ft",
+    "builtUp": "3005 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24840,7 +24840,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "593 sq.ft",
+    "builtUp": "1593 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24857,7 +24857,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "367 sq.ft",
+    "builtUp": "1367 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24874,7 +24874,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "162 sq.ft",
+    "builtUp": "1162 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24891,7 +24891,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "227 sq.ft",
+    "builtUp": "1227 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24925,7 +24925,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "141 sq.ft",
+    "builtUp": "1141 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24942,7 +24942,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "044 sq.ft",
+    "builtUp": "1044 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24959,7 +24959,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 414000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "894 sq.ft",
+    "builtUp": "1894 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24976,7 +24976,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 263000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "216 sq.ft",
+    "builtUp": "1216 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -24993,7 +24993,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "712 sq.ft",
+    "builtUp": "2712 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25010,7 +25010,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "338 sq.ft",
+    "builtUp": "1338 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25027,7 +25027,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 840000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "697 sq.ft",
+    "builtUp": "3697 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25044,7 +25044,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "367 sq.ft",
+    "builtUp": "1367 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25078,7 +25078,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25095,7 +25095,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25112,7 +25112,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 549000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "432 sq.ft",
+    "builtUp": "1432 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -25129,7 +25129,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25146,7 +25146,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 840000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "220 sq.ft",
+    "builtUp": "2220 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25163,7 +25163,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "227 sq.ft",
+    "builtUp": "1227 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25180,7 +25180,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25197,7 +25197,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1053000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "374 sq.ft",
+    "builtUp": "8374 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -25214,7 +25214,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25231,7 +25231,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 202500,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "131 sq.ft",
+    "builtUp": "2131 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25248,7 +25248,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1050000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "575 sq.ft",
+    "builtUp": "2575 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -25282,7 +25282,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "216 sq.ft",
+    "builtUp": "1216 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25299,7 +25299,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 570000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25316,7 +25316,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 357210,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "796 sq.ft",
+    "builtUp": "10796 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -25333,7 +25333,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25350,7 +25350,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 496000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "249 sq.ft",
+    "builtUp": "1249 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25367,7 +25367,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 730000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "004 sq.ft",
+    "builtUp": "3004 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25401,7 +25401,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 277020,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25418,7 +25418,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "141 sq.ft",
+    "builtUp": "1141 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25435,7 +25435,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 261000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "133 sq.ft",
+    "builtUp": "1133 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -25452,7 +25452,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 276000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25469,7 +25469,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1170000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "520 sq.ft",
+    "builtUp": "2520 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25486,7 +25486,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "010 sq.ft",
+    "builtUp": "1010 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25520,7 +25520,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 780000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "239 sq.ft",
+    "builtUp": "2239 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25537,7 +25537,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "141 sq.ft",
+    "builtUp": "1141 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25554,7 +25554,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "370 sq.ft",
+    "builtUp": "1370 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25588,7 +25588,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "429 sq.ft",
+    "builtUp": "1429 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25656,7 +25656,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 510000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "630 sq.ft",
+    "builtUp": "1630 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25673,7 +25673,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1170000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "884 sq.ft",
+    "builtUp": "2884 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25690,7 +25690,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 670000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "681 sq.ft",
+    "builtUp": "1681 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25707,7 +25707,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "602 sq.ft",
+    "builtUp": "2602 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25724,7 +25724,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "464 sq.ft",
+    "builtUp": "1464 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25741,7 +25741,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25758,7 +25758,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "218 sq.ft",
+    "builtUp": "1218 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25809,7 +25809,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "120 sq.ft",
+    "builtUp": "1120 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25843,7 +25843,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -25860,7 +25860,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 314000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "518 sq.ft",
+    "builtUp": "1518 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25894,7 +25894,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25911,7 +25911,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "173 sq.ft",
+    "builtUp": "1173 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -25945,7 +25945,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "119 sq.ft",
+    "builtUp": "1119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25979,7 +25979,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "246 sq.ft",
+    "builtUp": "2246 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26013,7 +26013,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 590000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "608 sq.ft",
+    "builtUp": "1608 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26030,7 +26030,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "884 sq.ft",
+    "builtUp": "1884 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26064,7 +26064,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26098,7 +26098,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 495000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26115,7 +26115,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 750000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "680 sq.ft",
+    "builtUp": "1680 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26132,7 +26132,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 660000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "026 sq.ft",
+    "builtUp": "4026 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26149,7 +26149,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 234900,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "078 sq.ft",
+    "builtUp": "1078 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26166,7 +26166,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 113400,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "203 sq.ft",
+    "builtUp": "1203 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26183,7 +26183,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26200,7 +26200,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26217,7 +26217,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 342000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "981 sq.ft",
+    "builtUp": "1981 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26251,7 +26251,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "687 sq.ft",
+    "builtUp": "1687 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26268,7 +26268,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26285,7 +26285,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "360 sq.ft",
+    "builtUp": "1360 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26302,7 +26302,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 252000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "151 sq.ft",
+    "builtUp": "1151 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26319,7 +26319,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 558000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "680 sq.ft",
+    "builtUp": "1680 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26336,7 +26336,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 242757,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26353,7 +26353,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1100000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "411 sq.ft",
+    "builtUp": "2411 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26370,7 +26370,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26387,7 +26387,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 765000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "392 sq.ft",
+    "builtUp": "4392 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26404,7 +26404,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "170 sq.ft",
+    "builtUp": "1170 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26421,7 +26421,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26438,7 +26438,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315900,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "760 sq.ft",
+    "builtUp": "1760 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26455,7 +26455,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 396000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "440 sq.ft",
+    "builtUp": "1440 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26472,7 +26472,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 860000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "685 sq.ft",
+    "builtUp": "5685 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26489,7 +26489,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "080 sq.ft",
+    "builtUp": "1080 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26506,7 +26506,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26523,7 +26523,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 530000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "305 sq.ft",
+    "builtUp": "1305 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26540,7 +26540,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 510000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26574,7 +26574,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "080 sq.ft",
+    "builtUp": "1080 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26591,7 +26591,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "708 sq.ft",
+    "builtUp": "2708 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -26608,7 +26608,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 265000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "430 sq.ft",
+    "builtUp": "1430 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26625,7 +26625,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26642,7 +26642,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "206 sq.ft",
+    "builtUp": "1206 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26659,7 +26659,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "740 sq.ft",
+    "builtUp": "1740 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26676,7 +26676,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "1238 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26693,7 +26693,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 333000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "805 sq.ft",
+    "builtUp": "2805 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -26710,7 +26710,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "712 sq.ft",
+    "builtUp": "2712 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26727,7 +26727,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "713 sq.ft",
+    "builtUp": "2713 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26744,7 +26744,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "712 sq.ft",
+    "builtUp": "2712 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26761,7 +26761,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "712 sq.ft",
+    "builtUp": "2712 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26778,7 +26778,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "227 sq.ft",
+    "builtUp": "1227 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26812,7 +26812,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 235000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26829,7 +26829,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "270 sq.ft",
+    "builtUp": "1270 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26846,7 +26846,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "679 sq.ft",
+    "builtUp": "1679 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26863,7 +26863,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26931,7 +26931,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26948,7 +26948,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26965,7 +26965,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "616 sq.ft",
+    "builtUp": "1616 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -26982,7 +26982,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "216 sq.ft",
+    "builtUp": "1216 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26999,7 +26999,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 432000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "996 sq.ft",
+    "builtUp": "1996 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27016,7 +27016,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "282 sq.ft",
+    "builtUp": "1282 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27050,7 +27050,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "960 sq.ft",
+    "builtUp": "1960 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27067,7 +27067,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "109 sq.ft",
+    "builtUp": "1109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -27084,7 +27084,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -27101,7 +27101,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 440000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "220 sq.ft",
+    "builtUp": "1220 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27152,7 +27152,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -27169,7 +27169,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "500 sq.ft",
+    "builtUp": "1500 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27186,7 +27186,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "060 sq.ft",
+    "builtUp": "1060 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27203,7 +27203,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "298 sq.ft",
+    "builtUp": "1298 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27237,7 +27237,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "900 sq.ft",
+    "builtUp": "1900 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27271,7 +27271,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 520000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "017 sq.ft",
+    "builtUp": "2017 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27288,7 +27288,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 620000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "561 sq.ft",
+    "builtUp": "1561 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27305,7 +27305,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "357 sq.ft",
+    "builtUp": "1357 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27322,7 +27322,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 261000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -27339,7 +27339,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 670000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "669 sq.ft",
+    "builtUp": "1669 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27373,7 +27373,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1100000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "000 sq.ft",
+    "builtUp": "2000 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27390,7 +27390,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "372 sq.ft",
+    "builtUp": "1372 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27407,7 +27407,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400950,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "3300 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -27424,7 +27424,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 364500,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "566 sq.ft",
+    "builtUp": "2566 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27441,7 +27441,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 369000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "614 sq.ft",
+    "builtUp": "1614 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27458,7 +27458,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 387000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27475,7 +27475,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "858 sq.ft",
+    "builtUp": "1858 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27492,7 +27492,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 828000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "916 sq.ft",
+    "builtUp": "1916 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27509,7 +27509,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "507 sq.ft",
+    "builtUp": "1507 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27526,7 +27526,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "1238 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -27560,7 +27560,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "724 sq.ft",
+    "builtUp": "3724 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -27577,7 +27577,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 950000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "835 sq.ft",
+    "builtUp": "1835 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27594,7 +27594,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "570 sq.ft",
+    "builtUp": "1570 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27611,7 +27611,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 490000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "361 sq.ft",
+    "builtUp": "1361 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -27628,7 +27628,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 445500,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "282 sq.ft",
+    "builtUp": "3282 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -27645,7 +27645,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27662,7 +27662,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27679,7 +27679,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 378000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27696,7 +27696,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "180 sq.ft",
+    "builtUp": "1180 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27730,7 +27730,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "259 sq.ft",
+    "builtUp": "1259 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -27781,7 +27781,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 343000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "237 sq.ft",
+    "builtUp": "1237 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -27815,7 +27815,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "646 sq.ft",
+    "builtUp": "1646 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -27832,7 +27832,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 459000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "237 sq.ft",
+    "builtUp": "1237 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -27849,7 +27849,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "596 sq.ft",
+    "builtUp": "1596 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27900,7 +27900,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27934,7 +27934,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 432000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "920 sq.ft",
+    "builtUp": "1920 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27951,7 +27951,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 477000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "140 sq.ft",
+    "builtUp": "1140 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -27968,7 +27968,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "358 sq.ft",
+    "builtUp": "3358 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -28019,7 +28019,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28036,7 +28036,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "331 sq.ft",
+    "builtUp": "2331 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28053,7 +28053,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "571 sq.ft",
+    "builtUp": "1571 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28070,7 +28070,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 256000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -28104,7 +28104,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 284000,
     "auctionDate": "8th Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "324 sq.ft",
+    "builtUp": "1324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -28121,7 +28121,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "056 sq.ft",
+    "builtUp": "1056 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28138,7 +28138,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 940000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "207 sq.ft",
+    "builtUp": "2207 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28155,7 +28155,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "104 sq.ft",
+    "builtUp": "2104 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28172,7 +28172,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "832 sq.ft",
+    "builtUp": "2832 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28189,7 +28189,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 570000,
     "auctionDate": "19th Jan 2027 (Tue)",
     "landArea": "—",
-    "builtUp": "798 sq.ft",
+    "builtUp": "1798 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28223,7 +28223,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 860000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "860 sq.ft",
+    "builtUp": "1860 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28240,7 +28240,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 239600,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "265 sq.ft",
+    "builtUp": "1265 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -28257,7 +28257,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28274,7 +28274,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "029 sq.ft",
+    "builtUp": "1029 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -28291,7 +28291,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "000 sq.ft",
+    "builtUp": "1000 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -28308,7 +28308,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 520000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "428 sq.ft",
+    "builtUp": "1428 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -28376,7 +28376,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "723 sq.ft",
+    "builtUp": "3723 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -28461,7 +28461,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "589 sq.ft",
+    "builtUp": "1589 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28495,7 +28495,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 164100,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "265 sq.ft",
+    "builtUp": "1265 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -28529,7 +28529,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 91600,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "989 sq.ft",
+    "builtUp": "1989 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -28546,7 +28546,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 361300,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "066 sq.ft",
+    "builtUp": "1066 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -28614,7 +28614,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "129 sq.ft",
+    "builtUp": "1129 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -28682,7 +28682,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 640000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "808 sq.ft",
+    "builtUp": "1808 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28716,7 +28716,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 990000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "746 sq.ft",
+    "builtUp": "3746 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -28750,7 +28750,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "033 sq.ft",
+    "builtUp": "2033 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28784,7 +28784,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "147 sq.ft",
+    "builtUp": "2147 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28801,7 +28801,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 433500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "3200 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28852,7 +28852,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 810000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "265 sq.ft",
+    "builtUp": "25265 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -28886,7 +28886,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 389000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "147 sq.ft",
+    "builtUp": "2147 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28903,7 +28903,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "903 sq.ft",
+    "builtUp": "1903 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28920,7 +28920,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "903 sq.ft",
+    "builtUp": "1903 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28937,7 +28937,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "924 sq.ft",
+    "builtUp": "5924 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -28971,7 +28971,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 122231,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "550 sq.ft",
+    "builtUp": "1550 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -28988,7 +28988,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 138175,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "575 sq.ft",
+    "builtUp": "1575 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29005,7 +29005,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 141718,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "550 sq.ft",
+    "builtUp": "1550 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29039,7 +29039,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "291 sq.ft",
+    "builtUp": "1291 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29073,7 +29073,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 650000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "710 sq.ft",
+    "builtUp": "7710 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29090,7 +29090,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 580000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "459 sq.ft",
+    "builtUp": "4459 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -29107,7 +29107,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1400000,
     "auctionDate": "27th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "215 sq.ft",
+    "builtUp": "4215 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -29141,7 +29141,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "27th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "924 sq.ft",
+    "builtUp": "1924 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29158,7 +29158,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 525500,
     "auctionDate": "27th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "752 sq.ft",
+    "builtUp": "1752 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -29175,7 +29175,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 289980,
     "auctionDate": "27th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "704 sq.ft",
+    "builtUp": "25704 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -29192,7 +29192,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "874 sq.ft",
+    "builtUp": "1874 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29209,7 +29209,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 381000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "760 sq.ft",
+    "builtUp": "1760 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29243,7 +29243,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 423000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "386 sq.ft",
+    "builtUp": "1386 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29294,7 +29294,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "034 sq.ft",
+    "builtUp": "4034 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29311,7 +29311,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "476 sq.ft",
+    "builtUp": "1476 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -29328,7 +29328,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 108000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "953 sq.ft",
+    "builtUp": "3953 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29362,7 +29362,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2100000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "546 sq.ft",
+    "builtUp": "4546 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -29396,7 +29396,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 576000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "312 sq.ft",
+    "builtUp": "5312 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -29464,7 +29464,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "838 sq.ft",
+    "builtUp": "1838 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29481,7 +29481,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "162 sq.ft",
+    "builtUp": "1162 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -29498,7 +29498,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "758 sq.ft",
+    "builtUp": "1758 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29515,7 +29515,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "161 sq.ft",
+    "builtUp": "1161 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -29532,7 +29532,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1125000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "453 sq.ft",
+    "builtUp": "1453 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -29549,7 +29549,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "9th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "995 sq.ft",
+    "builtUp": "1995 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -29583,7 +29583,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 568700,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "564 sq.ft",
+    "builtUp": "1564 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29651,7 +29651,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 207000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "574 sq.ft",
+    "builtUp": "1574 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29668,7 +29668,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 630000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "440 sq.ft",
+    "builtUp": "1440 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29719,7 +29719,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "855 sq.ft",
+    "builtUp": "1855 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29736,7 +29736,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 244800,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "146 sq.ft",
+    "builtUp": "6146 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -29753,7 +29753,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "025 sq.ft",
+    "builtUp": "2025 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29770,7 +29770,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 459270,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "153 sq.ft",
+    "builtUp": "1153 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -29787,7 +29787,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 386300,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "118 sq.ft",
+    "builtUp": "2118 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29804,7 +29804,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "427 sq.ft",
+    "builtUp": "1427 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29821,7 +29821,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "874 sq.ft",
+    "builtUp": "1874 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29872,7 +29872,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 810000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "893 sq.ft",
+    "builtUp": "3893 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -29957,7 +29957,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "1200 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -29991,7 +29991,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 252000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "377 sq.ft",
+    "builtUp": "1377 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30008,7 +30008,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "115 sq.ft",
+    "builtUp": "1115 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30025,7 +30025,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "808 sq.ft",
+    "builtUp": "1808 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30042,7 +30042,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "484 sq.ft",
+    "builtUp": "1484 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30059,7 +30059,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "30th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "166 sq.ft",
+    "builtUp": "5166 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30076,7 +30076,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 738113,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "118 sq.ft",
+    "builtUp": "3118 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -30127,7 +30127,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30161,7 +30161,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30178,7 +30178,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 189540,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30195,7 +30195,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "905 sq.ft",
+    "builtUp": "1905 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30212,7 +30212,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "432 sq.ft",
+    "builtUp": "1432 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30229,7 +30229,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "132 sq.ft",
+    "builtUp": "3132 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30263,7 +30263,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30314,7 +30314,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "113 sq.ft",
+    "builtUp": "1113 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30331,7 +30331,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "560 sq.ft",
+    "builtUp": "1560 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30348,7 +30348,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30365,7 +30365,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 261000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "363 sq.ft",
+    "builtUp": "1363 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30382,7 +30382,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "664 sq.ft",
+    "builtUp": "1664 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30399,7 +30399,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 549000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "720 sq.ft",
+    "builtUp": "2720 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30450,7 +30450,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 810000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "671 sq.ft",
+    "builtUp": "2671 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30467,7 +30467,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "003 sq.ft",
+    "builtUp": "2003 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -30484,7 +30484,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30518,7 +30518,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 486000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "603 sq.ft",
+    "builtUp": "1603 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -30535,7 +30535,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "650 sq.ft",
+    "builtUp": "1650 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30552,7 +30552,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 129907.8,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "716 sq.ft",
+    "builtUp": "1716 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30569,7 +30569,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 196830,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "615 sq.ft",
+    "builtUp": "1615 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30586,7 +30586,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 131220,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "130 sq.ft",
+    "builtUp": "1130 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30603,7 +30603,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 255150,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "668 sq.ft",
+    "builtUp": "1668 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30620,7 +30620,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "800 sq.ft",
+    "builtUp": "1800 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30637,7 +30637,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "500 sq.ft",
+    "builtUp": "4500 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -30654,7 +30654,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30671,7 +30671,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 441000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -30688,7 +30688,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "345 sq.ft",
+    "builtUp": "1345 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -30705,7 +30705,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 383820,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "917 sq.ft",
+    "builtUp": "2917 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -30722,7 +30722,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 267300,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "525 sq.ft",
+    "builtUp": "1525 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30739,7 +30739,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "380 sq.ft",
+    "builtUp": "1380 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30756,7 +30756,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "562 sq.ft",
+    "builtUp": "3562 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30773,7 +30773,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30790,7 +30790,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "876 sq.ft",
+    "builtUp": "4876 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -30807,7 +30807,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30824,7 +30824,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30841,7 +30841,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30858,7 +30858,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30875,7 +30875,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30909,7 +30909,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 302000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "060 sq.ft",
+    "builtUp": "1060 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30926,7 +30926,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 623700,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "730 sq.ft",
+    "builtUp": "5730 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -30960,7 +30960,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 114900,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30977,7 +30977,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 100383,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "076 sq.ft",
+    "builtUp": "1076 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -30994,7 +30994,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "733 sq.ft",
+    "builtUp": "1733 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31011,7 +31011,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "130 sq.ft",
+    "builtUp": "1130 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31028,7 +31028,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 440000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "800 sq.ft",
+    "builtUp": "1800 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31045,7 +31045,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 826686,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "638 sq.ft",
+    "builtUp": "6638 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31062,7 +31062,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 426465,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "600 sq.ft",
+    "builtUp": "1600 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -31079,7 +31079,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 174960,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "625 sq.ft",
+    "builtUp": "1625 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31096,7 +31096,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "956 sq.ft",
+    "builtUp": "1956 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31113,7 +31113,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "604 sq.ft",
+    "builtUp": "1604 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -31147,7 +31147,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "849 sq.ft",
+    "builtUp": "1849 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31164,7 +31164,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 153000,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "948 sq.ft",
+    "builtUp": "31948 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -31181,7 +31181,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "140 sq.ft",
+    "builtUp": "1140 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31198,7 +31198,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 113400,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "130 sq.ft",
+    "builtUp": "1130 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -31215,7 +31215,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "360 sq.ft",
+    "builtUp": "2360 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31232,7 +31232,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "080 sq.ft",
+    "builtUp": "1080 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31266,7 +31266,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 530000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "706 sq.ft",
+    "builtUp": "1706 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31283,7 +31283,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 345000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "831 sq.ft",
+    "builtUp": "2831 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31300,7 +31300,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "504 sq.ft",
+    "builtUp": "1504 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31317,7 +31317,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "798 sq.ft",
+    "builtUp": "2798 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31334,7 +31334,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31351,7 +31351,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "280 sq.ft",
+    "builtUp": "1280 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31368,7 +31368,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "017 sq.ft",
+    "builtUp": "3017 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31385,7 +31385,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 279000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "313 sq.ft",
+    "builtUp": "1313 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31402,7 +31402,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 261000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "353 sq.ft",
+    "builtUp": "1353 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31419,7 +31419,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "927 sq.ft",
+    "builtUp": "1927 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31436,7 +31436,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 297000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "760 sq.ft",
+    "builtUp": "1760 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31487,7 +31487,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "496 sq.ft",
+    "builtUp": "1496 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31504,7 +31504,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31521,7 +31521,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 570000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "701 sq.ft",
+    "builtUp": "2701 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31538,7 +31538,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 207000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "140 sq.ft",
+    "builtUp": "1140 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31589,7 +31589,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1800000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "902 sq.ft",
+    "builtUp": "7902 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31606,7 +31606,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "15th Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "023 sq.ft",
+    "builtUp": "1023 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31623,7 +31623,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 576000,
     "auctionDate": "28th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "832 sq.ft",
+    "builtUp": "3832 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31640,7 +31640,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "27th Jan 2027 (Wed)",
     "landArea": "—",
-    "builtUp": "050 sq.ft",
+    "builtUp": "7050 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31657,7 +31657,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "27th Jan 2027 (Wed)",
     "landArea": "—",
-    "builtUp": "001 sq.ft",
+    "builtUp": "1001 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31674,7 +31674,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 402000,
     "auctionDate": "27th Jan 2027 (Wed)",
     "landArea": "—",
-    "builtUp": "534 sq.ft",
+    "builtUp": "1534 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31691,7 +31691,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "27th Jan 2027 (Wed)",
     "landArea": "—",
-    "builtUp": "959 sq.ft",
+    "builtUp": "1959 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31708,7 +31708,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "28th Jul 2027 (Wed)",
     "landArea": "—",
-    "builtUp": "529 sq.ft",
+    "builtUp": "1529 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31725,7 +31725,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 236196,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "931 sq.ft",
+    "builtUp": "1931 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31759,7 +31759,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "853 sq.ft",
+    "builtUp": "4853 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -31793,7 +31793,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "404 sq.ft",
+    "builtUp": "1404 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31810,7 +31810,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31827,7 +31827,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "734 sq.ft",
+    "builtUp": "2734 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31844,7 +31844,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "722 sq.ft",
+    "builtUp": "1722 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31861,7 +31861,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "456 sq.ft",
+    "builtUp": "4456 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -31878,7 +31878,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "442 sq.ft",
+    "builtUp": "1442 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31895,7 +31895,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "530 sq.ft",
+    "builtUp": "3530 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31912,7 +31912,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31929,7 +31929,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31946,7 +31946,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "097 sq.ft",
+    "builtUp": "1097 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -31963,7 +31963,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32048,7 +32048,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 585000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "401 sq.ft",
+    "builtUp": "3401 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32082,7 +32082,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "520 sq.ft",
+    "builtUp": "1520 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32099,7 +32099,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "582 sq.ft",
+    "builtUp": "1582 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32116,7 +32116,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "818 sq.ft",
+    "builtUp": "1818 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32133,7 +32133,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32150,7 +32150,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "700 sq.ft",
+    "builtUp": "1700 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32167,7 +32167,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "229 sq.ft",
+    "builtUp": "3229 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32184,7 +32184,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32235,7 +32235,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 625000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "271 sq.ft",
+    "builtUp": "1271 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -32252,7 +32252,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 441000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "881 sq.ft",
+    "builtUp": "1881 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32269,7 +32269,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 306000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32286,7 +32286,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "6200 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32337,7 +32337,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 336000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32354,7 +32354,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32371,7 +32371,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "333 sq.ft",
+    "builtUp": "1333 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32388,7 +32388,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "736 sq.ft",
+    "builtUp": "1736 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32405,7 +32405,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32422,7 +32422,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 335000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "240 sq.ft",
+    "builtUp": "2240 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32456,7 +32456,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32473,7 +32473,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "540 sq.ft",
+    "builtUp": "1540 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32490,7 +32490,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "615 sq.ft",
+    "builtUp": "1615 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32507,7 +32507,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "765 sq.ft",
+    "builtUp": "1765 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32524,7 +32524,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "431 sq.ft",
+    "builtUp": "1431 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32541,7 +32541,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 25200000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "353 sq.ft",
+    "builtUp": "19353 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32575,7 +32575,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "024 sq.ft",
+    "builtUp": "3024 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -32592,7 +32592,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32609,7 +32609,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "302 sq.ft",
+    "builtUp": "1302 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32626,7 +32626,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 171000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "300 sq.ft",
+    "builtUp": "1300 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32643,7 +32643,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "614 sq.ft",
+    "builtUp": "1614 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32660,7 +32660,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 187200,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32677,7 +32677,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "004 sq.ft",
+    "builtUp": "4004 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32711,7 +32711,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "018 sq.ft",
+    "builtUp": "2018 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -32728,7 +32728,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 262440,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "702 sq.ft",
+    "builtUp": "2702 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32745,7 +32745,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "679 sq.ft",
+    "builtUp": "1679 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32762,7 +32762,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 490000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "881 sq.ft",
+    "builtUp": "1881 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32779,7 +32779,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "576 sq.ft",
+    "builtUp": "1576 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32830,7 +32830,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 165000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32847,7 +32847,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "20th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "133 sq.ft",
+    "builtUp": "2133 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32864,7 +32864,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 268300,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "2238 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32898,7 +32898,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 171243,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "696 sq.ft",
+    "builtUp": "1696 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -32915,7 +32915,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 387000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "284 sq.ft",
+    "builtUp": "2284 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -32949,7 +32949,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "680 sq.ft",
+    "builtUp": "1680 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -32966,7 +32966,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 130000,
     "auctionDate": "27th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "023 sq.ft",
+    "builtUp": "1023 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33000,7 +33000,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "377 sq.ft",
+    "builtUp": "1377 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33017,7 +33017,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "1200 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33034,7 +33034,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "173 sq.ft",
+    "builtUp": "1173 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33051,7 +33051,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "1195 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33068,7 +33068,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "18th Dec 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "362 sq.ft",
+    "builtUp": "1362 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33102,7 +33102,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 164746.71,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "553 sq.ft",
+    "builtUp": "9553 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33119,7 +33119,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 76545,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "166 sq.ft",
+    "builtUp": "1166 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33136,7 +33136,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 607500,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33153,7 +33153,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 226800,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "070 sq.ft",
+    "builtUp": "5070 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33170,7 +33170,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 203719.05,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "366 sq.ft",
+    "builtUp": "31366 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33187,7 +33187,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "088 sq.ft",
+    "builtUp": "2088 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33204,7 +33204,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33221,7 +33221,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 207000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "662 sq.ft",
+    "builtUp": "5662 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33238,7 +33238,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "272 sq.ft",
+    "builtUp": "1272 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33289,7 +33289,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 648000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "486 sq.ft",
+    "builtUp": "2486 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33306,7 +33306,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 218700,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "079 sq.ft",
+    "builtUp": "4079 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33323,7 +33323,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 398580.75,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "616 sq.ft",
+    "builtUp": "3616 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33340,7 +33340,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360855,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "714 sq.ft",
+    "builtUp": "3714 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33357,7 +33357,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 121500,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "072 sq.ft",
+    "builtUp": "1072 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33374,7 +33374,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "596 sq.ft",
+    "builtUp": "4596 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33391,7 +33391,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 440000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "028 sq.ft",
+    "builtUp": "6028 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33408,7 +33408,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33425,7 +33425,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "652 sq.ft",
+    "builtUp": "6652 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33442,7 +33442,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 157500,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "863 sq.ft",
+    "builtUp": "2863 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33459,7 +33459,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 90000,
     "auctionDate": "27th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "156 sq.ft",
+    "builtUp": "6156 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33476,7 +33476,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 185000,
     "auctionDate": "27th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33493,7 +33493,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 275400,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "413 sq.ft",
+    "builtUp": "4413 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33510,7 +33510,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 90344.97,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "702 sq.ft",
+    "builtUp": "2702 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33527,7 +33527,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 80000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33544,7 +33544,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 140000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33561,7 +33561,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 70000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "040 sq.ft",
+    "builtUp": "1040 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33595,7 +33595,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 60000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "816 sq.ft",
+    "builtUp": "19816 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33612,7 +33612,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 227191.05,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "542 sq.ft",
+    "builtUp": "4542 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33646,7 +33646,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 875893.5,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "051 sq.ft",
+    "builtUp": "4051 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33663,7 +33663,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 783000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "755 sq.ft",
+    "builtUp": "1755 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33680,7 +33680,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 175500,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33697,7 +33697,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 130500,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33714,7 +33714,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "407 sq.ft",
+    "builtUp": "8407 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33731,7 +33731,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 810000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "604 sq.ft",
+    "builtUp": "1604 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33748,7 +33748,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 35000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "972 sq.ft",
+    "builtUp": "4972 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33765,7 +33765,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 50000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "844 sq.ft",
+    "builtUp": "5844 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33782,7 +33782,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 196830,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33799,7 +33799,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "734 sq.ft",
+    "builtUp": "1734 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33816,7 +33816,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 50000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "887 sq.ft",
+    "builtUp": "5887 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33833,7 +33833,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "015 sq.ft",
+    "builtUp": "6015 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33850,7 +33850,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 175500,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33867,7 +33867,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 50000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "866 sq.ft",
+    "builtUp": "5866 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33884,7 +33884,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 309889.15,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "1238 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33901,7 +33901,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360855,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "539 sq.ft",
+    "builtUp": "1539 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33918,7 +33918,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 154000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "078 sq.ft",
+    "builtUp": "3078 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -33935,7 +33935,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 177300,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "446 sq.ft",
+    "builtUp": "4446 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -33952,7 +33952,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 760000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "482 sq.ft",
+    "builtUp": "29482 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -33969,7 +33969,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 75000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "098 sq.ft",
+    "builtUp": "1098 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -33986,7 +33986,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "800 sq.ft",
+    "builtUp": "2800 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34003,7 +34003,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "412 sq.ft",
+    "builtUp": "3412 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34020,7 +34020,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 580000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34037,7 +34037,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34054,7 +34054,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34071,7 +34071,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34088,7 +34088,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34105,7 +34105,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34122,7 +34122,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 374961.15,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "229 sq.ft",
+    "builtUp": "3229 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34139,7 +34139,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "647 sq.ft",
+    "builtUp": "1647 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34156,7 +34156,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225990,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "033 sq.ft",
+    "builtUp": "42033 sq.ft",
     "tenure": "Freehold",
     "type": "Land",
     "images": [
@@ -34173,7 +34173,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 306180,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "339 sq.ft",
+    "builtUp": "5339 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34190,7 +34190,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 189540,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "981 sq.ft",
+    "builtUp": "1981 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34207,7 +34207,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "223 sq.ft",
+    "builtUp": "4223 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34224,7 +34224,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 295245,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "200 sq.ft",
+    "builtUp": "4200 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34241,7 +34241,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 134720,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "182 sq.ft",
+    "builtUp": "2182 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34258,7 +34258,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 616734,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "176 sq.ft",
+    "builtUp": "4176 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34292,7 +34292,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1065150,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "949 sq.ft",
+    "builtUp": "18949 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34309,7 +34309,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "400 sq.ft",
+    "builtUp": "1400 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34326,7 +34326,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 238314.15,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34343,7 +34343,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "19th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "154 sq.ft",
+    "builtUp": "3154 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34360,7 +34360,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "595 sq.ft",
+    "builtUp": "3595 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34377,7 +34377,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "701 sq.ft",
+    "builtUp": "1701 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34411,7 +34411,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "194 sq.ft",
+    "builtUp": "1194 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34428,7 +34428,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "238 sq.ft",
+    "builtUp": "2238 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34462,7 +34462,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 236196,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "026 sq.ft",
+    "builtUp": "5026 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34479,7 +34479,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "626 sq.ft",
+    "builtUp": "2626 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34496,7 +34496,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "9th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "110 sq.ft",
+    "builtUp": "1110 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34513,7 +34513,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 335340,
     "auctionDate": "9th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "195 sq.ft",
+    "builtUp": "3195 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34530,7 +34530,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 328050,
     "auctionDate": "9th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "587 sq.ft",
+    "builtUp": "5587 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34547,7 +34547,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "027 sq.ft",
+    "builtUp": "1027 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34564,7 +34564,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "356 sq.ft",
+    "builtUp": "1356 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34581,7 +34581,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "637 sq.ft",
+    "builtUp": "2637 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34598,7 +34598,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1712421,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "196 sq.ft",
+    "builtUp": "2196 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34615,7 +34615,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1240029,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -34632,7 +34632,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 297000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "982 sq.ft",
+    "builtUp": "2982 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34649,7 +34649,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "973 sq.ft",
+    "builtUp": "4973 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34666,7 +34666,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 680000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "226 sq.ft",
+    "builtUp": "11226 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34683,7 +34683,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "648 sq.ft",
+    "builtUp": "2648 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34700,7 +34700,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1433700,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "320 sq.ft",
+    "builtUp": "80320 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34717,7 +34717,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "969 sq.ft",
+    "builtUp": "1969 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34734,7 +34734,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "712 sq.ft",
+    "builtUp": "1712 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
@@ -34751,7 +34751,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "734 sq.ft",
+    "builtUp": "1734 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34768,7 +34768,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "399 sq.ft",
+    "builtUp": "1399 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34785,7 +34785,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "826 sq.ft",
+    "builtUp": "1826 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34802,7 +34802,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "800 sq.ft",
+    "builtUp": "3800 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34819,7 +34819,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "851 sq.ft",
+    "builtUp": "1851 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34836,7 +34836,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "318 sq.ft",
+    "builtUp": "1318 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34853,7 +34853,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "401 sq.ft",
+    "builtUp": "3401 sq.ft",
     "tenure": "Freehold",
     "type": "Terrace",
     "images": [
@@ -34870,7 +34870,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 211410,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "422 sq.ft",
+    "builtUp": "2422 sq.ft",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
     "images": [
