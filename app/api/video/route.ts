@@ -8,7 +8,8 @@ export async function GET(request: NextRequest) {
     return new Response("Missing id", { status: 400 });
   }
 
-  const driveUrl = `https://drive.google.com/uc?export=download&id=${encodeURIComponent(id)}`;
+  // confirm=t skips Drive's "can't scan for viruses" HTML page served for files over ~100MB.
+  const driveUrl = `https://drive.usercontent.google.com/download?id=${encodeURIComponent(id)}&export=download&confirm=t`;
   const range = request.headers.get("range");
 
   const upstream = await fetch(driveUrl, {
@@ -20,8 +21,13 @@ export async function GET(request: NextRequest) {
     return new Response("Video unavailable", { status: upstream.status });
   }
 
-  const headers = new Headers();
   const contentType = upstream.headers.get("content-type");
+  if (contentType?.startsWith("text/html")) {
+    await upstream.body?.cancel();
+    return new Response("Video unavailable", { status: 502 });
+  }
+
+  const headers = new Headers();
   if (contentType) headers.set("Content-Type", contentType);
 
   const contentLength = upstream.headers.get("content-length");
