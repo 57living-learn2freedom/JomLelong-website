@@ -25,7 +25,7 @@ export const VIDEO_ITEMS: VideoItem[] = [
     title: "Rumah lelong mesti buruk ke?",
     description: "Jom unbox rumah lelong \"BURUK\"!",
     posterSrc: "https://drive.google.com/thumbnail?id=1v93Es6xCnxsjJv9Npbm0-xLjmS7RS7Lo&sz=w1200",
-    videoSrc: "https://drive.google.com/uc?export=download&id=1dMT31RRuHYSk8HpVo6RM0dZGvC3GFsxt",
+    videoSrc: "https://drive.usercontent.google.com/download?id=1dMT31RRuHYSk8HpVo6RM0dZGvC3GFsxt&export=download&confirm=t",
     detailsUrl: "",
   },
   {
@@ -33,7 +33,7 @@ export const VIDEO_ITEMS: VideoItem[] = [
     title: "Beli lelong tapi terlepas step ni terus rugi RM100k!",
     description: "i dedahkan rahsia mistake pembeli rumah lelong",
     posterSrc: "https://drive.google.com/thumbnail?id=1nuYH_oDbs3s6CEoW9VgA3oMbGyt4Z00o&sz=w1200",
-    videoSrc: "https://drive.google.com/uc?export=download&id=1GuxJ_j2ZoZawd7-q3HQdQDz6RkU60E7U",
+    videoSrc: "https://drive.usercontent.google.com/download?id=1GuxJ_j2ZoZawd7-q3HQdQDz6RkU60E7U&export=download&confirm=t",
     detailsUrl: "",
   },
   {
@@ -41,7 +41,7 @@ export const VIDEO_ITEMS: VideoItem[] = [
     title: "Cara baca POS lelong",
     description: "Tips membaca Perisytiharan Jualan",
     posterSrc: "https://drive.google.com/thumbnail?id=1BlBrCtV59ZBw_gXVi1n6tgyiPPk7c_g4&sz=w1200",
-    videoSrc: "https://drive.google.com/uc?export=download&id=13oMVeLyG5iLOHOkDKTnTeM6b9okOgxKM",
+    videoSrc: "https://drive.usercontent.google.com/download?id=13oMVeLyG5iLOHOkDKTnTeM6b9okOgxKM&export=download&confirm=t",
     detailsUrl: "",
   }
 ];
