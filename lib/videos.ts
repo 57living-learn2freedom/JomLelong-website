@@ -32,7 +32,7 @@ export const VIDEO_ITEMS: VideoItem[] = [
     id: "video-2",
     title: "Beli lelong tapi terlepas step ni terus rugi RM100k!",
     description: "i dedahkan rahsia mistake pembeli rumah lelong",
-    posterSrc: "https://drive.google.com/thumbnail?id=1v93Es6xCnxsjJv9Npbm0-xLjmS7RS7Lo&sz=w1200",
+    posterSrc: "https://drive.google.com/thumbnail?id=1nuYH_oDbs3s6CEoW9VgA3oMbGyt4Z00o&sz=w1200",
     videoSrc: "https://drive.google.com/uc?export=download&id=1GuxJ_j2ZoZawd7-q3HQdQDz6RkU60E7U",
     detailsUrl: "",
   },
