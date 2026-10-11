@@ -16,7 +16,7 @@ export interface Property {
   auctionDate: string;
   landArea: string;
   builtUp: string;
-  tenure: "Freehold" | "Leasehold";
+  tenure: "Freehold" | "Leasehold" | "—";
   type: PropertyType;
   images: string[]; // 【修改点】：在类型定义里将 image: string 改为了 images: string[]
 }
@@ -32,8 +32,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "969 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1u8SptMjvIqSqBZMQI1yFpWzSdveeQxJM&sz=w800"
@@ -49,8 +49,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 456000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,109 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1OzOK0dFw4ri_QLK4Gzh-xYCsj7Sw45Qf&sz=w800"
@@ -66,8 +66,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 177147,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,001 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Bf1G37-NJ0ax5dS6jaCmcwCOn_lDeAhg&sz=w800",
@@ -84,9 +84,9 @@ export const PROPERTIES: Property[] = [
     "area": "Dengkil",
     "reservePrice": 590500,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,490 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1Tmd3fb0KbTF2mBeTozAGgSgY0dQwdSWy&sz=w800"
@@ -102,8 +102,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "915 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1hdPqBQhgYjp28y8IMGA3-abTwTiU6aXj&sz=w800"
@@ -118,10 +118,10 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 613000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,524 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1fJaZbXviGCW7RxC3_DWGLvJImqs6F9kZ&sz=w800"
     ]
@@ -135,9 +135,9 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 765000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,777 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1HqtXddoAq0_15AdSKlu_zZkcZDbfZ3AT&sz=w800"
@@ -153,8 +153,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Qu7Y8--u--bPlc7i1weT7KfLrX2XzLOT&sz=w800",
@@ -170,9 +170,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batang Kali",
     "reservePrice": 360000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,860 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1is-Yenwxk-NKCzNXWD17WqwZJ-ekgFll&sz=w800"
@@ -187,9 +187,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Baru Bangi",
     "reservePrice": 450000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Pt5pmSYSxHduHrFIV3CRvYIuM7RIP0IY&sz=w800"
@@ -205,8 +205,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -223,7 +223,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 630000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,221 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -240,9 +240,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 364500,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,637 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1tXpjjoQnhF6gGxXXqSlvUJ-28lWfMWgl&sz=w800"
@@ -257,9 +257,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 810000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,671 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Pb3TR0_so3Rf920KazEEjt7IZ78PgZ8E&sz=w800"
@@ -274,10 +274,10 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Pelek",
     "reservePrice": 475000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,388 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=13AswAOANdIolg_Kx8a8WqpK5VGfctNGl&sz=w800"
     ]
@@ -291,9 +291,9 @@ export const PROPERTIES: Property[] = [
     "area": "Serendah",
     "reservePrice": 650000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,595 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1BKshjE4FGkuvPzW88S9p-eGF1pQveB10&sz=w800"
@@ -308,10 +308,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 3190000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "9,278 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1_m0D_0ZdNWc8FOvfEdFO1irwS9_ge6p6&sz=w800"
     ]
@@ -326,8 +326,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 144000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=18b4g24hSyWyGf2gb--4DtJ26D3zxV9lo&sz=w800"
@@ -342,10 +342,10 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 1944000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "6,388 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=13_i-AZ4xonU4hvOSbY83LmzHn5dtUr-r&sz=w800"
     ]
@@ -359,7 +359,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 700000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,304 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -377,7 +377,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 203000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "926 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -394,8 +394,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,152 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=11lLMf_K5qyPnQMxXeGCMETCw3TeBMQpv&sz=w800",
@@ -411,9 +411,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 468000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1cQXN9eh7fnPibZ09lY4QjVeES7qTCx_S&sz=w800"
@@ -429,8 +429,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "560 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1MGevMm__1Svxgd9B-8SHvL9FTlltT99X&sz=w800"
@@ -446,7 +446,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -462,7 +462,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 480000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,323 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -479,9 +479,9 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 3600000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "9,913 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1rRVS6K2G3-oYTh9fQLGXLOH2z2V-8o-s&sz=w800"
@@ -496,9 +496,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 500000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1cQXN9eh7fnPibZ09lY4QjVeES7qTCx_S&sz=w800"
@@ -514,8 +514,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "656 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1YTf_-8Y7BCjDQSS7e2xXVzemvSHgk2Xn&sz=w800"
@@ -530,9 +530,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 408240,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1mxHwl2hJhhq_lPJYXdLS08Te7zvJBIbx&sz=w800"
@@ -547,9 +547,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 570807,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,799 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1PzJ0mhjdcJKtjNjFFf1GbVJSGDEjDZfX&sz=w800"
@@ -565,7 +565,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,787 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -583,7 +583,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1700000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,650 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -600,8 +600,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,205 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1XFX0uBe1EkSB_kBMlqlsCVh1pHioKLrA&sz=w800",
@@ -617,10 +617,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 795000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "5,095 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1iQjCsdXzioSU90WVT9MPrX7U3ZN1eKK6&sz=w800"
     ]
@@ -635,7 +635,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "614 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -653,8 +653,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -672,8 +672,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 204000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "863 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1xDZLB5DCDmROT_zaQAHfgyBnFS3zkJBU&sz=w800"
@@ -689,8 +689,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "570 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1tzIS2viypr48_w1owtoHPBIybDQDKl77&sz=w800",
@@ -706,9 +706,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 520000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,422 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ik5liNApOFzkTrEjAfIDQS_xWSwY1f7l&sz=w800"
@@ -723,10 +723,10 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Kembangan",
     "reservePrice": 1440000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,165 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1vy8qeKhLkJkpul4kxiNXwe2k6oPHrNT-&sz=w800"
     ]
@@ -741,9 +741,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "builtUp": "463 sq.ft",
+    "tenure": "—",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1Vbc9_VI0o12ZQoE_eaCSHTv6JBxmE0Ob&sz=w800",
       "https://drive.google.com/thumbnail?id=1kRC9UloDpsEMnBA4EBHYdVSXAWQeqcn_&sz=w800"
@@ -759,8 +759,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "914 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ICEjBPEVLVA1z-egD6MHJSnO64DY4l2i&sz=w800"
@@ -776,8 +776,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "646 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1LcvH0kvvNJ8hgSCi-Z6mIXwXhakMZ7wp&sz=w800"
@@ -793,8 +793,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 36000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "366 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1XSMLdQiXH4Vd_oNT-HI5EddWxzsQJu_V&sz=w800"
@@ -810,8 +810,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "762 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1omtl1YGnNeIYxt40ayLdSP7oXHeYhk-6&sz=w800",
@@ -831,8 +831,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,098 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=162nhXwcqAy--bsfdrQxrNGWy_yhuftkI&sz=w800"
@@ -848,7 +848,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1215000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "3,488 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -865,8 +865,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 203000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "915 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1YjHGwdO7NWdpsvof045BNpyCqtpBrjGh&sz=w800"
@@ -882,7 +882,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 656100,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "2,422 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -901,8 +901,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 369000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "786 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=13NKDj-0GYbwKDm5UTcwH6mpou83KUR41&sz=w800",
@@ -921,7 +921,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 702000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "2,422 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -940,8 +940,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 166500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "743 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1s7dm2sF7oTsS6e5TGnDRHCboym0FRkUv&sz=w800"
@@ -957,9 +957,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 387000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "764 sq.ft",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1dNwuAer5WlHLQcmQwxfssPhUYgoR0s87&sz=w800",
       "https://drive.google.com/thumbnail?id=1CW7HDkmyoz7FPsyuWw72lWW3fbAh-qKV&sz=w800"
@@ -975,8 +975,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "980 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1nsZRhs60AIhfD194YJxFaqEw2z2qcYQ5&sz=w800",
@@ -995,8 +995,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 468000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "861 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1TYfqcmuJ9widCO8QnSeUvNj1q6rG_iHI&sz=w800"
@@ -1012,8 +1012,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 365000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,152 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cYE5W8z7Ha5-FyxWMLOgAHqfKE9my0TP&sz=w800",
@@ -1030,8 +1030,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 440000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "904 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1yMQYOHP2RP99OFnkAxDtBYZYN4Un-pkB&sz=w800",
@@ -1048,8 +1048,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 580000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,259 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=15cRWZ6ECF9avAKSHiSR4WGT7BDkSVaQc&sz=w800"
@@ -1065,8 +1065,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,066 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1-tcL9Z6ph_leqirZeiG4MeL2aYUbIvN0&sz=w800",
@@ -1083,7 +1083,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1620000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,540 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -1099,9 +1099,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 1440000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,842 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=19GJzg9wx_Yi9Js6lVkLpfk8ppFhdVdc9&sz=w800"
@@ -1117,9 +1117,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "463 sq.ft",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1Mu_1quRUMnHAIMLQw5p9fx0SoYQq_dv5&sz=w800",
       "https://drive.google.com/thumbnail?id=1paSZqKil1GxSzrs8QiJbbRBvVvdyBLPu&sz=w800"
@@ -1135,7 +1135,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 634230,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,356 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1152,8 +1152,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 435650.4,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "635 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1T2SCZKShk9Y4PCPQ_vpC_OTnoxPmDNOX&sz=w800",
@@ -1171,7 +1171,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 800000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,528 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1189,8 +1189,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "678 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=18jAixlSdVnd3avwbmDPPeKNFljK9MaBk&sz=w800"
@@ -1206,7 +1206,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,055 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1224,7 +1224,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 495000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,787 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1241,7 +1241,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1260,7 +1260,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 972000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "990 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1278,8 +1278,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,098 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Ek001Gt2ojSjExe6FNBujA810jI_sJEY&sz=w800"
@@ -1295,8 +1295,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "646 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=118kT0PEgPzuAX9cZOtfMDRCMXLp7M9K1&sz=w800",
@@ -1312,7 +1312,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 540000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,324 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -1330,7 +1330,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,097 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1347,7 +1347,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 607500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,636 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -1365,8 +1365,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225990,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "925 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1EEyi77Xh3MEZm1NYkWfvrqxplF-u01lj&sz=w800"
@@ -1381,7 +1381,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 1539000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -1399,8 +1399,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,119 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1gfnWBrvGH5xOa4ZfH4yTd0zeUJ9v0vwg&sz=w800"
@@ -1416,8 +1416,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "786 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ObsWprJZlWS-NIgwQ5WNccdMSAx0_r0m&sz=w800",
@@ -1434,8 +1434,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "861 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1f8JaFemoHyxZKmndVEh-aUU91JjkfQLG&sz=w800"
@@ -1451,8 +1451,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 730000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,001 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1sNMFVeBOxEa1AJub0HJrwCv51lbnOHTl&sz=w800",
@@ -1469,7 +1469,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 750000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,356 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1486,8 +1486,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 440000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "797 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1W297na719pgKhWpOe88JSMsP_uMNafu0&sz=w800",
@@ -1504,7 +1504,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 945967.5,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,920 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -1521,7 +1521,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 138176,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,539 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1539,7 +1539,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 110000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "786 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -1557,8 +1557,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 111780,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1YTf_-8Y7BCjDQSS7e2xXVzemvSHgk2Xn&sz=w800"
@@ -1574,8 +1574,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 329000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,396 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1f1MVTFluLR4unoVia5ngF9mrxuwJ4Vye&sz=w800",
@@ -1594,8 +1594,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 218000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,004 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1t6A5sRPJK23DXuGhAboHfKPv8m6ZYAoL&sz=w800"
@@ -1610,9 +1610,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 218700,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "770 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1McLO7kyVnCEXykaiuhH-T2fZgokzvJ3D&sz=w800"
@@ -1627,9 +1627,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 631800,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,800 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XNkXEe4RHv0vZjZaAp0o_EWmTh_HhoVu&sz=w800"
@@ -1644,9 +1644,9 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 1890000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,286 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1B2ISdkC_Arabsgi64Qqmy4yQvSYoCPOf&sz=w800",
@@ -1663,8 +1663,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 148500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "646 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=10BteZDcoGPIRFlWuAjjtrtKLqFqHlh6T&sz=w800"
@@ -1679,9 +1679,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 1314000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1V3WMEymB_JJoIkRkH2xK-uJWjIlhBfwm&sz=w800"
@@ -1696,9 +1696,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kapar",
     "reservePrice": 315000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,249 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1RacZ_DINKzwC4iIRSXySfELgi3eKMQ-R&sz=w800"
@@ -1714,8 +1714,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 261000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "990 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZMgF1rIL7csPb_ZeZR5i3JkjV41S3WXP&sz=w800",
@@ -1731,9 +1731,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 540000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,992 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1mxHwl2hJhhq_lPJYXdLS08Te7zvJBIbx&sz=w800"
@@ -1748,9 +1748,9 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 2700000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,286 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1B2ISdkC_Arabsgi64Qqmy4yQvSYoCPOf&sz=w800",
@@ -1766,9 +1766,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 360000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,170 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XpNLXtUBXgrbMu7rSPGKyuxUByCTUWVq&sz=w800"
@@ -1783,9 +1783,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 500000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1y0fgAZO3la1p2JCIy3gC1-lghK7blT3h&sz=w800"
@@ -1801,8 +1801,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 171000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "710 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=17xvqg8C7nYWfitcW2LCnqSqR9HMDV8Ga&sz=w800"
@@ -1817,9 +1817,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 850000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,497 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OcOJ8w3Pf3UVwsLcu1-nbH3T4F4w90ER&sz=w800"
@@ -1835,8 +1835,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "818 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1eQVrTMOprR8eGDhQcDYkxRnTS_D4vCGu&sz=w800"
@@ -1852,8 +1852,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,259 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=178TxjfmJZDNxcpne0xZ0_1o6LGHfJC2T&sz=w800"
@@ -1869,8 +1869,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -1888,8 +1888,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ofce2RLr43mnqbrfO2e9aFWAPJfNqxST&sz=w800"
@@ -1904,9 +1904,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 400000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,100 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Gu0_g_yYCidwKXv8mCwVxgtgmAxWjR1e&sz=w800"
@@ -1922,8 +1922,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -1940,7 +1940,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 320000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,441 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -1957,7 +1957,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 780000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,800 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -1974,9 +1974,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 1080000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,637 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1vwVE2oxjXSLHkvNabZnlVyrINYZs5Le_&sz=w800"
@@ -1991,9 +1991,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 270000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,120 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1tXpjjoQnhF6gGxXXqSlvUJ-28lWfMWgl&sz=w800"
@@ -2009,8 +2009,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 229500,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,701 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1YnyLY-H96M4jsyuYa1Gp3M57ZP-VEMaG&sz=w800"
@@ -2025,9 +2025,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 670000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,138 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1iY6fkOF8OnEQQcFsNJ3ZhZluq4DO5zlH&sz=w800"
@@ -2042,7 +2042,7 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 620000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -2060,7 +2060,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 710000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2076,7 +2076,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 324000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,300 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -2093,9 +2093,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 342000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,300 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1QxSR4JREleciEmEZNFcuFd_wvU1fVO6L&sz=w800"
@@ -2111,8 +2111,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 5314410,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "7,836 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1i0qFs-ZIJZ3jgb9FFWlnvdYM3wO7HD7z&sz=w800"
@@ -2128,8 +2128,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1B8KqAnobSxYmQ1q4IqjYxFQWo0rG7nZ7&sz=w800"
@@ -2144,9 +2144,9 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 800000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,357 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1DSHTsOFM9mmGWnjw7sqjS6TvNXRIu6qO&sz=w800"
@@ -2162,8 +2162,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 178605,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "818 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ezfKNWU_od6Kzo_Jmhp5g0tuqnwTU19t&sz=w800"
@@ -2178,10 +2178,10 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 1000000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "7,201 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1XVhqTFAXDWH_VZZFNXXUgOANDAe5HHYR&sz=w800"
     ]
@@ -2196,8 +2196,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "452 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1JHQyku_O1YnPg3Y9Sgqn_BTB_jbZ_HA6&sz=w800"
@@ -2213,7 +2213,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "549 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -2230,7 +2230,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 750000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,410 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2247,8 +2247,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "614 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1JHQyku_O1YnPg3Y9Sgqn_BTB_jbZ_HA6&sz=w800"
@@ -2264,9 +2264,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "builtUp": "450 sq.ft",
+    "tenure": "—",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1cSw42hsT9w1Zygb9mNa3HkHtLg6gCv7R&sz=w800"
     ]
@@ -2281,8 +2281,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 780000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,410 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1sdTOXAWlWPpycyoLw_OgItElX748GzET&sz=w800"
@@ -2298,7 +2298,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 448000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,475 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2316,7 +2316,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 183000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "764 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -2334,9 +2334,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 237000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "721 sq.ft",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=14AemAhIABFnCwfhsgb9FB6dlZYnmTgwJ&sz=w800",
       "https://drive.google.com/thumbnail?id=1jHfD5RWkG3J73bZdlYptK_xkDgxTytO_&sz=w800"
@@ -2352,9 +2352,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 188000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "775 sq.ft",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1dNwuAer5WlHLQcmQwxfssPhUYgoR0s87&sz=w800",
       "https://drive.google.com/thumbnail?id=1CW7HDkmyoz7FPsyuWw72lWW3fbAh-qKV&sz=w800"
@@ -2370,8 +2370,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 54000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "634 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=14JD0lIONNFN9kq0rhB8Icx6f3eFHRrjO&sz=w800"
@@ -2387,7 +2387,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 475000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,313 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2404,8 +2404,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 259200,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,012 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1A4Zthu25zgDuAcs0p4YXFimJtBadOIVa&sz=w800"
@@ -2421,8 +2421,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 389000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,130 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AGzNcIQw7ceGnsJqIL-1fTmiw4y-6S57&sz=w800",
@@ -2441,8 +2441,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 513000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "710 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1bVZ7z_JNOX9H2DML5qgMFfQ-te8rFy2T&sz=w800",
@@ -2459,8 +2459,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "947 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1pktN3A3Olf20cBGS2KygkiYxJeMSEmJr&sz=w800"
@@ -2476,8 +2476,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "807 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1mFdSR-TVG4Nki_bQqxyPS1UIMIr4U5VC&sz=w800"
@@ -2493,8 +2493,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 234000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "785 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1sDxH7hLB-L12c2qj5slKqCV9Nst0sizE&sz=w800"
@@ -2510,8 +2510,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 265000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "807 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1LtPF4pDuGG3FTodHKODiI6Lc3L5zT8LX&sz=w800"
@@ -2527,8 +2527,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 670000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "861 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1KydqjHIz507t04VM4wzgqj2fNxwWZPSA&sz=w800",
@@ -2546,7 +2546,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1TytCkwETvzQSVbzXQPee2KVa786Xloyp&sz=w800"
@@ -2562,8 +2562,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 114000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "497 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1icbJDRx3kYRyLHQeXVG0CcqZQoCPv-mL&sz=w800",
@@ -2582,8 +2582,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 98000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "436 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1EeErOgBfDr_SGCGMjFGmTevEDVhADY1d&sz=w800"
@@ -2599,8 +2599,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1049760,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "4,950 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1uCksB2OIILebZdUxV5eXPXdMUd2w4zuK&sz=w800"
@@ -2615,9 +2615,9 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 976000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,711 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1gBmjvwFdvwUdXugSF7g-UMEhDWo4xJzS&sz=w800"
@@ -2633,7 +2633,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 308000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2651,9 +2651,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 119000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "420 sq.ft",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1uAoYjNFOTJTZDKUxxU-y7vu2sfa4Fr9i&sz=w800",
       "https://drive.google.com/thumbnail?id=1Ye6hfLnH0rjFUITwGKL4DUdumypdrPRj&sz=w800"
@@ -2669,7 +2669,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 58000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "215 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -2686,8 +2686,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 31000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "123 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1UrAvsyoIOvPoIpCtz2RJQCrF_RYf6V_p&sz=w800"
@@ -2703,7 +2703,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 219000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "904 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2722,7 +2722,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 146000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "753 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2739,7 +2739,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 322000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,180 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2757,7 +2757,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 249000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,173 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -2774,8 +2774,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 308000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "890 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=10wSucDVtCeG_VDpidPhgey34RvBtWCkY&sz=w800",
@@ -2794,9 +2794,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 1080000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,143 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=11bGfpY_EWKoCOFk52XjL8qR88HYBcaO-&sz=w800"
@@ -2812,8 +2812,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 990000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,873 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1fgdASohUh79dYjs0-_aifQ9lYXoFA_Dw&sz=w800",
@@ -2830,7 +2830,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 252000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "620 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -2846,7 +2846,7 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 540000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -2863,9 +2863,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 480000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "910 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1BBbF46GO2IpFjIkg-rTQ3waVREf4_Cq8&sz=w800"
@@ -2880,9 +2880,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sepang",
     "reservePrice": 450000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1YV8BLrsKtrGHW7WUDk-daSJsnz7gbfdt&sz=w800"
@@ -2898,8 +2898,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,001 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1zy75Bl0rJB76unONrzugiKl0WITSNcWo&sz=w800",
@@ -2915,7 +2915,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 1050000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,290 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -2932,9 +2932,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 400000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,561 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=10Sv2NTGf_R3EJRRdJsQ9k7xdJDypD582&sz=w800"
@@ -2949,9 +2949,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 400000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,000 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Gu0_g_yYCidwKXv8mCwVxgtgmAxWjR1e&sz=w800"
@@ -2966,10 +2966,10 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 700000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,972 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Land",
+    "tenure": "—",
+    "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1UNdhd5Ydao6_A_nZke1O8YoK7GuNxGas&sz=w800"
     ]
@@ -2984,8 +2984,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,119 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Yxyn3IrlYKNyS5e0y26jVGWAgBrbEZjU&sz=w800",
@@ -3001,9 +3001,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 470000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,080 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1DJD_i5ljGe2FfF8GxNqB6wWWiyP9GqEQ&sz=w800"
@@ -3018,9 +3018,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sepang",
     "reservePrice": 440000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XoSMVTC5vYuFHiPyOozumeOkmGHW2L-2&sz=w800"
@@ -3035,10 +3035,10 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 5300000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "17,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Semi-D/Bungalow",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1-6rQyhpqTVHfrO7wj6ZAi4MsDRVWSOeL&sz=w800"
     ]
@@ -3052,7 +3052,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 350000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "900 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -3069,10 +3069,10 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 3500000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "6,049 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1lZF6wI_3KfvsMGy0W4rXscD8AvnEJ8Fi&sz=w800"
     ]
@@ -3087,8 +3087,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 126000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "710 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1VECSafuGA6HbomrO5mLGR6CDZiv940bJ&sz=w800"
@@ -3104,7 +3104,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "743 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3121,8 +3121,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "592 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1fEhzv1uCzZdjIGCmIa2DJqeKuWbMndHL&sz=w800"
@@ -3137,9 +3137,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 585000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,020 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=12kH4RUlQn0Z0gDKAm-D5PTGwBTqCOW91&sz=w800"
@@ -3155,8 +3155,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "474 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1yK25Jjeid1Sio3qskoJESG7ZnjRUGg04&sz=w800",
@@ -3174,9 +3174,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ampang",
     "reservePrice": 1000000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "4,426 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1JxWQnEVaFEtGBw9wwJlhj34qiIJn6YLv&sz=w800"
@@ -3191,9 +3191,9 @@ export const PROPERTIES: Property[] = [
     "area": "Dengkil",
     "reservePrice": 320000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,088 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1cItLfs-pefLbXZf6XwRZJ8fG8xx1qAy9&sz=w800"
@@ -3208,9 +3208,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 306000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,059 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PIDq0xxYxxkBoCHoYrrU6mQooCePCsg_&sz=w800"
@@ -3226,8 +3226,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,012 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1QbPdhk6J-rIQ7eeOF-kMbMDoctr94l79&sz=w800",
@@ -3245,8 +3245,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 309000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,200 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1XS32mEwm7IV9LShD9yZxa_dfoEGGteWc&sz=w800"
@@ -3262,8 +3262,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 179000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "839 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RR15VInlzDWGS3ZsHNhDaieaibL-BNMm&sz=w800"
@@ -3280,7 +3280,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=11RibwK-UnaWGT2CVpyEOrQQ_YgebvsZZ&sz=w800"
@@ -3297,7 +3297,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1IoGlDlFSrJQdrWppErC3HwZcg6iEfrfO&sz=w800",
@@ -3315,7 +3315,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=12nagqTnQsUuSbo2Yq1F6UCfrtuwv5OH1&sz=w800"
@@ -3332,7 +3332,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1IOcOd1KYZE2yhz4slcnbJVd18nUBi17K&sz=w800"
@@ -3349,7 +3349,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=13yZdcH_AgF_mUzDNsAvbWZznGkssgNIP&sz=w800"
@@ -3366,7 +3366,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1_DTc4qwSra6dN-r-794rhGY6fGrqPNcn&sz=w800"
@@ -3383,7 +3383,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=175rQ7lzPjt2CGb0B03XuyMjbHdkYtjLb&sz=w800"
@@ -3400,7 +3400,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1BQMY9edzjy6_zmjsHtyMHMEkmMy6BVbV&sz=w800"
@@ -3416,8 +3416,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "650 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1lMH0N2dx5K7GAFAQpiUMC0PRO5bJ0nXE&sz=w800"
@@ -3432,9 +3432,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pulau Indah",
     "reservePrice": 300000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,281 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1IRu9VeJpCMwwbh3_mrRYgG-pBtrTvzii&sz=w800"
@@ -3449,9 +3449,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pelabuhan Klang",
     "reservePrice": 300000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "902 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1K5FeVKt2NVMIZWjEUraeqvYA8q7zmKBr&sz=w800"
@@ -3466,9 +3466,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 690000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "2,765 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1valiEQv-zz4rqoFNAMhYCNyZQ8RsH0Rt&sz=w800"
@@ -3483,9 +3483,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kapar",
     "reservePrice": 270000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1fclw3mQeE7YGh3f3JEqPNMAITu3sE6UC&sz=w800"
@@ -3500,9 +3500,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 631800,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "2,439 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pFgFQKWwZae7LneXF9-b6FApODwZZ_05&sz=w800"
@@ -3517,7 +3517,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kapar",
     "reservePrice": 400000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,841 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -3536,7 +3536,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1rLHGA7D4C9le88v_8o4XyuG3rYJF1UM5&sz=w800"
@@ -3552,8 +3552,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 66962,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "650 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1nqzwms9Q-tANrPodsafBpbm8ABA-m5Bw&sz=w800"
@@ -3569,8 +3569,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 224000,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1pB-mukWa6vG7PjfNN5IKmWlyrj6axW1X&sz=w800",
@@ -3587,8 +3587,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 96200,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "451 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1icbJDRx3kYRyLHQeXVG0CcqZQoCPv-mL&sz=w800",
@@ -3607,7 +3607,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 131000,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "990 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3624,7 +3624,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324400,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,421 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -3642,8 +3642,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320760,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,398 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1kRUxApNA9DRgGYq0Vn8AyhAi88vRZpPz&sz=w800",
@@ -3660,8 +3660,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1hwNPNt2lfmdmqWxMnKEG6rFV3hPxAJmN&sz=w800"
@@ -3677,8 +3677,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "656 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ergYckYfRvkdT0anTeE5KwDhmyZcIJq1&sz=w800"
@@ -3694,8 +3694,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,173 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1p2C-CEn9TTsG0CC9csosQMA2kOETboVG&sz=w800"
@@ -3710,9 +3710,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 1500000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1hg5o9DSWWyAcko7U-cqcPEfGWvX6URpX&sz=w800"
@@ -3728,7 +3728,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 790000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,570 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -3746,7 +3746,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 630000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,076 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3767,8 +3767,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,012 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1bVZ7z_JNOX9H2DML5qgMFfQ-te8rFy2T&sz=w800",
@@ -3785,7 +3785,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "958 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3802,7 +3802,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,180 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3819,9 +3819,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 388800,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,940 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1AMS_M0MJB9ZMLpx7vJJYfYG5JDaxbRnx&sz=w800"
@@ -3836,9 +3836,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 405000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,820 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1SpqPPbOz6ZRHLDo1KM6x9uFN6xHjLXXk&sz=w800"
@@ -3854,8 +3854,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,001 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1fHoq3rBva8DYg-3IDoG-dKmR3NlJigwH&sz=w800"
@@ -3871,7 +3871,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 549000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,894 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -3887,9 +3887,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 364500,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,680 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jzgEVeorCoDEp3gxPokKDuhYzigziuy1&sz=w800"
@@ -3904,9 +3904,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 226800,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,356 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SpqPPbOz6ZRHLDo1KM6x9uFN6xHjLXXk&sz=w800"
@@ -3922,8 +3922,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 135000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "624 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=16XQ9AYqo6c2M1pgXwQk_HKgsalcyEgmk&sz=w800"
@@ -3938,9 +3938,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 567000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1VV-fRJUprpsiX81PzpEf6ET1AhLU0XS1&sz=w800"
@@ -3955,9 +3955,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 550800,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,259 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1KlxthQyBcyvaZGflJJ-7kZzUHH8NbA3N&sz=w800"
@@ -3972,9 +3972,9 @@ export const PROPERTIES: Property[] = [
     "area": "Hulu Yam Lama",
     "reservePrice": 328050,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,356 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1kMZAvjD8SSWpsM4S6UDAMcRJRymOqIYj&sz=w800"
@@ -3989,9 +3989,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 306180,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "874 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1K6-v2UWKVjLNoFALpg1bW5TjIXHHS7eK&sz=w800"
@@ -4006,9 +4006,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 405000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=18tXdcu06PHiUTUTUMhHNtXpzCoT4nVfe&sz=w800"
@@ -4023,9 +4023,9 @@ export const PROPERTIES: Property[] = [
     "area": "Beranang",
     "reservePrice": 388800,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1GxcLcPSxi3AR4LOBInBtVk9qr_haqo-H&sz=w800"
@@ -4041,8 +4041,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "753 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1BuK-9xg81wFtQYs_La2mdTLgAnqKWtI4&sz=w800"
@@ -4057,9 +4057,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 150000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1aMpJ-OXEqtqDxYvgGK25JD3qFYvfqt-I&sz=w800"
@@ -4075,7 +4075,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4092,9 +4092,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 399000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,300 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Gu0_g_yYCidwKXv8mCwVxgtgmAxWjR1e&sz=w800"
@@ -4109,9 +4109,9 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 200000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,000 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=16VlVgPNIDO2AzPJTT3TrTbxorLW1-M85&sz=w800"
@@ -4127,9 +4127,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "builtUp": "452 sq.ft",
+    "tenure": "—",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1SgDJFa1RjiGy5IvJP22IzwLx4epxU0ho&sz=w800",
       "https://drive.google.com/thumbnail?id=1bPrq7RuLsVN328RZDjFLly5EflArLd2X&sz=w800"
@@ -4144,9 +4144,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batang Kali",
     "reservePrice": 470000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,905 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1J-gAi1nzNRlcspbhkV0w9zO6C0aluy9W&sz=w800"
@@ -4161,9 +4161,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Putra Permai",
     "reservePrice": 550000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,440 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1k1W5yHRaDS4Xcq9c67CBb_kantbr6sKr&sz=w800"
@@ -4178,9 +4178,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 330000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,300 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1vdYFtkttLkM31MPZ3N2hxpRrCVeYvJhZ&sz=w800"
@@ -4195,7 +4195,7 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 378000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,380 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -4213,8 +4213,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150903,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,001 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1wbq0JKPcQu-6JJpGQovKuNEKOECO9sgQ&sz=w800"
@@ -4230,8 +4230,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 245057,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,485 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1KLPPGialzSWkQpH-OgnteRf6FacJC6S2&sz=w800"
@@ -4246,9 +4246,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 401533,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,760 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Tk-KpFs1kKGp9pO9ENDye_fS-K3mDkUY&sz=w800"
@@ -4263,9 +4263,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 700000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,207 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ILLBWPFXrJOJZwVq0JOd7lSj-9MNgydA&sz=w800"
@@ -4280,7 +4280,7 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 1100000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,003 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -4297,9 +4297,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 850000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,422 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1eNO-OYNLuC63ch3VhO99G1BgQQN4t4SS&sz=w800"
@@ -4315,8 +4315,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=13dA9fV4A_o2BsWhfWp9dBFG6EBcTEttY&sz=w800",
@@ -4332,7 +4332,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kapar",
     "reservePrice": 500000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,550 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -4350,8 +4350,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,238 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1BasnYR9Zvqga8dhUSOfB69G_U2XfSEHY&sz=w800"
@@ -4366,9 +4366,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 469800,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,331 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1mxHwl2hJhhq_lPJYXdLS08Te7zvJBIbx&sz=w800"
@@ -4383,9 +4383,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 430000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,134 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1KuK6wiSG1DsPkXTBdRoBSwFePsFQS0Fc&sz=w800"
@@ -4401,8 +4401,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "829 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1-UQWn-9tTSUYZYVcU-r3akhS4ZKa7sNX&sz=w800"
@@ -4417,9 +4417,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 585000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,755 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-vA7NaATOdylBniUpon2bxmsU4qItL0x&sz=w800"
@@ -4435,7 +4435,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 126000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "603 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4451,9 +4451,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 1010000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,917 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1i0pV1QaLcGkWNz502KNvrcvTgyIF2Eeb&sz=w800"
@@ -4468,9 +4468,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 630000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Gg6WgEIjycPsgGFmAd3sfAn8GdUr8d7h&sz=w800"
@@ -4485,10 +4485,10 @@ export const PROPERTIES: Property[] = [
     "area": "Sepang",
     "reservePrice": 1300000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "8,805 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1JFm5M9OefragKr7sMfjXTynUdtPBg9-C&sz=w800"
     ]
@@ -4502,10 +4502,10 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Kembangan",
     "reservePrice": 4500000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "9,957 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1XaEfFrOgJbf0rM3BcZ87PiaWmwamzGuN&sz=w800"
     ]
@@ -4519,7 +4519,7 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 405000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -4537,8 +4537,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1000000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,367 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=13sSdhTlvXo0dZz4oh2xhl8-awNPAtthX&sz=w800",
@@ -4555,8 +4555,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,593 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=13sSdhTlvXo0dZz4oh2xhl8-awNPAtthX&sz=w800",
@@ -4572,9 +4572,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 370000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,173 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1FNxh2riou_DkZ79W_r1JKkMVV3KWKS10&sz=w800"
@@ -4589,7 +4589,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Pelek",
     "reservePrice": 340000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,040 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -4607,7 +4607,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 144000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "678 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4623,9 +4623,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 730000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,900 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1DSHTsOFM9mmGWnjw7sqjS6TvNXRIu6qO&sz=w800"
@@ -4640,9 +4640,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 204000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,356 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SpqPPbOz6ZRHLDo1KM6x9uFN6xHjLXXk&sz=w800"
@@ -4658,8 +4658,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 226800,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "840 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZAktA5bHKFZokh10mLVn-8ZAlrt89LAe&sz=w800"
@@ -4675,8 +4675,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,345 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Pbh_JBZZCoPgZy8diEiaU8mLoVJb9vmn&sz=w800"
@@ -4692,8 +4692,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 874800,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,077 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=15QbFE_dHhcFJ9jSpeYzMaO_GIdqLGuUm&sz=w800"
@@ -4709,8 +4709,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 461700,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,216 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1TxGSoS_W1lHpItuvFVoaTmDoTc87jMY4&sz=w800",
@@ -4728,8 +4728,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,668 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=19nGJL9mDvVixZ4lY_7cx7vvMnMmxc8vb&sz=w800"
@@ -4745,8 +4745,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400950,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,130 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AGzNcIQw7ceGnsJqIL-1fTmiw4y-6S57&sz=w800",
@@ -4765,7 +4765,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 421200,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,066 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4784,7 +4784,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1xq9ekk1ux7VpsJBH7-1vqoh6L_NhPB3X&sz=w800",
@@ -4801,8 +4801,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "786 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1omtl1YGnNeIYxt40ayLdSP7oXHeYhk-6&sz=w800",
@@ -4822,8 +4822,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "527 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1NxPizWu5jyH-p32Wx0RAnUZDY_aY6jbx&sz=w800"
@@ -4839,8 +4839,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 567000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,399 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1TxGSoS_W1lHpItuvFVoaTmDoTc87jMY4&sz=w800",
@@ -4858,8 +4858,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "624 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1vJryETc9hPm_slKe6xNijNrRWMWAJzlv&sz=w800",
@@ -4876,8 +4876,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,109 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1E8KRL7dyBYVZcLMFGvSwqRlIgL0enLlZ&sz=w800"
@@ -4893,8 +4893,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "807 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=16qXy-Nkq_i2d2YVSPbgD-Rp5ZexogMA9&sz=w800"
@@ -4910,8 +4910,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "818 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1kAnJscdc40fXIK9mkJwKc3ZkoLnmGeEJ&sz=w800"
@@ -4927,7 +4927,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 396000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "786 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -4945,8 +4945,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "721 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1PvaFvvVDSCuKZKlmz5IY94bYyzQNHzki&sz=w800",
@@ -4963,7 +4963,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "958 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -4980,8 +4980,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "531 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1X9BkgBNpHr6yHlq7lM0HEYRnvpka1KCG&sz=w800"
@@ -4997,8 +4997,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 268000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,141 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RDJzgewGn2YhDRFxh9RFvzd55MEkRg4t&sz=w800",
@@ -5016,7 +5016,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "581 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5033,8 +5033,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,388 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1a7Wi10nULnOj3-wCSGEpK993V60btfAa&sz=w800"
@@ -5050,7 +5050,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 842400,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5067,7 +5067,7 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 218700,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "980 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -5084,9 +5084,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 307062.5,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,393 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1LlQx2gvIu-kxUdYwx2qA-cUHtcExHqoF&sz=w800"
@@ -5102,8 +5102,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 80271,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=14Y_R-kqFihsPSWxCZU5zXGm2gtpfIyRo&sz=w800"
@@ -5119,8 +5119,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 251000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -5138,8 +5138,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 98000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "667 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1uVAOmp4Dy9V9CPpUIEScbXEosqDBh3Wm&sz=w800"
@@ -5154,9 +5154,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 810000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,298 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XNkXEe4RHv0vZjZaAp0o_EWmTh_HhoVu&sz=w800"
@@ -5171,10 +5171,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kapar",
     "reservePrice": 333000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,229 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1-0RK1x4DiI60re0Cwl47pGnoog76a9Z2&sz=w800"
     ]
@@ -5188,9 +5188,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 700000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,330 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Pb3TR0_so3Rf920KazEEjt7IZ78PgZ8E&sz=w800"
@@ -5205,7 +5205,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 1050000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,936 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -5224,7 +5224,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1I5nasFaqK43b091QviHNjiPxEBLKGMws&sz=w800"
@@ -5239,9 +5239,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sepang",
     "reservePrice": 546750,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,261 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1diCMPMZ4-SvGCGf8vzJhvtoIAk4pykVv&sz=w800"
@@ -5256,9 +5256,9 @@ export const PROPERTIES: Property[] = [
     "area": "Cheras",
     "reservePrice": 1170000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,418 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1iS3iBRh62y0JyJKPX5Axfiv5Bk8M7Bxb&sz=w800"
@@ -5273,9 +5273,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 530000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,799 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1NiI99xZcJIF5sModT8zW9C1h383nxvVP&sz=w800"
@@ -5290,9 +5290,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kapar",
     "reservePrice": 400000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,475 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XwVG_-iEzUptVywKQ6z8Isc79xvzc56Q&sz=w800"
@@ -5308,7 +5308,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "818 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5324,10 +5324,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 1600000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "5,281 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1qZnQPx00gOxaZmV2k4ocIEH0VcIOzBvK&sz=w800"
     ]
@@ -5341,7 +5341,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 950000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,519 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -5358,9 +5358,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 340200,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "770 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1KuK6wiSG1DsPkXTBdRoBSwFePsFQS0Fc&sz=w800"
@@ -5376,8 +5376,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 81000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1CDUQJ6Th2IHYzC7w7oUE9QAJ5lA7wufm&sz=w800"
@@ -5393,8 +5393,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 60000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1MMvo2a2opY8QRlHkiNoQHw4rNiF-gJTQ&sz=w800"
@@ -5409,9 +5409,9 @@ export const PROPERTIES: Property[] = [
     "area": "() Shah Alam",
     "reservePrice": 320000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "600 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1evzyTLpFNP46IdsbtwWSjch3wTpE6Vr0&sz=w800"
@@ -5427,7 +5427,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "904 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5444,7 +5444,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "980 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5460,7 +5460,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 1100000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,229 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -5477,7 +5477,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 266085,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "700 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -5494,7 +5494,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 558000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,442 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -5511,7 +5511,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Pelek",
     "reservePrice": 250000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,174 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -5529,9 +5529,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 261000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "452 sq.ft",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1vmQcXeoDJZnbLTjLeU2fwgWKrLPeHov8&sz=w800"
     ]
@@ -5545,7 +5545,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 900000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,164 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -5563,7 +5563,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "850 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5579,7 +5579,7 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 210600,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -5597,7 +5597,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "958 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -5615,9 +5615,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 229635,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "764 sq.ft",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1dNwuAer5WlHLQcmQwxfssPhUYgoR0s87&sz=w800",
       "https://drive.google.com/thumbnail?id=1CW7HDkmyoz7FPsyuWw72lWW3fbAh-qKV&sz=w800"
@@ -5633,8 +5633,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 233300,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,152 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1SCgxXEP41nknjJSDqRq46m3RwTK03iKO&sz=w800",
@@ -5650,7 +5650,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 405000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -5668,8 +5668,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 567000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,281 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1yLph3KXug68hjwWij88n6r45CjkMP5TE&sz=w800",
@@ -5685,9 +5685,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 1863000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,971 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1iaqNR3kAs2G_nhn8q9qSekbjW5jnhU1M&sz=w800"
@@ -5703,8 +5703,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 520000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,087 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1_0sTXy7Ntsa2-53TVXq9bYYr4SM3jGI7&sz=w800",
@@ -5722,7 +5722,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1SLsPbwF16Xt4bPifgs8QHJ093Kx4hoMd&sz=w800"
@@ -5738,7 +5738,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 990000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "581 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -5757,8 +5757,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 130000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "560 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1DDwpDHhebYZcpXHh_CBNafHQyEIKbwbb&sz=w800"
@@ -5774,8 +5774,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1650000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,894 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1HHfhpvkU0bd9IDeCfy1EhoAvM6uXqf1z&sz=w800"
@@ -5791,8 +5791,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "786 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1808x6WvHlqU7z5sED5mBTRLpqV-9S3ch&sz=w800",
@@ -5808,9 +5808,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 1100000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,100 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1p-6daAAHmokWhaNU23I9u0e4tCgLMrrS&sz=w800"
@@ -5825,9 +5825,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 2600000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "4,046 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZZ7gre126rZcF6z_bOxy89xeuYPEzb68&sz=w800"
@@ -5843,8 +5843,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 486000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,302 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1TxGSoS_W1lHpItuvFVoaTmDoTc87jMY4&sz=w800",
@@ -5862,8 +5862,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,141 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RDJzgewGn2YhDRFxh9RFvzd55MEkRg4t&sz=w800",
@@ -5881,8 +5881,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "560 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1gL4yuWrCG4ebeiK8q1zeLEDk3RCKDEYf&sz=w800"
@@ -5898,8 +5898,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 874800,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,292 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1G_RYdD_yabLSm0Fm3qTJyh6aPg0_lfM_&sz=w800",
@@ -5915,7 +5915,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 1500000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,068 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -5933,8 +5933,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 760000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,862 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1jumpTu1GPRGkfellj3XP4azSlqAhE_my&sz=w800",
@@ -5951,8 +5951,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 255150,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "936 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cVC8feyuqT6bv3Ox9QQj3N_olhUPIDJ2&sz=w800",
@@ -5969,9 +5969,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 517590,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,755 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XxZFGVr4qS4BrJ55OqMGMlSUKj1XG879&sz=w800"
@@ -5987,8 +5987,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320760,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,356 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1z_XYqa208-GNWY_ZkI1M0umiMUedfX9m&sz=w800"
@@ -6003,9 +6003,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 255200,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,733 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1HWjKVPvuf4o5CaFxVs_pTTMB6-n_KBbe&sz=w800"
@@ -6020,9 +6020,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 607500,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,417 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PBpuJnNw80IzoaqTQhrDlGwpyHkTDbLF&sz=w800"
@@ -6038,8 +6038,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 656100,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,862 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=17gEdWlM2UEuiWZDQcL5rSjJObXpnmH8c&sz=w800"
@@ -6054,9 +6054,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 105300,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1aMpJ-OXEqtqDxYvgGK25JD3qFYvfqt-I&sz=w800"
@@ -6072,8 +6072,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 207000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "882 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1e2nSQ9OSkyU-zKPZo0br4-1gyFOnzMOV&sz=w800"
@@ -6089,8 +6089,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "721 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=13c8yUpQAq94IfyhJhMpSLDdK4_c9rc7g&sz=w800"
@@ -6106,8 +6106,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,163 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1yk3SIu7_ftKpT0y0ePZUENCuK_F7R_d3&sz=w800"
@@ -6122,9 +6122,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kapar",
     "reservePrice": 270000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "660 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Fj6_WuwZJZzwYdI8uqzt8KYf1bWB87u-&sz=w800"
@@ -6139,10 +6139,10 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 1935000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "8,105 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1W_gmxWVPxGXLR2am1ZrjVIFaaLgfORl0&sz=w800"
     ]
@@ -6157,8 +6157,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 135000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cRdHcrOhw7i0eK6wJyUK7rK-nUMj_ilf&sz=w800"
@@ -6173,9 +6173,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sepang",
     "reservePrice": 468000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,596 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1FuKGBbVcRwsUzYeDceziWt4Umimqy_Qq&sz=w800"
@@ -6190,9 +6190,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Kembangan",
     "reservePrice": 810000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,100 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1YwYt-GaLdUyNg3MM6fk34umwpTQM1LBU&sz=w800"
@@ -6207,7 +6207,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 1080000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,300 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -6225,7 +6225,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 135000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "657 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6242,8 +6242,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -6260,10 +6260,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 486000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,336 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Land",
+    "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1yjNXgZtkw8FlHpjpxaNMAdY8J4lr6X4Z&sz=w800"
     ]
@@ -6278,8 +6278,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 342000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "936 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1XFX0uBe1EkSB_kBMlqlsCVh1pHioKLrA&sz=w800",
@@ -6295,9 +6295,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 580000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OufsqwU0t3fSa2LHpqtKhSC23TsYwuAu&sz=w800"
@@ -6312,9 +6312,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Baru Bangi",
     "reservePrice": 560000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "6,232 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1sItNrKYFqsPOSHyRdRuWq-doo6ydYMXE&sz=w800"
@@ -6330,8 +6330,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 290000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,615 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=11PJSF-9fma_o2-philmurShH0duTl4Qt&sz=w800",
@@ -6347,7 +6347,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ampang",
     "reservePrice": 1800000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "4,015 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -6364,9 +6364,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 400000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,500 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SHjT8Lm0wCqWSfZEbrP-RGX_pcbU5DL_&sz=w800"
@@ -6381,7 +6381,7 @@ export const PROPERTIES: Property[] = [
     "area": "Subang Jaya",
     "reservePrice": 2250000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,755 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -6399,8 +6399,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,216 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1F9AHb0fMFbweyj5lqcjbCDG6-lMy5gd9&sz=w800"
@@ -6415,9 +6415,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 350000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,070 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1CiW6O4W2-t_XeHNdKeeNTfVjPGAqbAj2&sz=w800"
@@ -6432,9 +6432,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 567000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,713 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1COAyzYXMnz4cDxZJKUJM07ZC1tmRrKqE&sz=w800"
@@ -6450,7 +6450,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "753 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6467,8 +6467,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -6486,8 +6486,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1yGEcs6zGNaylEvnle16N6cp0VKcYTq7X&sz=w800"
@@ -6504,7 +6504,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13lv55lwjkEiubqkyDHEm0I7HZY19IEdG&sz=w800"
@@ -6521,7 +6521,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cRdHcrOhw7i0eK6wJyUK7rK-nUMj_ilf&sz=w800"
@@ -6537,8 +6537,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "603 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1PxuFNWqHN07ke-pBSin7D6DHFW9GXT01&sz=w800"
@@ -6553,9 +6553,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 240000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "829 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Gu0_g_yYCidwKXv8mCwVxgtgmAxWjR1e&sz=w800"
@@ -6572,7 +6572,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1MyH__vRAG9RqMGeR66mmysN2BHGC5V7w&sz=w800"
@@ -6588,8 +6588,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,194 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1NtD2jflY8B5gqUG-QIsuoQlMEl8wBNVs&sz=w800"
@@ -6604,9 +6604,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 720000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,926 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=168wT-gL1DkYKjXUqbFF6b5wGPNdbzdCv&sz=w800"
@@ -6621,9 +6621,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kundang",
     "reservePrice": 250000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "813 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dJ6vziGSuBgK_fasAph4nNoBb5AyOLyC&sz=w800"
@@ -6638,9 +6638,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sepang",
     "reservePrice": 475000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,610 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14i-SN1c2lL68oC3xQkVMIJb_Wl5Jqdo7&sz=w800"
@@ -6655,7 +6655,7 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 750000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,079 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -6672,7 +6672,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 291600,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,100 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -6690,8 +6690,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 105300,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "646 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1_djc9HMN-EtX6ubcRhfHMH9r2fthwaIu&sz=w800"
@@ -6706,7 +6706,7 @@ export const PROPERTIES: Property[] = [
     "area": "Beranang",
     "reservePrice": 340200,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -6724,7 +6724,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 218700,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,184 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6740,9 +6740,9 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 350000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Ljvdvk2rT7tyIkfhES-u6VU-KjIVsRfw&sz=w800"
@@ -6757,9 +6757,9 @@ export const PROPERTIES: Property[] = [
     "area": "Cheras",
     "reservePrice": 450000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,196 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1k1W5yHRaDS4Xcq9c67CBb_kantbr6sKr&sz=w800"
@@ -6774,9 +6774,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 1900000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "5,549 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1XVhqTFAXDWH_VZZFNXXUgOANDAe5HHYR&sz=w800"
@@ -6791,9 +6791,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ampang",
     "reservePrice": 1400000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,832 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1a5VtAMD1D-iwyEU9tblxKJKC_qyIXowe&sz=w800"
@@ -6808,9 +6808,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 567000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,948 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=13Kkf68u5GjYD5y6n9uqVkQWL4jcmZrSg&sz=w800"
@@ -6826,8 +6826,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,528 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1iVRKaKnp79ggnBRPVL4ptoh9zzkyRjnI&sz=w800"
@@ -6843,8 +6843,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,744 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1OwejEEwj5GlLrAbQD3SRoZnmo-KiWeqs&sz=w800"
@@ -6860,8 +6860,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 174960,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "592 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Au_UIgyGTn7j7X2jQxRfOOAosqTyfVf5&sz=w800"
@@ -6877,7 +6877,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 259200,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "980 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6894,8 +6894,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 219000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "861 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=10UXGD4OYsvGatLGIjUcf3PRz_4ajjFRp&sz=w800",
@@ -6912,8 +6912,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 268000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "603 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1vgZh3Z88_GmhiM9gnxxzEwhYfQXXjAyf&sz=w800"
@@ -6928,10 +6928,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 3118500,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "11,173 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Semi-D/Bungalow",
+    "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1VHyQsdyYV-h0-JycAMtn1CFV-7mVQaqL&sz=w800"
     ]
@@ -6946,7 +6946,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,023 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6964,7 +6964,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,216 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -6983,7 +6983,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1300000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "334 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -7001,7 +7001,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 262440,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,130 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7019,7 +7019,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 175000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "656 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7036,7 +7036,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 880000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,432 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7053,8 +7053,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "753 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1zJXajhPd3cjNCDZeL30Ec8QeJu-e3R7k&sz=w800"
@@ -7070,8 +7070,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 144000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "797 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=17_fTLQ0LzYc2IuWiLr4fQ4ORmxMkA_jG&sz=w800",
@@ -7088,8 +7088,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 154000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "527 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=17PjAcGW_Nxg5gc11ek_NV9ZUafldS1Db&sz=w800"
@@ -7105,7 +7105,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 164430,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "861 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7121,9 +7121,9 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 680400,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,646 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1cWWt9-PZDb_hbOtbfuHq-dx-1DQxET_C&sz=w800"
@@ -7138,9 +7138,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 259200,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,109 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1TF7BxOZ-24BFs2I-rApimTj8-h5Rchw0&sz=w800"
@@ -7155,9 +7155,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 608000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ig-8AR_j3ForPwqPBunUUvdFwXk9trgM&sz=w800"
@@ -7173,8 +7173,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 263000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,227 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=15afy7oUvru2wocNsueoUilP-ejXr0uyW&sz=w800"
@@ -7190,7 +7190,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 72000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "700 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7207,7 +7207,7 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 315000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "857 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -7224,9 +7224,9 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 477000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_ITmeK9Ov3izLeAfYx_RiwW56_QxdLS9&sz=w800"
@@ -7242,8 +7242,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,066 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1n4IrIMb7gadnp9MouY54bGzPXrgt7qxd&sz=w800"
@@ -7258,9 +7258,9 @@ export const PROPERTIES: Property[] = [
     "area": "Subang Jaya",
     "reservePrice": 940000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=16AjF7dh3dG-SgNHKa1CvDAn8MrR0MS2T&sz=w800"
@@ -7275,10 +7275,10 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 480000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,307 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Land",
+    "tenure": "—",
+    "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1MZZzk6rM0iQQTWnyX7XN52xqSkmOXirj&sz=w800"
     ]
@@ -7292,9 +7292,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 430000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,461 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1du5lUnFf-g9si5w-wpxFH-fz1yOkeLpL&sz=w800"
@@ -7309,9 +7309,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 874800,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,000 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1M8tTtmc4CFcKcL1Ql3GKXHHjyjWd3Mqa&sz=w800"
@@ -7326,9 +7326,9 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 380000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1tQA-veQiIKE7GtAraBNJ5j2u6VCuI4O2&sz=w800"
@@ -7343,9 +7343,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sepang",
     "reservePrice": 242757,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10fsXyF6r01SYCW90u3vKEazu6rYvJVV-&sz=w800"
@@ -7360,9 +7360,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 360000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,116 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Gu0_g_yYCidwKXv8mCwVxgtgmAxWjR1e&sz=w800"
@@ -7377,7 +7377,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 380000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -7394,7 +7394,7 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 360000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,099 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -7411,9 +7411,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 300000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "840 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1tXpjjoQnhF6gGxXXqSlvUJ-28lWfMWgl&sz=w800"
@@ -7428,7 +7428,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 1300000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "5,748 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -7445,9 +7445,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ampang",
     "reservePrice": 730000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,542 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1LTCyRYj3VHPr2qqXHyoPUByUy43tZ_Xa&sz=w800"
@@ -7462,9 +7462,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 620000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,131 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1nSH1qZc7SDnFJk2mN8ieSXD0JzekFNxT&sz=w800"
@@ -7479,7 +7479,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 650000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -7496,7 +7496,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 520000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -7513,9 +7513,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 490000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,063 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XpNLXtUBXgrbMu7rSPGKyuxUByCTUWVq&sz=w800"
@@ -7530,7 +7530,7 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 172800,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -7548,8 +7548,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,292 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1qxB-foyWgwSb5Jq7gTW3Sy0ytaYXF3iB&sz=w800",
@@ -7566,7 +7566,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kapar",
     "reservePrice": 360000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -7583,7 +7583,7 @@ export const PROPERTIES: Property[] = [
     "area": "Subang Jaya",
     "reservePrice": 620000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -7600,9 +7600,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 590490,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,035 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1DSHTsOFM9mmGWnjw7sqjS6TvNXRIu6qO&sz=w800"
@@ -7618,7 +7618,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 261000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "904 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7635,8 +7635,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 104976,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "786 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=15Oiw36kxzXVOAi1Uqrhr3ARGm7eanaYx&sz=w800"
@@ -7652,7 +7652,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "764 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7668,9 +7668,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Selangor",
     "reservePrice": 600000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,401 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1hVTBZ4RwMikKsLaZ7V4X1zVDefG0vMAv&sz=w800"
@@ -7686,7 +7686,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 247500,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7703,7 +7703,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 126000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "990 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7719,9 +7719,9 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 252000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=161YNavEZ8ue_eZg6pI8SOrJcE5q6Abvf&sz=w800"
@@ -7736,10 +7736,10 @@ export const PROPERTIES: Property[] = [
     "area": "Cheras",
     "reservePrice": 2880000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "10,495 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1hAsGxPmJrdOqeTMSDHbzZSB_IgcB3bKB&sz=w800"
     ]
@@ -7754,7 +7754,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,356 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7771,7 +7771,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 306180,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,249 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7789,7 +7789,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7808,8 +7808,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 972000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "904 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1T2SCZKShk9Y4PCPQ_vpC_OTnoxPmDNOX&sz=w800",
@@ -7827,8 +7827,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,464 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1a7Wi10nULnOj3-wCSGEpK993V60btfAa&sz=w800"
@@ -7844,8 +7844,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,012 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1lNDWYoXYfnArHk3sMFcSQiEfBSOF_E1s&sz=w800",
@@ -7862,8 +7862,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 740000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,464 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1GQod_yAz8ledsCDFxMnj1neLpbzgINpc&sz=w800"
@@ -7879,8 +7879,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 730000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,066 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1paJFJTJpTmxEJQqstOs99UBLyQu8L5YL&sz=w800"
@@ -7896,8 +7896,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,098 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1KB_E8DQAh_Q6P9SbtHRV3foTZhiik4Vj&sz=w800"
@@ -7912,9 +7912,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 420000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "592 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14VbMlAYrXtkK8yWRqLiK8_3_9x-NycpK&sz=w800"
@@ -7930,7 +7930,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 641520,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,386 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7947,8 +7947,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 700000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,927 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=15FjO2Vct5TIc2JKQDkusTdAIrTOmTr4U&sz=w800",
@@ -7968,7 +7968,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 364500,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,238 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -7986,7 +7986,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 401700,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,180 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -8003,9 +8003,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 329000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1xVk9STf9pZq6mgDH5qXClBBG_68Qk94j&sz=w800"
@@ -8021,8 +8021,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 122000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1MeXmGNwNO-2PYVLRarKnPC9jFi_ANIsX&sz=w800"
@@ -8039,7 +8039,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1l8vbooS_d7_xXV9RI1M_mLar0CjTWMRf&sz=w800"
@@ -8055,8 +8055,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "915 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1MVxAsiJ-etzfM3Uf2sCq7exbWxy5Ugjs&sz=w800"
@@ -8071,9 +8071,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 560000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,816 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=18LGdGi84lEv9PosNvqGYKdjWVgw7ERO1&sz=w800"
@@ -8089,8 +8089,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "667 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1bub49Xh9e3SG2gO6nClp_QTJ9hC643XL&sz=w800"
@@ -8105,9 +8105,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ampang",
     "reservePrice": 320000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "893 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1a8ywvPeSni9KhfBnQknCguwEgL99aE7y&sz=w800"
@@ -8123,8 +8123,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "861 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1A-WeD8_by2LisPE54gZJEBwwqPwzDhSd&sz=w800"
@@ -8139,9 +8139,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 560000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1QxSR4JREleciEmEZNFcuFd_wvU1fVO6L&sz=w800"
@@ -8157,8 +8157,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,313 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1l8vbooS_d7_xXV9RI1M_mLar0CjTWMRf&sz=w800"
@@ -8173,9 +8173,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 470000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,065 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17jNt3tOCT1pd8fBM2Wsqm9GI3xaJ8whs&sz=w800"
@@ -8190,9 +8190,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 300000,
     "auctionDate": "13th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "950 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pxoMpytpGJX0_b9xZdwWvZTbT0o6ey7d&sz=w800"
@@ -8207,9 +8207,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 450000,
     "auctionDate": "13th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dfdlrlMbzl4WZj-a7RS6A0jYb597yErT&sz=w800"
@@ -8224,9 +8224,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pelabuhan Klang",
     "reservePrice": 307800,
     "auctionDate": "13th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,299 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=19nN7NETTnIrjBcp5KEHvXSMlFIbP7sa6&sz=w800"
@@ -8242,8 +8242,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 276000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "861 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Vabdjp4O8fINdM1V1OaKA63CoRt6n6Kx&sz=w800"
@@ -8259,8 +8259,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,130 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=13TDLVaPQdO-ZFYBe0xKR36aKv0PdUHpr&sz=w800",
@@ -8277,8 +8277,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,615 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Udep2SBnyNcbqqhD0ItPKrSQR8GYVFrF&sz=w800"
@@ -8293,7 +8293,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 548000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -8310,9 +8310,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 486000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,608 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1qZnQPx00gOxaZmV2k4ocIEH0VcIOzBvK&sz=w800"
@@ -8327,9 +8327,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Buloh",
     "reservePrice": 396000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,296 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OxPa4s2ySKly-c1IhD2k857DDF8TsK2k&sz=w800"
@@ -8345,7 +8345,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,356 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8361,7 +8361,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 675000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,650 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -8378,9 +8378,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bestari Jaya",
     "reservePrice": 162000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,600 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1yWsbXBfTmJxBkY-1s7XbxLsAHcxeJ7rx&sz=w800"
@@ -8396,8 +8396,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,023 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZMgF1rIL7csPb_ZeZR5i3JkjV41S3WXP&sz=w800",
@@ -8414,8 +8414,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "753 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1uTZa1iVcbkL3VkmUA18iGb2nCgNUqlVF&sz=w800"
@@ -8430,7 +8430,7 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 1500000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,250 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -8447,9 +8447,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 480000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,440 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1BBbF46GO2IpFjIkg-rTQ3waVREf4_Cq8&sz=w800"
@@ -8466,7 +8466,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1vwVE2oxjXSLHkvNabZnlVyrINYZs5Le_&sz=w800"
@@ -8481,10 +8481,10 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 13000000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "45,908 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1lSrND-EH-YA57lkgOUWwDHT4tmq1k2Dx&sz=w800"
     ]
@@ -8498,7 +8498,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 380000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "840 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -8516,7 +8516,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8532,7 +8532,7 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 1000000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,714 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -8550,8 +8550,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 4500000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "3,864 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=11bGfpY_EWKoCOFk52XjL8qR88HYBcaO-&sz=w800"
@@ -8566,9 +8566,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 540000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,286 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1mxHwl2hJhhq_lPJYXdLS08Te7zvJBIbx&sz=w800"
@@ -8583,7 +8583,7 @@ export const PROPERTIES: Property[] = [
     "area": "Beranang",
     "reservePrice": 370000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,200 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -8600,9 +8600,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 450000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,100 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1RsoAxnrXf5OGaxac3wn6bRwC2Ze8XMxG&sz=w800"
@@ -8618,8 +8618,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 255000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,087 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cZijmdsGAcgSPX8I9DbBKgbnJC8S7Apj&sz=w800"
@@ -8635,8 +8635,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1pB-mukWa6vG7PjfNN5IKmWlyrj6axW1X&sz=w800",
@@ -8653,7 +8653,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 365000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,152 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8671,8 +8671,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 333000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "764 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1dNwuAer5WlHLQcmQwxfssPhUYgoR0s87&sz=w800",
@@ -8689,8 +8689,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 684000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,066 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1paJFJTJpTmxEJQqstOs99UBLyQu8L5YL&sz=w800"
@@ -8705,10 +8705,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 850000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,340 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1Zvq1xRQTYSBOiyDns3_dUdta2SdeTEuK&sz=w800"
     ]
@@ -8722,9 +8722,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 720000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,500 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1eMcyA3IJhF5wj_oUNPrSuK5G_SQh03ku&sz=w800"
@@ -8739,9 +8739,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 880000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,905 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1yIGgVj1M42Gm1mbnLyO795SdrNVd1FNb&sz=w800"
@@ -8757,8 +8757,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1hwNPNt2lfmdmqWxMnKEG6rFV3hPxAJmN&sz=w800"
@@ -8774,8 +8774,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1eseqQtdJAWvwPoJQ3rHU8l7jUM7TZkuO&sz=w800"
@@ -8790,9 +8790,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 710000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1vH-vJ1hkj1iAO5dXBtjl1HBa8IPaeOj0&sz=w800"
@@ -8808,8 +8808,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "527 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1i1wDCPX-_8cjjKRzgWxpyI9WAcwgy3B5&sz=w800"
@@ -8825,8 +8825,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "635 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1x43Y7C1siSOZQhTSNrh0u-fFoO-JVa5D&sz=w800",
@@ -8843,9 +8843,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 290000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1xVk9STf9pZq6mgDH5qXClBBG_68Qk94j&sz=w800"
@@ -8861,8 +8861,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 77000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "667 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Rr2vhguF4zIjQG9owHlMInSi1Q5o9FPE&sz=w800"
@@ -8878,8 +8878,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 173000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "861 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZmtCKBPUMM8_1LygR-sasFrfP0zRCq4r&sz=w800"
@@ -8894,9 +8894,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 306000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1d2QWn6qsmnrMisP-BjofChhkzTtoB2ZV&sz=w800"
@@ -8912,7 +8912,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 183000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "667 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8929,8 +8929,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 110000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "807 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=147PrIxUsDk9e9LTwN7_eoMlf4yNrJWKO&sz=w800"
@@ -8946,8 +8946,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -8965,7 +8965,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 153000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "753 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8982,7 +8982,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 234000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "818 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -8998,7 +8998,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batang Kali",
     "reservePrice": 324000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -9016,8 +9016,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,033 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1XFX0uBe1EkSB_kBMlqlsCVh1pHioKLrA&sz=w800",
@@ -9034,8 +9034,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "958 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1HBB5B1XiVhN9UWb5GketcU5ivTKKKI18&sz=w800",
@@ -9053,9 +9053,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Buloh",
     "reservePrice": 580000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,816 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nyG-vDNdh3nY74alrJC76mynIBbVuACi&sz=w800"
@@ -9070,9 +9070,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 405000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,604 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1hN1jc1KB-GcMZ5ySZYTSHWOV-V21K97S&sz=w800"
@@ -9087,9 +9087,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 280000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,092 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1tXpjjoQnhF6gGxXXqSlvUJ-28lWfMWgl&sz=w800"
@@ -9104,9 +9104,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 250000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1aMpJ-OXEqtqDxYvgGK25JD3qFYvfqt-I&sz=w800"
@@ -9121,9 +9121,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 400000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,965 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1McLO7kyVnCEXykaiuhH-T2fZgokzvJ3D&sz=w800"
@@ -9138,9 +9138,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 680000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,633 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=12mNbsrPEjgBf1vL4xoZG3LAHQliSCbK3&sz=w800"
@@ -9157,7 +9157,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Ea9ofdNeUQ0gJB9nWfMGVLiozppTdYe_&sz=w800"
@@ -9173,7 +9173,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "635 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9191,8 +9191,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "883 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1aaLaAoYOP0iPEJr7bsSM8_eVPePKxhMJ&sz=w800"
@@ -9207,9 +9207,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 850000,
     "auctionDate": "19th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nP09LPb03dsE3xG3iIBKjGwjlSrMq499&sz=w800"
@@ -9226,7 +9226,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1LTCyRYj3VHPr2qqXHyoPUByUy43tZ_Xa&sz=w800"
@@ -9241,9 +9241,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 1170000,
     "auctionDate": "19th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,753 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=12vnS5HKp-1d1dSkq8CxPe7w0YOxaf9nu&sz=w800"
@@ -9259,8 +9259,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "882 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=113LCVloxaAq5S2WPo5YyDKuxO4pQzs0t&sz=w800",
@@ -9277,8 +9277,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 185000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "753 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1bgTCTOAIqKl_8h1MwG8Kbgy_dsJhFEYr&sz=w800"
@@ -9294,7 +9294,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 218700,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "904 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9311,8 +9311,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 215100,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "883 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1IosFr9O1GJPG8-Q9MMmela7kfPtjJd1v&sz=w800"
@@ -9327,9 +9327,9 @@ export const PROPERTIES: Property[] = [
     "area": "Jenjarom",
     "reservePrice": 340200,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "990 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1opmDn-3IHZRIO6kT7vQbTMgkBb6qnKHm&sz=w800"
@@ -9346,7 +9346,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15D9dwwTuQkkTq5ZfsEdJ_3-QQV81rRL4&sz=w800"
@@ -9362,8 +9362,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "990 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Cv2XLlZQACzyNBiJjM3Kg7wO4NnN3yXb&sz=w800"
@@ -9380,7 +9380,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1LQlMIqzZkXZWUQ_KMOHqUXnWuV6YpwzX&sz=w800"
@@ -9395,9 +9395,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 423000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,173 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1gjAK2tW-c4hmhADJECuC7UYoeYWCTb-L&sz=w800"
@@ -9412,9 +9412,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 700000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PBpuJnNw80IzoaqTQhrDlGwpyHkTDbLF&sz=w800"
@@ -9429,7 +9429,7 @@ export const PROPERTIES: Property[] = [
     "area": "Beranang",
     "reservePrice": 348300,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -9446,9 +9446,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 120000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "603 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OVK-hMzLWq0Ix2Y7wuVzxlmvmB2K5DEs&sz=w800"
@@ -9464,8 +9464,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 126000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "829 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=10ft3Yx0cAf3wCDJGJFEiQLf_ru4-V5DX&sz=w800"
@@ -9481,8 +9481,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 284000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "990 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1IcqChTJZ1Zuh0hY9nX3Ijw383sKqjTcj&sz=w800",
@@ -9498,9 +9498,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 252000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OxPa4s2ySKly-c1IhD2k857DDF8TsK2k&sz=w800"
@@ -9515,9 +9515,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 300000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,300 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1McLO7kyVnCEXykaiuhH-T2fZgokzvJ3D&sz=w800"
@@ -9533,8 +9533,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 108000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1XLrI6h9ERhC3oJJsRXpMIqV_9og44zYj&sz=w800"
@@ -9550,8 +9550,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "893 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1X_GypzPaP5eT1y_lnfsGmLcfD__t6yO4&sz=w800"
@@ -9566,10 +9566,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 4665600,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "14,338 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1HF35OCFlf04_V0UKzqlD8nZZalfKpodO&sz=w800"
     ]
@@ -9584,8 +9584,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 503000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,410 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AdJLE4ryBqHotaZz-A2-x1Y_HavPvG8O&sz=w800"
@@ -9601,8 +9601,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 356400,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,109 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1gfnWBrvGH5xOa4ZfH4yTd0zeUJ9v0vwg&sz=w800"
@@ -9618,8 +9618,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400950,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,345 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1G0jzSbgKYy1N_uVYbCZVTc1ZQDQa7ItH&sz=w800"
@@ -9635,8 +9635,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 304000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,119 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1JUmX4pbdo0l2XBarm7eDSK945W14exAh&sz=w800"
@@ -9651,9 +9651,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 770000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,164 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1wTSDH6AAiweXBl3ncZ1BiS37W0DbnnKl&sz=w800"
@@ -9669,7 +9669,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 315000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,237 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9686,8 +9686,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "926 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1TkWSIauXxVvqn8LsVGmZR7cxxnxjEExW&sz=w800"
@@ -9703,8 +9703,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "689 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1bi90OANkrDsZfslyrZ4td_2CugJMXfGy&sz=w800"
@@ -9720,8 +9720,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,076 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1E8KRL7dyBYVZcLMFGvSwqRlIgL0enLlZ&sz=w800"
@@ -9737,7 +9737,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,141 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9754,7 +9754,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 670000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,916 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -9772,8 +9772,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1EXjCojSGYLWRim3I7uIQ1R70Un1QZgrh&sz=w800",
@@ -9790,8 +9790,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 2100000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,497 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1oSS5ozAEkYJxDpkUkPqbxbOtSqz6LnMK&sz=w800"
@@ -9807,8 +9807,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1E9OVMQ7wnkYXtAMmXxuSQYxDd2f2byza&sz=w800"
@@ -9824,8 +9824,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "990 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cVC8feyuqT6bv3Ox9QQj3N_olhUPIDJ2&sz=w800",
@@ -9844,7 +9844,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1VhqXFFZCPA_mMxqJhDfLdNRRDway0I7T&sz=w800",
@@ -9861,8 +9861,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,012 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1LBwCvLGUSUDEW_3b81AZz9pyda-1gs_i&sz=w800"
@@ -9878,7 +9878,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 594000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "883 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -9896,8 +9896,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1-U3M75vP788wyrUCo6eMSKbDFAf7ZPzl&sz=w800"
@@ -9912,7 +9912,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 1358127,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "5,835 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -9929,9 +9929,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 324000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "958 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1xVk9STf9pZq6mgDH5qXClBBG_68Qk94j&sz=w800"
@@ -9947,8 +9947,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 101250,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "732 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1avg6Hipfkki1RYCXv-hBDQgq3UmAvu-Y&sz=w800"
@@ -9964,8 +9964,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 364500,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,206 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1XFX0uBe1EkSB_kBMlqlsCVh1pHioKLrA&sz=w800",
@@ -9982,8 +9982,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 251100,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -10000,7 +10000,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 1350000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,747 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -10017,9 +10017,9 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 288000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ulmtT3Cb6qCXiH6-XnQfYeKoMhzEDlEj&sz=w800"
@@ -10035,8 +10035,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -10053,9 +10053,9 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 2340000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,900 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1fX48r76JGAuNmkfxnLAyFIC7S9SGeBu9&sz=w800"
@@ -10070,7 +10070,7 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 1080000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,679 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -10087,9 +10087,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 850000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,916 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pFgFQKWwZae7LneXF9-b6FApODwZZ_05&sz=w800"
@@ -10105,8 +10105,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=11sVkab4Bg7O2h_RhdhkLbxaVY7pak5FX&sz=w800"
@@ -10122,8 +10122,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 129600,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1joXGh2pmkYundXQ-rPOpvvvJ8VV-x-_I&sz=w800"
@@ -10138,9 +10138,9 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 900000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,186 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1iWL5jqv7nw0ne69mKp3Zpjgj0bKexcY5&sz=w800"
@@ -10156,8 +10156,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "915 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ND4LU8Eyg7xfIost0qdeX38MtumB-Eu8&sz=w800",
@@ -10174,8 +10174,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "904 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Viw3ox_NvGN41HbD6GwGHkcvL_fbktnT&sz=w800"
@@ -10191,8 +10191,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340200,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,054 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1n4IrIMb7gadnp9MouY54bGzPXrgt7qxd&sz=w800"
@@ -10209,7 +10209,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=11bGfpY_EWKoCOFk52XjL8qR88HYBcaO-&sz=w800"
@@ -10226,7 +10226,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1V3lHoN-jlcxdWN_AeZDa1Sdgozz-KH5r&sz=w800"
@@ -10243,7 +10243,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=10yr5CdHYMCJs5kXqAVMWzB50xjK5lyHG&sz=w800"
@@ -10259,8 +10259,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "840 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RLblFNjZx6lxpNHaT9c0Kat5Is-9KWAk&sz=w800"
@@ -10275,10 +10275,10 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 1215000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,528 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1k1W5yHRaDS4Xcq9c67CBb_kantbr6sKr&sz=w800"
     ]
@@ -10294,7 +10294,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1fTYsbXEeoBKVjWxShDFNzHjy5mG-gopW&sz=w800"
@@ -10309,9 +10309,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Puncak Alam",
     "reservePrice": 450000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1NiI99xZcJIF5sModT8zW9C1h383nxvVP&sz=w800"
@@ -10327,8 +10327,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "678 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1IpxHkvV3kxsoJYr83-aULZgEy27qw30n&sz=w800"
@@ -10344,8 +10344,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "560 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1nyiZioWWw3Qy1PUm-1xKGTawfBf-31_N&sz=w800"
@@ -10361,7 +10361,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,292 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10379,7 +10379,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=19Sn8x3glrKykcWHDNnDaMmTPisndLuWs&sz=w800"
@@ -10395,7 +10395,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 299700,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "947 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10412,7 +10412,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 3000000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "3,854 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10429,8 +10429,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 98415,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "614 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1fTYsbXEeoBKVjWxShDFNzHjy5mG-gopW&sz=w800"
@@ -10446,7 +10446,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 259200,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,012 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10464,7 +10464,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "850 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10481,9 +10481,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 480000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jzgEVeorCoDEp3gxPokKDuhYzigziuy1&sz=w800"
@@ -10498,7 +10498,7 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 300000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -10515,9 +10515,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 370000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,020 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jzgEVeorCoDEp3gxPokKDuhYzigziuy1&sz=w800"
@@ -10532,7 +10532,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 329000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,593 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -10550,8 +10550,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -10569,7 +10569,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "743 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10586,8 +10586,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 202500,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1h_S2rACsIrMiq1qCKRTOdLOAStNcGY3G&sz=w800",
@@ -10604,9 +10604,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 330000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "760 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1RVTSviu00Hsx3vXRkATuCO-OeUc-wxk_&sz=w800"
@@ -10622,8 +10622,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 240000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "840 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1lizuSl2EGcHox9rZSrb_1KXQxboe6ddG&sz=w800"
@@ -10639,8 +10639,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,249 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1YOCjIQqGDl3zKuXagIkEHgAb8ROJpa4L&sz=w800"
@@ -10655,9 +10655,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 418500,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,701 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1LlQx2gvIu-kxUdYwx2qA-cUHtcExHqoF&sz=w800"
@@ -10672,9 +10672,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 450000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,849 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13ZTPhTND34plVYTLIBysCqlKG7z9-EbW&sz=w800"
@@ -10689,9 +10689,9 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 470000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,820 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1jzgEVeorCoDEp3gxPokKDuhYzigziuy1&sz=w800"
@@ -10707,8 +10707,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "807 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1vGhFr4grJ5SlZE98KoYyOy4ljXf8T5qn&sz=w800",
@@ -10724,9 +10724,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 800000,
     "auctionDate": "27th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=11Q1XDPT_TjqzAueCDhRVjxDptqPsUH9q&sz=w800"
@@ -10741,9 +10741,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 400000,
     "auctionDate": "27th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,020 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1eOofN0pz5XaH7MTZhUx4R9aPZ6zG3Wn2&sz=w800"
@@ -10759,7 +10759,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 154000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "957 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10776,8 +10776,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,141 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Y3OgyvxbO1dYr8mbYDwmTH6pBglQkUY1&sz=w800"
@@ -10792,9 +10792,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 1125000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "4,273 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1qz1Usd1HG0dyWMRoWxfsabWtwZk7D8SL&sz=w800"
@@ -10809,9 +10809,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Buloh",
     "reservePrice": 520000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,783 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=18dhkajAc1Y4G78y1MpvNVIMpzJmEToZ6&sz=w800"
@@ -10827,8 +10827,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "667 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1KQ9dsjb-pPA01ipGu4UBxcEsclkdzqpg&sz=w800"
@@ -10844,8 +10844,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 162000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "560 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=11Ae0aTUszzqjIyPnjw37VsgDjAC8VjDF&sz=w800"
@@ -10861,8 +10861,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,238 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Uw6Nl9okbHOjc9FFfA4GKpZc7bi7OYUP&sz=w800"
@@ -10878,8 +10878,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,109 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Q8JvckZhZl0P0azccy4pBBZVESfN3dL9&sz=w800"
@@ -10895,8 +10895,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1100000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "667 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1MMm1GP1gx67TuH-WrQLONllkF3-wDBYz&sz=w800",
@@ -10914,7 +10914,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1e418cRK5F2oUyoeXG-mnBTDqNByNRAgI&sz=w800"
@@ -10931,7 +10931,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=17_fTLQ0LzYc2IuWiLr4fQ4ORmxMkA_jG&sz=w800",
@@ -10947,7 +10947,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 208000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "980 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -10965,7 +10965,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 236925,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,249 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -10984,8 +10984,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 124000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1YTf_-8Y7BCjDQSS7e2xXVzemvSHgk2Xn&sz=w800"
@@ -11000,9 +11000,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 299700,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,600 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1EdcVK3dbnr3O7tBAg_75uqBrxkD-WivY&sz=w800"
@@ -11017,7 +11017,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 510300,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,112 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11034,9 +11034,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Buloh",
     "reservePrice": 432000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dEHEOWD47j9EinyxtA7MoaSlh1JMv7cU&sz=w800"
@@ -11051,7 +11051,7 @@ export const PROPERTIES: Property[] = [
     "area": "Subang Jaya",
     "reservePrice": 820000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,440 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11068,10 +11068,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 1094000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "6,598 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=18p0uFfIWeYLYmjWakeQuTk_0hmpOs7Yk&sz=w800"
     ]
@@ -11085,7 +11085,7 @@ export const PROPERTIES: Property[] = [
     "area": "Subang Jaya",
     "reservePrice": 500000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,200 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11103,8 +11103,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,033 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1VKtCJ3e4XeIS9IzncdxBs25yx3p-xwvS&sz=w800"
@@ -11119,9 +11119,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 680000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1J58iL_Y1YlW1IST5gGOxggsg0A7NiHQM&sz=w800"
@@ -11138,7 +11138,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1v80VxHXk_bSbMn_7m-YAbG61HSaNyTyX&sz=w800"
@@ -11155,7 +11155,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nkw8umUsdlfex9InAxV71NouM-Yw7KvR&sz=w800"
@@ -11170,9 +11170,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 540000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,500 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=18LGdGi84lEv9PosNvqGYKdjWVgw7ERO1&sz=w800"
@@ -11187,7 +11187,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 252000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "840 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11205,8 +11205,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "882 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Viw3ox_NvGN41HbD6GwGHkcvL_fbktnT&sz=w800"
@@ -11222,7 +11222,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 204120,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "775 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11239,7 +11239,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,109 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11257,7 +11257,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 241000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "850 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11274,8 +11274,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 639900,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "926 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1x43Y7C1siSOZQhTSNrh0u-fFoO-JVa5D&sz=w800",
@@ -11294,7 +11294,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1LBwCvLGUSUDEW_3b81AZz9pyda-1gs_i&sz=w800"
@@ -11311,7 +11311,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RDJzgewGn2YhDRFxh9RFvzd55MEkRg4t&sz=w800",
@@ -11328,9 +11328,9 @@ export const PROPERTIES: Property[] = [
     "area": "Petaling Jaya",
     "reservePrice": 1182000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,586 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1dzm5BbCwC0I9LYWIyP-VJHGwv84RROp1&sz=w800"
@@ -11346,8 +11346,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 5589000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "6,566 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1i0qFs-ZIJZ3jgb9FFWlnvdYM3wO7HD7z&sz=w800"
@@ -11362,7 +11362,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batang Kali",
     "reservePrice": 162000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "690 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11380,8 +11380,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "797 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1xC6XuDL9sCh2o8ca095tstVTEDN97q52&sz=w800",
@@ -11397,9 +11397,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 350000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Gu0_g_yYCidwKXv8mCwVxgtgmAxWjR1e&sz=w800"
@@ -11414,9 +11414,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 1100000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XKH1FQ9XaLvFEfXApo6X3XKUonlIHF44&sz=w800"
@@ -11432,8 +11432,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "990 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1SQaS2Lf6tArSIgKKhTN2DV_0FyC_Xr2o&sz=w800"
@@ -11448,7 +11448,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 490000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,259 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11467,7 +11467,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1op0Yu44vjkYvocxF51mcw8Yg7MBcjv3W&sz=w800"
@@ -11484,7 +11484,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13KI4dX-GaWqih5Hpgjvy8MwwsyZ7v645&sz=w800"
@@ -11501,7 +11501,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14VafCfoQ9FPifR5wwyeBV7QBObtJInXq&sz=w800"
@@ -11517,7 +11517,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 113400,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "657 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11535,7 +11535,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RDJzgewGn2YhDRFxh9RFvzd55MEkRg4t&sz=w800",
@@ -11552,7 +11552,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 612000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,000 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11569,7 +11569,7 @@ export const PROPERTIES: Property[] = [
     "area": "Banting",
     "reservePrice": 315000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,800 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11586,9 +11586,9 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 432000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,321 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1K6-v2UWKVjLNoFALpg1bW5TjIXHHS7eK&sz=w800"
@@ -11605,7 +11605,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Qu7Y8--u--bPlc7i1weT7KfLrX2XzLOT&sz=w800",
@@ -11623,7 +11623,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1JWtVeXaKHbt5ZEV0e6LhVjiTPXsH1UQT&sz=w800"
@@ -11639,8 +11639,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "958 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1nGlOB2SD13Q62tD0V6EPefjFpI-5FGNq&sz=w800"
@@ -11656,8 +11656,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,765 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1808x6WvHlqU7z5sED5mBTRLpqV-9S3ch&sz=w800",
@@ -11673,9 +11673,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 600000,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,636 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SaqQlxMsrJo3GbI0meelrberXAwYA59Q&sz=w800"
@@ -11690,9 +11690,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 734000,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "9,211 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=14Iff-hPCYTlDJnvKFB1Z-NNd9oq7tHOI&sz=w800"
@@ -11708,7 +11708,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 236196,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,206 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11724,7 +11724,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 607500,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,056 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11742,8 +11742,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 268000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "807 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1SQaS2Lf6tArSIgKKhTN2DV_0FyC_Xr2o&sz=w800"
@@ -11758,7 +11758,7 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 225000,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11775,7 +11775,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 460000,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,100 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11792,7 +11792,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 360000,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11809,7 +11809,7 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 220000,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "829 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11827,8 +11827,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 600000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,367 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=17eQVaoJfRtpUGUK0llcrq2cfeBluoR8o&sz=w800",
@@ -11844,7 +11844,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 600000,
     "auctionDate": "8th Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,604 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -11861,9 +11861,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 364500,
     "auctionDate": "8th Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,679 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1r_zNXyiTtRb3Ai3T_TuAXp_2JgaD0DyJ&sz=w800"
@@ -11879,7 +11879,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,098 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -11895,9 +11895,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 648000,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,787 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1wP7bdhJZJukn8FZ5BWB8xGah6tEuM7Z5&sz=w800"
@@ -11913,8 +11913,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 778000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,195 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cJ1gKEPiVH6_lyNhLjIOYisXOKWfnBWc&sz=w800",
@@ -11931,8 +11931,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 365000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,109 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1QFSJ3qWaQe4ME8RnVb2HiMAVj4O-1QCw&sz=w800"
@@ -11948,8 +11948,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 276000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "936 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1BFeP1hkm10TPfgCXpcZKPr3xU6Y8M4qB&sz=w800"
@@ -11965,8 +11965,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 560000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,485 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Bn5cv3ZPBaFv3_aNcq54JiMen-WKhivA&sz=w800"
@@ -11982,7 +11982,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 575000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,593 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12000,8 +12000,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "969 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1pBcDresNLW9jrign6fGTdhj2BNR1UaxW&sz=w800",
@@ -12018,9 +12018,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 600000,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,442 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1BV8zH8MAjhbuiVuWVZTdQxb3seOLeDAa&sz=w800"
@@ -12036,8 +12036,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "936 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1p2C-CEn9TTsG0CC9csosQMA2kOETboVG&sz=w800"
@@ -12052,9 +12052,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 985000,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,885 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1XKH1FQ9XaLvFEfXApo6X3XKUonlIHF44&sz=w800"
@@ -12069,10 +12069,10 @@ export const PROPERTIES: Property[] = [
     "area": "Rawang",
     "reservePrice": 410000,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,360 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1slUhjnaNA5yRS1Ba1G6H_p1M79xEVmuI&sz=w800"
     ]
@@ -12087,8 +12087,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "829 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1tLasfJpL-s11ootQcW15_qLzRm5PvLhF&sz=w800",
@@ -12104,9 +12104,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 700000,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,465 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1FsUFNVL7dlIWWNviS6YbrDuRXD-KsPME&sz=w800"
@@ -12122,8 +12122,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 105710,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "603 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=16uyT4eMdip0KpVl_x2OL2a492OYSTg9n&sz=w800"
@@ -12138,9 +12138,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 1350000,
     "auctionDate": "10th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "4,267 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1XbZwTarx1ypg2hC0GxdrMeehnj8gESBe&sz=w800"
@@ -12155,9 +12155,9 @@ export const PROPERTIES: Property[] = [
     "area": "Subang Jaya",
     "reservePrice": 580000,
     "auctionDate": "10th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nKFAYHz6qFyg4flSZZcXmaL4El0CBLZw&sz=w800"
@@ -12173,8 +12173,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AqEchBl9hC-TQCrPj3mjzYen4qoo6ixa&sz=w800"
@@ -12190,8 +12190,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "900 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZMgF1rIL7csPb_ZeZR5i3JkjV41S3WXP&sz=w800",
@@ -12208,8 +12208,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 729000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,249 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ObsWprJZlWS-NIgwQ5WNccdMSAx0_r0m&sz=w800",
@@ -12226,8 +12226,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,044 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1c3KzXXMzBhBfLZ8gRYJJr1zMt5WwJ0NA&sz=w800"
@@ -12243,8 +12243,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 144000,
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "743 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1zRxxmcWp1UUze_hfLkl0vwHDTapJ1Mk1&sz=w800"
@@ -12259,10 +12259,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lumpur",
     "reservePrice": 6700000,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "7,761 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1XeYbPf38lGGZeBYiwxsnfuJnv6CXtxi4&sz=w800"
     ]
@@ -12276,7 +12276,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 2114000,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,650 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -12293,9 +12293,9 @@ export const PROPERTIES: Property[] = [
     "area": "Klang",
     "reservePrice": 672300,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1kyV6zbMi0IJLTNvzqEiMKxhs4EVFKJbZ&sz=w800"
@@ -12310,10 +12310,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 2100000,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,900 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1QmKpSIR1a01BG1Vnf92lgKe45JnwS4GS&sz=w800"
     ]
@@ -12327,7 +12327,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kajang",
     "reservePrice": 850000,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "5,134 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -12344,9 +12344,9 @@ export const PROPERTIES: Property[] = [
     "area": "Semenyih",
     "reservePrice": 450000,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1QoPAxjLpzUFkn7wbBPR_A2FIrrSH8IhL&sz=w800"
@@ -12361,7 +12361,7 @@ export const PROPERTIES: Property[] = [
     "area": "Telok Panglima Garang",
     "reservePrice": 300000,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12378,9 +12378,9 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 1180000,
     "auctionDate": "18th Dec 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "3,267 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1RUcbv4CY8v0vJgG5Vo9qRTdu8T9fw4e2&sz=w800"
@@ -12395,9 +12395,9 @@ export const PROPERTIES: Property[] = [
     "area": "Port Klang",
     "reservePrice": 500000,
     "auctionDate": "18th Dec 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1B4nvqdZGQ2qUfiAbPtLCW5V_Z7dSEiIV&sz=w800"
@@ -12413,7 +12413,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "18th Dec 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "893 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12431,7 +12431,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "19th Dec 2026 (Sat)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1mnFaGggXQaMUyWPoNQWP_SVgzGIzV5kr&sz=w800"
@@ -12446,9 +12446,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Caves",
     "reservePrice": 670000,
     "auctionDate": "11th Jan 2027 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1adNWKVMq6IKsZoqCYlbJ92pIBdPatm9C&sz=w800"
@@ -12464,8 +12464,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "28th Jan 2027 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AqEchBl9hC-TQCrPj3mjzYen4qoo6ixa&sz=w800"
@@ -12480,9 +12480,9 @@ export const PROPERTIES: Property[] = [
     "area": "Puchong",
     "reservePrice": 490000,
     "auctionDate": "28th Jan 2027 (Thu)",
-    "landArea": "—",
+    "landArea": "990 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1omZOfsWivDUNMf1jSuZllk2JNDbC4TK0&sz=w800"
@@ -12497,7 +12497,7 @@ export const PROPERTIES: Property[] = [
     "area": "Shah Alam",
     "reservePrice": 800000,
     "auctionDate": "29th Jan 2027 (Fri)",
-    "landArea": "—",
+    "landArea": "1,916 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12515,8 +12515,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 16000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "151 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1qLKmLrbTjnptppxoasR4ujz4FdW1RQjG&sz=w800"
@@ -12531,7 +12531,7 @@ export const PROPERTIES: Property[] = [
     "area": "Labu",
     "reservePrice": 480000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12552,8 +12552,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 48000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "409 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=19ZebStGyOtSnnEZZMosy0sVEe3VJD4RX&sz=w800",
@@ -12570,7 +12570,7 @@ export const PROPERTIES: Property[] = [
     "area": "Port Dickson",
     "reservePrice": 234000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,205 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12590,8 +12590,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 446000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "915 sq.ft",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1D58FVcOeShg8Dvw3ILdzfqcxWsXIP0no&sz=w800"
@@ -12607,7 +12607,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 126000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "376 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12623,7 +12623,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Sri Sendayan",
     "reservePrice": 480000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,765 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12642,7 +12642,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Sri Sendayan",
     "reservePrice": 650000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,873 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12661,7 +12661,7 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 250000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12678,7 +12678,7 @@ export const PROPERTIES: Property[] = [
     "area": "Port Dickson",
     "reservePrice": 50000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,238 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12697,7 +12697,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1pYsZ59lDLlJ1QGkS3V3P_ZrlhrhUeK5O&sz=w800"
@@ -12713,7 +12713,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 23500,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "592 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -12731,9 +12731,9 @@ export const PROPERTIES: Property[] = [
     "area": "Port Dickson",
     "reservePrice": 423000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,154 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PnWeRa4cMSRnRlyAz9urHCDUqt4ZSl1Y&sz=w800"
@@ -12748,7 +12748,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Sri Sendayan",
     "reservePrice": 550000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,765 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12768,8 +12768,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 89100,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "431 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=19JH9AoMLg87aTgJ_MRHX7ubZXyLtBBY_&sz=w800"
@@ -12784,10 +12784,10 @@ export const PROPERTIES: Property[] = [
     "area": "Senawang",
     "reservePrice": 700000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,993 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1owzwKvwzLNvAEFNSHril1YcvaCsuz6ml&sz=w800"
     ]
@@ -12801,9 +12801,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 255150,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,432 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1osneQPRuGo9AqYlstHf16fS78Jffc4r2&sz=w800"
@@ -12818,9 +12818,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 450000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Nom0Qy-H63zOkykopvsYilfaLhU1gEX9&sz=w800",
@@ -12836,9 +12836,9 @@ export const PROPERTIES: Property[] = [
     "area": "Port Dickson",
     "reservePrice": 585000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,218 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PnWeRa4cMSRnRlyAz9urHCDUqt4ZSl1Y&sz=w800"
@@ -12853,9 +12853,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 301500,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,410 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1bNqnqXq_7mnG9qQeo1ZlyrXtz5hLCPFG&sz=w800",
@@ -12871,7 +12871,7 @@ export const PROPERTIES: Property[] = [
     "area": "Labu",
     "reservePrice": 650000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,337 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12892,9 +12892,9 @@ export const PROPERTIES: Property[] = [
     "area": "Port Dickson",
     "reservePrice": 450000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PnWeRa4cMSRnRlyAz9urHCDUqt4ZSl1Y&sz=w800"
@@ -12909,10 +12909,10 @@ export const PROPERTIES: Property[] = [
     "area": "Nilai",
     "reservePrice": 592000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "7,298 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1XdAqO0SzRpbUd-0L9RCquxDxboxEGRqs&sz=w800"
     ]
@@ -12926,9 +12926,9 @@ export const PROPERTIES: Property[] = [
     "area": "Nilai",
     "reservePrice": 306180,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,797 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1oo8ZmXD_CWazNMKtO5FPKabO4YJTb0Nm&sz=w800",
@@ -12944,7 +12944,7 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 355000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,063 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -12961,9 +12961,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lenggeng",
     "reservePrice": 500000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,106 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OtMQNgbHvKsmcOcWxoEzErwWqOYE2da_&sz=w800",
@@ -12979,9 +12979,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 405000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Nom0Qy-H63zOkykopvsYilfaLhU1gEX9&sz=w800",
@@ -12997,7 +12997,7 @@ export const PROPERTIES: Property[] = [
     "area": "Port Dickson",
     "reservePrice": 198000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13015,9 +13015,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lenggeng",
     "reservePrice": 450000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,718 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OtMQNgbHvKsmcOcWxoEzErwWqOYE2da_&sz=w800",
@@ -13033,9 +13033,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 720000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,285 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ExlJ06NzlrGY48hDueWvBjci9IKTrBN1&sz=w800",
@@ -13052,9 +13052,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 396900,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1lGDcDV8jHJxsAXmayYu7TIYuYKnndmUK&sz=w800"
@@ -13069,9 +13069,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Pilah",
     "reservePrice": 86000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17nTPS3fu19OJiElHGLTO64FjaLvBmLUZ&sz=w800",
@@ -13089,7 +13089,7 @@ export const PROPERTIES: Property[] = [
     "area": "Labu",
     "reservePrice": 420000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,453 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13110,8 +13110,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,044 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iAOA_gRqpqabwMskTTnS2YILdTv5pC9R&sz=w800"
@@ -13126,7 +13126,7 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 350000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,410 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13144,7 +13144,7 @@ export const PROPERTIES: Property[] = [
     "area": "Nilai",
     "reservePrice": 360000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13162,9 +13162,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 560000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Nom0Qy-H63zOkykopvsYilfaLhU1gEX9&sz=w800",
@@ -13180,9 +13180,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Sri Sendayan",
     "reservePrice": 500000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1I2M-t17r1dJrFrkAO0Mar_AIGEWigflm&sz=w800"
@@ -13197,9 +13197,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 380000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,701 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ooKZ6IIiH-g_nB-JWXwKKStUjQkugsH1&sz=w800"
@@ -13214,10 +13214,10 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 976000,
     "auctionDate": "10th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "4,801 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1q2DygKLCEnpTi2uaQbZt9LKDbcympW0I&sz=w800"
     ]
@@ -13231,9 +13231,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seremban",
     "reservePrice": 270000,
     "auctionDate": "10th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,679 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1oTsSUAhkjxvrRuKfn1qH8oFRMdOd8AHT&sz=w800",
@@ -13254,7 +13254,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1nWLQW3J-A4kZ93d1ICLUuCYnYgfMHVgC&sz=w800"
@@ -13269,9 +13269,9 @@ export const PROPERTIES: Property[] = [
     "area": "Port Dickson",
     "reservePrice": 280000,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,300 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=16cjdpb7D7rTN7Norvt14UfjDaafQuZA-&sz=w800"
@@ -13286,9 +13286,9 @@ export const PROPERTIES: Property[] = [
     "area": "Labu",
     "reservePrice": 500000,
     "auctionDate": "20th Jan 2027 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dWvAsqXzRvOX2zKHvWmLszrByHvTgHuP&sz=w800",
@@ -13306,10 +13306,10 @@ export const PROPERTIES: Property[] = [
     "area": "Jitra",
     "reservePrice": 250000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "6,501 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Semi-D/Bungalow",
+    "tenure": "—",
+    "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1ctQJyBZLzIXy-rVZ330kFt28k49z0PVv&sz=w800"
     ]
@@ -13323,9 +13323,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lunas",
     "reservePrice": 200000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,300 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-kk9zM_hXxAkHSJBD7nJ2ecPWLuRsPeG&sz=w800"
@@ -13340,7 +13340,7 @@ export const PROPERTIES: Property[] = [
     "area": "Jitra",
     "reservePrice": 387000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "6,006 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -13357,9 +13357,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 160380,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,550 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_US3p83vEwDu9OzZhzjuP6C3txYt4zaj&sz=w800"
@@ -13374,7 +13374,7 @@ export const PROPERTIES: Property[] = [
     "area": "Changloon",
     "reservePrice": 240000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,476 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -13391,7 +13391,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 178200,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13408,7 +13408,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 400950,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,197 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -13425,7 +13425,7 @@ export const PROPERTIES: Property[] = [
     "area": "Gurun",
     "reservePrice": 230850,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "4,618 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -13442,7 +13442,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 190000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,000 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13459,7 +13459,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Kedah",
     "reservePrice": 220000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,002 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13476,7 +13476,7 @@ export const PROPERTIES: Property[] = [
     "area": "Gurun",
     "reservePrice": 280000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,196 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -13493,7 +13493,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 324000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,357 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13510,7 +13510,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 194400,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,637 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -13527,7 +13527,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pokok Sena",
     "reservePrice": 218700,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13545,8 +13545,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 171000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "839 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=11WSq4a3i9c4Hlxa3sl9n0Mhhm_rGp94b&sz=w800"
@@ -13563,7 +13563,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1r4xqdrOXqKmwV-LYg5jHJp07xDQki3rs&sz=w800"
@@ -13578,9 +13578,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 285000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,206 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14GSTB3HwVBq554pzJpRYVkc6QSAbWhkY&sz=w800"
@@ -13595,9 +13595,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kamunting",
     "reservePrice": 145800,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,147 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1GQvHhTO0r6NDBOGOoaDfAxwguoge3yfS&sz=w800"
@@ -13612,9 +13612,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kamunting",
     "reservePrice": 240000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Cw2isNgE1q6JD-AKf8Vb6s4BWIxlr6-&sz=w800"
@@ -13629,9 +13629,9 @@ export const PROPERTIES: Property[] = [
     "area": "Beruas",
     "reservePrice": 194400,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "5,511 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1xBIDsnOSNTGa0fx5m15sc8VRW68jceF2&sz=w800"
@@ -13646,9 +13646,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 228000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,916 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1_MRRYlzMjoiOwl6vM98MWwUG_gYXrth3&sz=w800"
@@ -13663,9 +13663,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tapah Road",
     "reservePrice": 468000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1-xV-ZwbC626Ql5AASQQL8dESMbjfld8g&sz=w800"
@@ -13680,9 +13680,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 117000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -13697,9 +13697,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 117000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -13714,7 +13714,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bota",
     "reservePrice": 207000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13731,9 +13731,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Iskandar",
     "reservePrice": 130000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13C4uGQ3S59tD8jEECVjzB_mGBSGmtR8U&sz=w800"
@@ -13748,9 +13748,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tanjung Rambutan",
     "reservePrice": 184000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15HlQ3s9Ndvk5XeeFtwU6ketXD6cc5bu9&sz=w800"
@@ -13765,7 +13765,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 333000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,035 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13782,9 +13782,9 @@ export const PROPERTIES: Property[] = [
     "area": "Taiping",
     "reservePrice": 320000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,218 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SwyX9lFCFRbX0rdl0BhTRw6nU1-y-AuC&sz=w800"
@@ -13799,7 +13799,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 102060,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,227 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -13816,9 +13816,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 243000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,097 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=16ZLkIFvNVThgOyLv6w3ySRKdd9_9691K&sz=w800"
@@ -13833,9 +13833,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 99000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -13851,8 +13851,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 68000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "863 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1QlNFaGk4BKn-gN4O_m3DxKkHkP_E7Bwu&sz=w800"
@@ -13868,7 +13868,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 423000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "883 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -13885,7 +13885,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "689 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -13901,9 +13901,9 @@ export const PROPERTIES: Property[] = [
     "area": "Butterworth",
     "reservePrice": 700000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,884 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1nvTIfLdP8RJiMXg_vRGpIKktCzmjlAn_&sz=w800"
@@ -13919,8 +13919,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "818 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1_KTpBu2oJQDJoskW57u987aJYYU1pUXi&sz=w800"
@@ -13936,7 +13936,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 43740,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "495 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -13953,8 +13953,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "700 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=10s2PGOTImdK7-K0iv1kI2tTInfpPbSoN&sz=w800"
@@ -13970,8 +13970,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "775 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iDtQTYm4SXZNGnQctlywiQ2WOqQMrjkZ&sz=w800"
@@ -13987,8 +13987,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "990 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1y5t478OCd_7fg9s1VUEtJXOeAK2McvvV&sz=w800"
@@ -14003,7 +14003,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kepala Batas",
     "reservePrice": 480000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14038,8 +14038,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "624 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1fTqb7DLjBIDice8MMZTIg0a_KiJzgleU&sz=w800"
@@ -14055,7 +14055,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200475,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "710 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -14072,7 +14072,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "624 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -14088,7 +14088,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 200000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14105,9 +14105,9 @@ export const PROPERTIES: Property[] = [
     "area": "Padang Serai",
     "reservePrice": 270000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Fx-P9ILUWKz1fnCLEY2nn8XWKpccriB4&sz=w800"
@@ -14123,8 +14123,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190350,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "872 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1nMlZYUi-Eo-TfaVJv0hzyJUUNIXxULqv&sz=w800"
@@ -14139,9 +14139,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 147623,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,010 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13gBpdrPNRV5KhZgXQBsU8f0DUikuJ000&sz=w800"
@@ -14156,7 +14156,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,020 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14173,7 +14173,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Lalang",
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14190,7 +14190,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 200000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,200 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14207,7 +14207,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 216000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14224,7 +14224,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Selambau",
     "reservePrice": 105300,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14241,7 +14241,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 360000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14258,7 +14258,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 291600,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,938 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14275,7 +14275,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 200000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14292,9 +14292,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bedong",
     "reservePrice": 140000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10MouViiGBVbAVLmYLXsw5EbDPt9I6jsU&sz=w800"
@@ -14309,7 +14309,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 420000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,604 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -14326,9 +14326,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bedong",
     "reservePrice": 204120,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,486 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1T7mcRkQoUtM-cdup9AfkCB9eR0C6PFt9&sz=w800"
@@ -14343,7 +14343,7 @@ export const PROPERTIES: Property[] = [
     "area": "Lunas",
     "reservePrice": 288000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14361,8 +14361,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 45000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "720 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ED5-Cov6Zx8O-d5-WwKQOImrwurAzpce&sz=w800"
@@ -14377,9 +14377,9 @@ export const PROPERTIES: Property[] = [
     "area": "Parit Buntar",
     "reservePrice": 349200,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1tZCAQg_q4IsA92xxRqoCUmR-KCeXUHh3&sz=w800"
@@ -14394,9 +14394,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 170000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jp1MVgR-o4kld1CH_cBjrvjKCupQKYo8&sz=w800"
@@ -14411,7 +14411,7 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 360000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,789 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14428,9 +14428,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kampar",
     "reservePrice": 162000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1KmjghbqYn0ksEF6qHhBzZ-DG4ELpja0i&sz=w800"
@@ -14445,7 +14445,7 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 650000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,626 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -14462,9 +14462,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 150000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,690 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -14479,9 +14479,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1VZwjqfbikiBTUc8HL3C7hdzAfHYpDm0r&sz=w800"
@@ -14496,9 +14496,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1S2kMP6W8xmFYbHzS0HSFuugU3ZGqtphw&sz=w800"
@@ -14513,9 +14513,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 144000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,098 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -14530,9 +14530,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 117000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,046 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -14547,9 +14547,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 70000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "882 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jaLGPlr9GoHAV5uC5UmbXxF4LpZA_Ak9&sz=w800"
@@ -14565,8 +14565,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 648000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,646 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1CYlbbP26R_lZ3j2_35UAHEuPSzpBUAN3&sz=w800"
@@ -14598,9 +14598,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 140000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -14616,8 +14616,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 140000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "592 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1EsrYqHrNsw2MpbTBtSirpaq5lO4DAE6X&sz=w800"
@@ -14633,8 +14633,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 171242,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "721 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1_vB47xHFMSwx6355AX3AC5E9Eyd9AYTw&sz=w800"
@@ -14650,8 +14650,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 118098,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "624 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1I3R4FppMFBiPKBRts_3WnEv8EnXHFUzr&sz=w800"
@@ -14667,7 +14667,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 165000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "700 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -14683,7 +14683,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kubang Semang",
     "reservePrice": 390000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,582 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14701,7 +14701,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "560 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -14717,9 +14717,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 280000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,001 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jRONVVvAhX9fp3FPvvqoBbMGy1z4Ph8R&sz=w800"
@@ -14734,9 +14734,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulim",
     "reservePrice": 170100,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1eu4dGfShjx-3be3u10fxCj5ha2iUs6Q9&sz=w800"
@@ -14751,7 +14751,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 390000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14768,7 +14768,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kulim",
     "reservePrice": 370000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -14785,9 +14785,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulim",
     "reservePrice": 260000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-m1OjytrJDqBiphiFUg0xMrV7gdxhD4Z&sz=w800"
@@ -14802,9 +14802,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 260000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1oVpTSjBX1-2vOQtuz-FLo58DkXmLqW89&sz=w800"
@@ -14819,9 +14819,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 230000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,021 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14b7HY2_6UO1HrHSrJuwfuZ2LJsafbnU8&sz=w800"
@@ -14836,7 +14836,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Selambau",
     "reservePrice": 129600,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,347 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -14853,7 +14853,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 180000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -14870,9 +14870,9 @@ export const PROPERTIES: Property[] = [
     "area": "Gopeng",
     "reservePrice": 216000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1WGZULilFz_eLoKmmm9u0JWQeGV5LSgkt&sz=w800"
@@ -14887,9 +14887,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lumut",
     "reservePrice": 405000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,604 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1m6TMDdM-FakASr1fQfksR-S7tkqaVNoR&sz=w800"
@@ -14904,9 +14904,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput",
     "reservePrice": 81000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "904 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1hYQMu1tQ6AAXAhQEy9TPg3_5JrgJMOmn&sz=w800"
@@ -14921,9 +14921,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 162000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_MRRYlzMjoiOwl6vM98MWwUG_gYXrth3&sz=w800"
@@ -14938,9 +14938,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 430000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,454 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1JhpgitnnvDJG4jWr3UHNcACBqJYEfUA5&sz=w800"
@@ -14955,9 +14955,9 @@ export const PROPERTIES: Property[] = [
     "area": "Menglembu",
     "reservePrice": 270000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1aRL7Kk4dYjAUE_V_2SzV7XEU-lA3s_Cf&sz=w800"
@@ -14972,10 +14972,10 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 500000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,595 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1lr-FkTPoWhHUGgJgysprIePWGKzoMPDS&sz=w800"
     ]
@@ -14989,9 +14989,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 180000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "879 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_MRRYlzMjoiOwl6vM98MWwUG_gYXrth3&sz=w800"
@@ -15006,9 +15006,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tanjong Rambutan",
     "reservePrice": 280000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,324 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pPap9MGmASidyEk1Oe0Io__EoYlvIYse&sz=w800"
@@ -15023,9 +15023,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 170000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "829 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OGHO1CzvEyfMG0z2gD1BcuJImkjJah9Y&sz=w800"
@@ -15040,9 +15040,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13HLw0et6x-fmfect_OK33p50u75CgCrW&sz=w800"
@@ -15057,9 +15057,9 @@ export const PROPERTIES: Property[] = [
     "area": "Menglembu",
     "reservePrice": 200000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -15074,9 +15074,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 240000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1y8-WjTKQEUvzxynhDUFBzATNpn2e2CNi&sz=w800"
@@ -15091,9 +15091,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 190000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,008 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10woY_1bbTtb95U-FqdnNGXQMMOth_nyj&sz=w800"
@@ -15108,9 +15108,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,564 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1IHHR-G-GImcpUtSmfTjDsU3JSPEVj9R6&sz=w800"
@@ -15125,9 +15125,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tanjong Malim",
     "reservePrice": 430000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,426 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=19-U1MBN494vS5kLwRoeAWQYIh9Had4Qw&sz=w800"
@@ -15142,9 +15142,9 @@ export const PROPERTIES: Property[] = [
     "area": "Menglembu",
     "reservePrice": 224000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,885 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1CTAronpODeLru_DhU-GUu_-dwq5oULvj&sz=w800"
@@ -15159,9 +15159,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 220000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,099 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1Nu8dvH8tB4-MqSeQuElpRX0-8MI6fBir&sz=w800"
@@ -15176,9 +15176,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 100000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "732 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1tN3IEvx3oNrYJcGuDk1AwzSAs1-PMlyX&sz=w800"
@@ -15193,9 +15193,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 121500,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14CC90C33vZ0qptChPnzjMCxNTFUqlkKE&sz=w800"
@@ -15210,9 +15210,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 90000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -15227,9 +15227,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 200000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -15244,9 +15244,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Iskandar",
     "reservePrice": 220000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,431 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14TGfCFdcAGJXe9tAeQSJXCyAorQvh55m&sz=w800"
@@ -15261,9 +15261,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 260000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,790 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1vmaINB2Rrj0V9jRj8ElAf8_EIvY1d_f4&sz=w800"
@@ -15278,9 +15278,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 300000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,432 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10woY_1bbTtb95U-FqdnNGXQMMOth_nyj&sz=w800"
@@ -15295,9 +15295,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tanjung Rambutan",
     "reservePrice": 275400,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,358 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1o99DugKxHcTxF87w1zJgTcY2oPyym6dX&sz=w800"
@@ -15312,9 +15312,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 1800000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,369 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1p1DwwBXJTv6VqpGh7JguB5SWyKWsrWYz&sz=w800"
@@ -15329,9 +15329,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 180000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dBsnjykdbLlBDVZMG6clOho5O8ZqmbT0&sz=w800"
@@ -15346,9 +15346,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 300000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,320 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1oV2H6l42tylvgWCW1kl8YeJ5HpcVupSi&sz=w800"
@@ -15363,9 +15363,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 126000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -15380,7 +15380,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 306000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,550 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -15397,9 +15397,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 190000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jEtJAlvnW1nxo1CoZKIV3KEbr552zEjy&sz=w800"
@@ -15414,9 +15414,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lumut",
     "reservePrice": 270000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SaQyVsc01noCnx1pX5qccayobQehaYmW&sz=w800"
@@ -15431,9 +15431,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 450000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,143 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-H2QCO07rMDZLjdiYq1n1x5XMikYcBIG&sz=w800"
@@ -15448,7 +15448,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 230000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -15466,7 +15466,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 108000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "603 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -15483,7 +15483,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 134055,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "710 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -15500,7 +15500,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "495 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -15516,9 +15516,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bayan Lepas",
     "reservePrice": 583200,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,193 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1wOzgMWw3VBiCFHzf5YNtuMtlub_1U6V4&sz=w800"
@@ -15534,7 +15534,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 251000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "883 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -15550,7 +15550,7 @@ export const PROPERTIES: Property[] = [
     "area": "Nibong Tebal",
     "reservePrice": 202500,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "958 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -15569,7 +15569,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1AxtkYUWMrOqZlOPL-uri1pIo-Zmq8VQr&sz=w800"
@@ -15586,7 +15586,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=18BciSMV5nCobyESzFg6jphNDdn1FEE1s&sz=w800"
@@ -15603,7 +15603,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1S-Mfe9VNUL6zPCz7qG46nA6OJ0oXKdp4&sz=w800"
@@ -15619,8 +15619,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "834 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=18MkZeDVwu7uEpRw5nYQCVh5_npnza8Zn&sz=w800"
@@ -15636,7 +15636,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 45000,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "570 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -15652,7 +15652,7 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 330000,
     "auctionDate": "26th Oct 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,099 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -15670,7 +15670,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 387000,
     "auctionDate": "26th Oct 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,108 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -15686,9 +15686,9 @@ export const PROPERTIES: Property[] = [
     "area": "Yan Besar",
     "reservePrice": 270000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,052 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1uxpKVDwngoMmjKtG4VEPBnfdJsoPkKaS&sz=w800"
@@ -15703,9 +15703,9 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang Pulai",
     "reservePrice": 270000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,615 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1X28z629cDABijGUkLcX8JLGZAavu_f_a&sz=w800"
@@ -15720,9 +15720,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kepala Batas",
     "reservePrice": 450000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,164 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1n3m2ImQ9IfXk2yoDHzUhklsNTr7VY4oS&sz=w800"
@@ -15737,9 +15737,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 700000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,389 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1G5UMvYwBG4yUrd5aYYhL0fWOuWvWgM1R&sz=w800"
@@ -15754,7 +15754,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Lalang",
     "reservePrice": 300000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,099 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -15771,7 +15771,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 750000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,595 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -15788,9 +15788,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bagan Serai",
     "reservePrice": 117000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "630 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=11W7hubSAzFKjSxfxVl-vaFQkMbcMs3Lp&sz=w800"
@@ -15806,7 +15806,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1060000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,615 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -15822,7 +15822,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 288000,
     "auctionDate": "30th Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,907 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -15839,9 +15839,9 @@ export const PROPERTIES: Property[] = [
     "area": "Langgar",
     "reservePrice": 379080,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,389 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1oL_ZpRobnR8UuJjwPBHYvolp5ZSRKvs7&sz=w800"
@@ -15856,7 +15856,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pokok Sena",
     "reservePrice": 416000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,228 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -15873,10 +15873,10 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Setar",
     "reservePrice": 648900,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "5,866 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ptkwTQ1_zNEdMbcWhBVsp1myG-f0rjFl&sz=w800"
     ]
@@ -15890,7 +15890,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Nerang",
     "reservePrice": 202500,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,981 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -15907,9 +15907,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 280800,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,342 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1aIplpOlOVvXq_xqjI-7cpqUTP_ZeYZSg&sz=w800"
@@ -15924,9 +15924,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 400000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,249 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15DXWUC_9xI5CEUlpGpzQAB_X1Odf80R5&sz=w800"
@@ -15941,9 +15941,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lenggong",
     "reservePrice": 165000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "895 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZEtOBaBzKt8ApCZOh5mmsyuKHSQLm3WM&sz=w800"
@@ -15958,9 +15958,9 @@ export const PROPERTIES: Property[] = [
     "area": "Gopeng",
     "reservePrice": 180000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "990 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1qEEXGdi7XbVxWBo1JeGu6Cz8vVzSei4J&sz=w800"
@@ -15975,7 +15975,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 680000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,337 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -15992,9 +15992,9 @@ export const PROPERTIES: Property[] = [
     "area": "Temoh",
     "reservePrice": 170000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-AYiWWltWMffMbqQZAfIkrpxEHp4I6cx&sz=w800"
@@ -16009,9 +16009,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ayer Tawar",
     "reservePrice": 324000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1MkwTvSZZy96nng2OUuMvI0uK8RKQa77F&sz=w800"
@@ -16026,9 +16026,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 90000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -16043,9 +16043,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tanjung Rambutan",
     "reservePrice": 167670,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,432 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15HlQ3s9Ndvk5XeeFtwU6ketXD6cc5bu9&sz=w800"
@@ -16061,8 +16061,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "700 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cVGqlEXd3G92sAOvC55LYxGVKigz9uny&sz=w800"
@@ -16077,7 +16077,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 414000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,206 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -16094,9 +16094,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kepala Batas",
     "reservePrice": 189540,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "818 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1B5jLgNzykSoQxIu1-D4X0LRW9S98HPy-&sz=w800"
@@ -16111,9 +16111,9 @@ export const PROPERTIES: Property[] = [
     "area": "Perai",
     "reservePrice": 220000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "892 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1IozIylvLBdpxOe5dVeC-R78SKa8SwXRM&sz=w800"
@@ -16129,8 +16129,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "926 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1IrOmA5pHtJjPZRIbjomxe4joHIGq8UgL&sz=w800"
@@ -16146,8 +16146,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 280000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "990 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1y5t478OCd_7fg9s1VUEtJXOeAK2McvvV&sz=w800"
@@ -16163,7 +16163,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 196830,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "699 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -16180,8 +16180,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "635 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1I3R4FppMFBiPKBRts_3WnEv8EnXHFUzr&sz=w800"
@@ -16198,7 +16198,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dOv9se8INzuJEpd-dKOWcEd6fN9ct9aj&sz=w800"
@@ -16213,7 +16213,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 453600,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,376 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -16230,9 +16230,9 @@ export const PROPERTIES: Property[] = [
     "area": "Langgar",
     "reservePrice": 500000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,196 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZkCJOAus6Tydp2kihXGas-DNutbu75Aa&sz=w800"
@@ -16247,9 +16247,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Setar",
     "reservePrice": 3040000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "7,200 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1pTF2A4QKaTMeZbTXuJ7YIperZjHf8Hmq&sz=w800"
@@ -16264,7 +16264,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Lalang",
     "reservePrice": 200000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -16281,7 +16281,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 170000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,291 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -16298,9 +16298,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Kinta",
     "reservePrice": 388000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1UY8TQklfGTf6ug-wnU2WFfwRgQOENoa8&sz=w800"
@@ -16315,9 +16315,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 171000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1S2kMP6W8xmFYbHzS0HSFuugU3ZGqtphw&sz=w800"
@@ -16332,9 +16332,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tapah",
     "reservePrice": 180000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1bs6oZYhJev1h3ChtWrYGL9SbfoQLEv4z&sz=w800"
@@ -16349,9 +16349,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bagan Serai",
     "reservePrice": 300000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,600 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1RJyBKdOVPyucUzMIgCAH83LQhkRXH5HR&sz=w800"
@@ -16366,9 +16366,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bagan Serai",
     "reservePrice": 273600,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,118 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15R5Hm1iDSzJGe9fFTEImZ_vpl5xUtSVG&sz=w800"
@@ -16383,7 +16383,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 180000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -16400,9 +16400,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bagan Serai",
     "reservePrice": 180000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,656 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1RJyBKdOVPyucUzMIgCAH83LQhkRXH5HR&sz=w800"
@@ -16418,7 +16418,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 109350,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "689 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -16434,9 +16434,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 469800,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,003 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1iQPkxnkfwflRBMRKZhgq2yRt2hO_uPfc&sz=w800"
@@ -16452,8 +16452,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 194400,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "700 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1BLeHd3NmkJliCBS3Wbe1nglC4WalH8ov&sz=w800"
@@ -16469,7 +16469,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 468000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -16486,8 +16486,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 128000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "570 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1fTqb7DLjBIDice8MMZTIg0a_KiJzgleU&sz=w800"
@@ -16503,8 +16503,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "549 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=10s2PGOTImdK7-K0iv1kI2tTInfpPbSoN&sz=w800"
@@ -16520,8 +16520,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 153061,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "764 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1mGru7BRpstWhKS4_oJ57YJ0PFl9oh2z_&sz=w800"
@@ -16536,9 +16536,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tasek Gelugor",
     "reservePrice": 200000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "750 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15_lb1c82EgnQ6mUUc8H09Sg-omJYmMMQ&sz=w800"
@@ -16553,9 +16553,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 600000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,584 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1zFXz4Sva7pS4XI7cCpJC9ekZNOOBcA4U&sz=w800"
@@ -16571,8 +16571,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 113400,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "624 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1I3R4FppMFBiPKBRts_3WnEv8EnXHFUzr&sz=w800"
@@ -16588,8 +16588,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 194862,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "936 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=11439xv-2o-W0X2hHe1KNffBzpz-Jx0Er&sz=w800"
@@ -16604,9 +16604,9 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang Ampat",
     "reservePrice": 162000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,001 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dpOP7BbZimCiPqJMWzWKrwAAwiPSM5rC&sz=w800"
@@ -16622,7 +16622,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 247900,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "710 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -16639,8 +16639,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "710 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1O6Uei-PR2jSXpPO7XLKnfsudJc0KOdDY&sz=w800"
@@ -16655,9 +16655,9 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang Ampat",
     "reservePrice": 540000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,163 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1RF7R3yro0Psdj9bU_AoAMmyVwhQeJXu2&sz=w800"
@@ -16672,7 +16672,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kepala Batas",
     "reservePrice": 284310,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,292 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -16689,9 +16689,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bayan Lepas",
     "reservePrice": 1100000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,379 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1hwFzMGDjShCnzY-699jQnpYqfNjhaGzR&sz=w800"
@@ -16706,10 +16706,10 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Setar",
     "reservePrice": 340200,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,135 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1zTqIEaez-IL_uooyg2iDuvssZgVjnE-F&sz=w800"
     ]
@@ -16723,9 +16723,9 @@ export const PROPERTIES: Property[] = [
     "area": "Jitra",
     "reservePrice": 190000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,237 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1QJeErFVmX_IfPiNO5O6Qh4AzcuEBrlbb&sz=w800"
@@ -16740,7 +16740,7 @@ export const PROPERTIES: Property[] = [
     "area": "Jitra",
     "reservePrice": 160380,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,464 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -16757,7 +16757,7 @@ export const PROPERTIES: Property[] = [
     "area": "Jitra",
     "reservePrice": 405000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,431 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -16774,9 +16774,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 162000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "920 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_MRRYlzMjoiOwl6vM98MWwUG_gYXrth3&sz=w800"
@@ -16791,9 +16791,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 250000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,170 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1I3Izc1FEJquSOVcoFDaPHqGW6KQBWe3Q&sz=w800"
@@ -16808,9 +16808,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 198000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1tIaZ75Dhjx2e3QhBYhPkopRzJ6zqCSdX&sz=w800"
@@ -16825,9 +16825,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 380000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,154 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1KrMS87QyTS8T1_iNGS30sEFBcQtscybA&sz=w800"
@@ -16842,9 +16842,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 300000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13HLw0et6x-fmfect_OK33p50u75CgCrW&sz=w800"
@@ -16859,9 +16859,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 230000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1honKxFcB_H-dZQphjKRwlpQuON3sHmcn&sz=w800"
@@ -16876,9 +16876,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput",
     "reservePrice": 90000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,593 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1d0X4M3RYncqnM2EFQHitTEwW41lnTeJQ&sz=w800"
@@ -16893,9 +16893,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 360000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,485 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13Aa0z1oZRTP4uQtbmdCm8IgHD1WzZ0h8&sz=w800"
@@ -16911,8 +16911,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 648000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,646 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1CYlbbP26R_lZ3j2_35UAHEuPSzpBUAN3&sz=w800"
@@ -16927,9 +16927,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 160380,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=113sFcb3gFtS0o08enXYVEUmseljWt3mB&sz=w800"
@@ -16944,7 +16944,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 200000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -16961,9 +16961,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 140000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,119 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1E8zCA02M9TMdOTRZzscmg61SSDDWIoiR&sz=w800"
@@ -16978,9 +16978,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 210000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -16995,9 +16995,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 143000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -17012,9 +17012,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tronoh",
     "reservePrice": 200000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1zoAieWBDmDaKuWVKQEe2b2fHo5jRNroS&sz=w800"
@@ -17029,7 +17029,7 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 210000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -17046,9 +17046,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bidor",
     "reservePrice": 80000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1AxtkYUWMrOqZlOPL-uri1pIo-Zmq8VQr&sz=w800"
@@ -17064,8 +17064,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "721 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1_vB47xHFMSwx6355AX3AC5E9Eyd9AYTw&sz=w800"
@@ -17080,7 +17080,7 @@ export const PROPERTIES: Property[] = [
     "area": "Balik Pulau",
     "reservePrice": 505197,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,668 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -17098,8 +17098,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 265000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "797 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1KyDEJrMj6FlFnAvCW1KzWDCyTP5IumwU&sz=w800"
@@ -17114,9 +17114,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Kurau",
     "reservePrice": 80190,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,927 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_qKzfWtWvyaQmxAZlMjEn4vriw-P2PYf&sz=w800"
@@ -17131,9 +17131,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 185000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pQcuESUkRiHBIB361ayWS02Y_KseSKce&sz=w800"
@@ -17148,9 +17148,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kampar",
     "reservePrice": 171000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=142peNRfxhqlTNnDvJilJQHKbUF12qI4S&sz=w800"
@@ -17165,9 +17165,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kampar",
     "reservePrice": 226800,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1KmjghbqYn0ksEF6qHhBzZ-DG4ELpja0i&sz=w800"
@@ -17182,9 +17182,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 136800,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -17199,9 +17199,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 280000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,342 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1aIplpOlOVvXq_xqjI-7cpqUTP_ZeYZSg&sz=w800"
@@ -17216,9 +17216,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bagan Serai",
     "reservePrice": 330000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jzZTMDbmfTgh6jFH_xfA2aeBZi1AkRwB&sz=w800"
@@ -17234,7 +17234,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "697 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -17251,8 +17251,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 405000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,001 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1oeKuq9HzQREHIoOceKdz7OiZNnjvaXP9&sz=w800"
@@ -17268,8 +17268,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 561000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,433 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1mZY0Veh3hhlgiadkvQoowapkgYC9DzkM&sz=w800"
@@ -17285,8 +17285,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 137700,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "538 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1TPipyF2UBkONOlmXI_f-AcYanJkYLhki&sz=w800"
@@ -17302,7 +17302,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 765000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "2,110 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -17319,7 +17319,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "5th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "861 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -17335,9 +17335,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kepala Batas",
     "reservePrice": 259200,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,291 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1B5jLgNzykSoQxIu1-D4X0LRW9S98HPy-&sz=w800"
@@ -17352,9 +17352,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 580000,
     "auctionDate": "8th Nov 2026 (Sun)",
-    "landArea": "—",
+    "landArea": "2,648 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1Hb2wrCVDPNXsWHLZQMaSh8-m4cmD-eFA&sz=w800"
@@ -17369,9 +17369,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 264000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1exf8EYtFh5tWWrqGn5WCX8jWsPPcxalu&sz=w800"
@@ -17386,9 +17386,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 208000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jwxaQ4bTz9zpJASVI0r2NZr043ZzviPX&sz=w800"
@@ -17403,9 +17403,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 145800,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,442 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OXHNsmXtpAmkYfVQvQYUHDy5izMiXIoW&sz=w800"
@@ -17420,9 +17420,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 226800,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1WXqDxaM4vxkF-VFm04sP5sP-IsOyDVws&sz=w800"
@@ -17437,9 +17437,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Iskandar",
     "reservePrice": 216000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,431 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14TGfCFdcAGJXe9tAeQSJXCyAorQvh55m&sz=w800"
@@ -17454,10 +17454,10 @@ export const PROPERTIES: Property[] = [
     "area": "Tronoh",
     "reservePrice": 250000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,208 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1A-gH54uDnaVR0NuylAK8_sf-wi44Hy3L&sz=w800"
     ]
@@ -17472,8 +17472,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,259 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1c9xIMat5FmDm5TjFDuY9gBeYyzeb60p0&sz=w800"
@@ -17489,8 +17489,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,948 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1OeEEHeLnbctdXPrMAf-0sO_5wvzYR7ki&sz=w800"
@@ -17505,9 +17505,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 220000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1exf8EYtFh5tWWrqGn5WCX8jWsPPcxalu&sz=w800"
@@ -17522,9 +17522,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ayer Tawar",
     "reservePrice": 240000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1clq6OcykSJA4tYgB0a3520ICJME2MopQ&sz=w800"
@@ -17539,9 +17539,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 54000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14d07R1I5PlMsQqU527dodFvzDFTtuDmt&sz=w800"
@@ -17556,9 +17556,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 205000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "958 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1W2jD4UXLZk7n0gpip5OEnkxczepmjO7G&sz=w800"
@@ -17573,7 +17573,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 162000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -17591,8 +17591,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 216000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "614 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1l76-kQc8GgfcZQrmYs-hGT8EMUCSG8-L&sz=w800"
@@ -17607,9 +17607,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Ferringgi",
     "reservePrice": 1053000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,093 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=137LCalCms7C1qI0UKMu9eeCDYoh1306M&sz=w800"
@@ -17625,8 +17625,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 259200,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "721 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1jvsnjwUCatfCACTaqg2oz_RetUAWbMxs&sz=w800"
@@ -17642,8 +17642,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 120000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "495 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1FT3qdfRTrE0D5VRpF4nu-4WpREDKvVKR&sz=w800"
@@ -17659,7 +17659,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,119 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -17675,10 +17675,10 @@ export const PROPERTIES: Property[] = [
     "area": "Perai",
     "reservePrice": 263000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,780 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1mgB-bpkk_ShQmYX3_p2qpMHIvsuzGLYy&sz=w800"
     ]
@@ -17693,8 +17693,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 414000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,668 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=12JBee0hDypUo0wU2fwPuITqzt5jm8ctl&sz=w800"
@@ -17710,8 +17710,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 140000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "474 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=13V3LKyvKAv2Q2VDwpSXRvMqc1Kr1DSLp&sz=w800"
@@ -17727,8 +17727,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 118098,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "527 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1-CPjb0WNPiLsbGtrbdERedy69KVpFODk&sz=w800"
@@ -17744,8 +17744,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 133650,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "463 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1kKkmHjRGn7Nw5K2SaQ7arOQBsOkDYpOp&sz=w800"
@@ -17760,7 +17760,7 @@ export const PROPERTIES: Property[] = [
     "area": "Permatang Pauh",
     "reservePrice": 900000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,842 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -17778,7 +17778,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "710 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -17794,7 +17794,7 @@ export const PROPERTIES: Property[] = [
     "area": "Penang",
     "reservePrice": 1035000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "4,758 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -17811,9 +17811,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 380000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,100 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pVptynJgLfx1ZOWpmOQF5i8Nzad1j_h4&sz=w800"
@@ -17828,9 +17828,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 113400,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "905 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1N_hQuaJUh1OgSpcyB70UUJxl3btwSIPV&sz=w800"
@@ -17862,7 +17862,7 @@ export const PROPERTIES: Property[] = [
     "area": "Karangan",
     "reservePrice": 270000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -17879,7 +17879,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,687 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -17896,7 +17896,7 @@ export const PROPERTIES: Property[] = [
     "area": "Temoh",
     "reservePrice": 171000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "899 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -17913,9 +17913,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 131220,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PI4g-AomTnkff5reAgQovdsQ9PeJtrfC&sz=w800"
@@ -17930,9 +17930,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 180000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "880 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -17948,8 +17948,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,399 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1oQJH027iDKrFBCC7WwOzDNomxumgXJiz&sz=w800"
@@ -17964,7 +17964,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 160000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -17981,7 +17981,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 225000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,465 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -17998,9 +17998,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tapah",
     "reservePrice": 100000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17aabkSon_1v6O3qBW2CY7rm2cEQV9_4W&sz=w800"
@@ -18015,7 +18015,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 117000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,261 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18032,9 +18032,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 450000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,056 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15hYAiO4OTeFOLAEXtGOW7KNCWMTjTP0Y&sz=w800"
@@ -18049,9 +18049,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ayer Tawar",
     "reservePrice": 270000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=152ATv0cIKAy8rQ-UkDgG8QXcyIQT_1sV&sz=w800"
@@ -18067,8 +18067,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 100000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "678 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1hGvRNsQ2y57tnolDr959Fz8MYjprbcSe&sz=w800"
@@ -18083,7 +18083,7 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang",
     "reservePrice": 356400,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18100,7 +18100,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pantai Remis",
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,507 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18117,9 +18117,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Kangsar",
     "reservePrice": 280000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,180 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1tuAfJzUXIpxzG3Rh2BBJP3jwcYirhYEA&sz=w800"
@@ -18134,10 +18134,10 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 390000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "5,403 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1IekD8AAtI1sR0qN288ZMfySD42Q01U4h&sz=w800"
     ]
@@ -18151,7 +18151,7 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 380000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18168,10 +18168,10 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 430000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "6,674 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1mfEb70n6C1ck4LWshYpQ3XI4YQoytgZ-&sz=w800"
     ]
@@ -18185,7 +18185,7 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 198000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18202,9 +18202,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 320000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1kNqfOYEd57MujEUoDPVYUltOcVgw6nYA&sz=w800"
@@ -18219,7 +18219,7 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 180000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18236,7 +18236,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 129600,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18253,9 +18253,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 250000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "958 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1kNqfOYEd57MujEUoDPVYUltOcVgw6nYA&sz=w800"
@@ -18270,7 +18270,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 200000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18287,9 +18287,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tapah Road",
     "reservePrice": 230000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1l-EtcdtDKCzROmT_hqO8eEGG8Qtzwc9X&sz=w800"
@@ -18304,9 +18304,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 225000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,323 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1U7wCndgrh9EDSKdIygtdLtZv7YFebOnM&sz=w800"
@@ -18321,7 +18321,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 340000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,550 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18338,9 +18338,9 @@ export const PROPERTIES: Property[] = [
     "area": "Balik Pulau",
     "reservePrice": 688500,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,024 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ImTbV-GWibpn7MxFyXSCA8XXyoNHM-d9&sz=w800"
@@ -18355,9 +18355,9 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang Ampat",
     "reservePrice": 500000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,141 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1sk7MhXWP37QO4qQZbUDekt9Uf6ETTF70&sz=w800"
@@ -18373,8 +18373,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 194400,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "700 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=19g8Cg-1piF3BhlyAL30RzEYKpKLgx7n0&sz=w800"
@@ -18389,7 +18389,7 @@ export const PROPERTIES: Property[] = [
     "area": "Tasek Gelugor",
     "reservePrice": 315000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18407,7 +18407,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 153000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "700 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -18423,9 +18423,9 @@ export const PROPERTIES: Property[] = [
     "area": "Langkawi",
     "reservePrice": 145800,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,808 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nBAJGPpW54ZlJRsgYnRQb9WHwuIPXQZ1&sz=w800"
@@ -18440,9 +18440,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kepala Batas",
     "reservePrice": 360000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SKiD9aI1J-399LEfXWKL6MBfqWXKLICv&sz=w800"
@@ -18457,9 +18457,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 131220,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -18474,10 +18474,10 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 2170800,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "8,030 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=173T4ygmnIOY9DsdPi74HwmNPkWpeHQIp&sz=w800"
     ]
@@ -18491,9 +18491,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 180000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "899 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -18508,9 +18508,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 180000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "899 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1unatlNtBduippROM5kQ_477bvfs2wpvY&sz=w800"
@@ -18525,9 +18525,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 540000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,699 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1cDW0syd5J_2I8IqM50m1BrlmeOxcEm69&sz=w800"
@@ -18542,10 +18542,10 @@ export const PROPERTIES: Property[] = [
     "area": "Lumut",
     "reservePrice": 2250000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "7,040 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1m6TMDdM-FakASr1fQfksR-S7tkqaVNoR&sz=w800"
     ]
@@ -18559,9 +18559,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Kangsar",
     "reservePrice": 480000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,451 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1xumsIAVat81Dhd_HmDJkElBIODBoAK9W&sz=w800"
@@ -18576,9 +18576,9 @@ export const PROPERTIES: Property[] = [
     "area": "Taiping",
     "reservePrice": 450000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1hh4ehvuF1VcY1Rgc9wdkzq42DUrsS1W6&sz=w800"
@@ -18593,7 +18593,7 @@ export const PROPERTIES: Property[] = [
     "area": "Lekir",
     "reservePrice": 120000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,196 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18610,7 +18610,7 @@ export const PROPERTIES: Property[] = [
     "area": "Lekir",
     "reservePrice": 108000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18627,7 +18627,7 @@ export const PROPERTIES: Property[] = [
     "area": "Lumut",
     "reservePrice": 243000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,434 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18644,7 +18644,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 600000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,154 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -18661,9 +18661,9 @@ export const PROPERTIES: Property[] = [
     "area": "Menglembu",
     "reservePrice": 350000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,678 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1m-zzn6zXp6FwKaoWH0MxKXkyTSliIiTR&sz=w800"
@@ -18678,9 +18678,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 370000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "5,522 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=17HyDaszjPjWlha01PRbXT_7Z6vTc-X1l&sz=w800"
@@ -18695,9 +18695,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 324000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,799 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1tpRoExjoMJcUxQLEB4lD7UCmx6jwIOET&sz=w800"
@@ -18713,7 +18713,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 198000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "969 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -18729,9 +18729,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 290000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1KrMS87QyTS8T1_iNGS30sEFBcQtscybA&sz=w800"
@@ -18746,7 +18746,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 230000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,765 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18764,7 +18764,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 149850,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "560 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -18781,7 +18781,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 153900,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "484 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -18798,8 +18798,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 284000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "958 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1TPipyF2UBkONOlmXI_f-AcYanJkYLhki&sz=w800"
@@ -18814,9 +18814,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 333000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1BTAiaVOY8H8A5Siau0_zDB3Rv7XE3oVI&sz=w800"
@@ -18831,9 +18831,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Jawi",
     "reservePrice": 165000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "996 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1vrCT9uILDwVEKM09mSogXQAmN7TGcpdk&sz=w800"
@@ -18848,7 +18848,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kepala Batas",
     "reservePrice": 211410,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,087 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18866,8 +18866,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 295245,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "818 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1NCW_b02wWHtR9WfJpuTjdpYvBm-j5JkX&sz=w800"
@@ -18884,7 +18884,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1EcfW68Mmy-P-q0qdGM_ahXWrMj0Ip1MH&sz=w800"
@@ -18899,7 +18899,7 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Setar",
     "reservePrice": 440000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,578 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -18916,9 +18916,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pokok Sena",
     "reservePrice": 440000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,776 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1HqunXM_jFFmxdcqNKppbDV7b3rDMs3Ju&sz=w800"
@@ -18933,9 +18933,9 @@ export const PROPERTIES: Property[] = [
     "area": "Taiping",
     "reservePrice": 226800,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "899 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=19QI-SnfecV206TG6D9y17aKD9IdrQX9P&sz=w800"
@@ -18950,7 +18950,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 136000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "900 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -18967,9 +18967,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 145800,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -18984,9 +18984,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 250000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1FVOBmvykE-MHdRh0Yq1ZfGcYcZONpzZR&sz=w800"
@@ -19001,9 +19001,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 350000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,798 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1QqbmSY4kKaLi_UbH_rFZKiV3zgUPpVzN&sz=w800"
@@ -19020,7 +19020,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14TGfCFdcAGJXe9tAeQSJXCyAorQvh55m&sz=w800"
@@ -19035,9 +19035,9 @@ export const PROPERTIES: Property[] = [
     "area": "Taiping",
     "reservePrice": 162000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,240 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1EEb0hM63cHT4zA1_Giob2eUvUOT9S-1Y&sz=w800"
@@ -19053,8 +19053,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,873 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1Luhmotw-nBwlrGdmYM6Ysc11bzRX_ioX&sz=w800"
@@ -19070,8 +19070,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 108257,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "506 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1bJlZCMkKxaaJehWLIXj4FpVCS9B6o1lP&sz=w800"
@@ -19086,9 +19086,9 @@ export const PROPERTIES: Property[] = [
     "area": "Perai",
     "reservePrice": 186300,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "574 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1BwjlQD4Tp9V0X08NXAaVf4FSl0-XrRlP&sz=w800"
@@ -19104,8 +19104,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 429300,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,130 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1s7U7W5o5PVJgn0aK-al_HiwVaIafpVTv&sz=w800"
@@ -19120,9 +19120,9 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang Ampat",
     "reservePrice": 490000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1mg0ZxwFPGDRbsOtUO3xC5ddbf2XcL89f&sz=w800"
@@ -19138,8 +19138,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "689 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1bwMas6CrJ0PdJFrdn5KFhCkEOibTBZxs&sz=w800"
@@ -19154,9 +19154,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 167670,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,981 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1_MRRYlzMjoiOwl6vM98MWwUG_gYXrth3&sz=w800"
@@ -19172,8 +19172,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 392000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,640 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=10Pcz-KCb1pncTbRVgs0bpqAP5vaHlorJ&sz=w800"
@@ -19188,9 +19188,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 137700,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=171Ztv-AFgnKSkQBzbQFhaCAgmSDH9m4V&sz=w800"
@@ -19205,9 +19205,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput",
     "reservePrice": 162000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,160 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -19222,9 +19222,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pantai Remis",
     "reservePrice": 450000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,179 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17hgTrhi1j6HvoN3-OYH6EQQgMLfHDIWO&sz=w800"
@@ -19239,9 +19239,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 360000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=11qyt3Q5nCCy45dWsVGvcNVypO-EwNuDC&sz=w800"
@@ -19256,10 +19256,10 @@ export const PROPERTIES: Property[] = [
     "area": "Gopeng",
     "reservePrice": 300000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,862 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1BpnJULLDWnXXVA8GA8CPjxohunuCOn5Z&sz=w800"
     ]
@@ -19274,8 +19274,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 201600,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "861 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AKksC8g6oy6FwBDYxNdsO2TTuG3Tofke&sz=w800"
@@ -19290,9 +19290,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tronoh",
     "reservePrice": 200000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,206 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dALNvbLW1RjwCKsK4nzFY72A3J1WwOLs&sz=w800"
@@ -19307,9 +19307,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tronoh",
     "reservePrice": 90000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,798 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1j_fPO3dkskSD2rgXIgoJoAWWwLkpGxe8&sz=w800"
@@ -19324,7 +19324,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bota",
     "reservePrice": 170000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -19341,9 +19341,9 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang",
     "reservePrice": 200000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,603 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1DRR1qccPqNqvMWv4f050N5D8fu3o-VSU&sz=w800"
@@ -19359,8 +19359,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "893 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1hXGPqmK-LM4UGBdy8fYP1jOabiv_bI-T&sz=w800"
@@ -19376,8 +19376,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,259 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1c9xIMat5FmDm5TjFDuY9gBeYyzeb60p0&sz=w800"
@@ -19392,9 +19392,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 380000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=19m5hNftr2-HW-Q-8VbHU2K6UUCfmmP5V&sz=w800"
@@ -19409,9 +19409,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 360000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1EB57yvrURh2pEyGFkRF5gMuEAx5HSoEM&sz=w800"
@@ -19426,9 +19426,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 370000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1sp2IfH9GiikV2Oo2fv_QzoG6SREJ3ok-&sz=w800"
@@ -19443,9 +19443,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 160000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,099 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1Nu8dvH8tB4-MqSeQuElpRX0-8MI6fBir&sz=w800"
@@ -19462,7 +19462,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1hYQMu1tQ6AAXAhQEy9TPg3_5JrgJMOmn&sz=w800"
@@ -19477,9 +19477,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 350000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1deCI_4ku9k4nP32NvPrOhMR7rxavbAje&sz=w800"
@@ -19494,9 +19494,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 180000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "840 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -19511,7 +19511,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 170000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,080 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -19528,7 +19528,7 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 450000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,835 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -19545,7 +19545,7 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 260000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -19562,9 +19562,9 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang Ampat",
     "reservePrice": 603000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1eyFPOykgtb6FqMZ6YHg18f6wmluYWls6&sz=w800"
@@ -19580,8 +19580,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 194400,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "700 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1jPxBhROuTk7mdeh4Z4S0x1aj6JfWhCeJ&sz=w800"
@@ -19597,7 +19597,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170100,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "581 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -19613,9 +19613,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bedong",
     "reservePrice": 243000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10YPN3NlGqeS2BLmIY2hKMHuCOqEQr3gC&sz=w800"
@@ -19630,7 +19630,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 202500,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "902 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -19647,7 +19647,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 216000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "902 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -19664,9 +19664,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Setar",
     "reservePrice": 450000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,790 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1os8IeIZcHxAuEXKf1GiSKm_ltg4wDk8e&sz=w800"
@@ -19681,9 +19681,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Setar",
     "reservePrice": 180000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,288 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17lhJNVRmkhcaQkMkpu0l1KT02bGN4Xiq&sz=w800"
@@ -19699,8 +19699,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 115000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "753 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1kn8cBDccv3-t6h5J4ROfWfUPeHiYQrlg&sz=w800"
@@ -19715,9 +19715,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 230000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,238 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1EbeiZhtioW4Jmd6PxJr81i2LqVeH-QTi&sz=w800"
@@ -19732,10 +19732,10 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 600000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "6,361 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1MQNvKa5MHUl3Ugo8AAP1L4cvkre8oWk8&sz=w800"
     ]
@@ -19749,9 +19749,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bedong",
     "reservePrice": 225000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nV2RRFMGX1HBNKyhIqfvVfRaaw13m7xE&sz=w800"
@@ -19766,7 +19766,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kulim",
     "reservePrice": 291600,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,358 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -19783,9 +19783,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 450000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,771 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1cM2a-XbKk_5xXfJ88FC03JxU_MS4AWqM&sz=w800"
@@ -19800,7 +19800,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 251100,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,637 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -19817,7 +19817,7 @@ export const PROPERTIES: Property[] = [
     "area": "Gerik",
     "reservePrice": 280000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,802 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -19834,9 +19834,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 145800,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_MRRYlzMjoiOwl6vM98MWwUG_gYXrth3&sz=w800"
@@ -19852,7 +19852,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 186300,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -19868,9 +19868,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bidor",
     "reservePrice": 64800,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,206 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1wb8EQSWkt2PGKqNKTsVRSNLkML0qeTxl&sz=w800"
@@ -19885,9 +19885,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Iskandar",
     "reservePrice": 225000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,431 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14TGfCFdcAGJXe9tAeQSJXCyAorQvh55m&sz=w800"
@@ -19902,9 +19902,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kampung Kepayang",
     "reservePrice": 180000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jol_GJYyB-qbmTZxVU4FwxS8_A7SsugA&sz=w800"
@@ -19919,9 +19919,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 330000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14GSTB3HwVBq554pzJpRYVkc6QSAbWhkY&sz=w800"
@@ -19936,9 +19936,9 @@ export const PROPERTIES: Property[] = [
     "area": "Menglembu",
     "reservePrice": 450000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,292 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1MJPnLryX_QedUfFoPa_ezbzOL6VCX72z&sz=w800"
@@ -19953,9 +19953,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 480000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1YNqpfXZ2xRvsLrq9ci6fkNgNrD3IDonz&sz=w800"
@@ -19972,7 +19972,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10d72gh7z_It4wkaHsfC0w2tANR6_Kpsh&sz=w800"
@@ -19987,9 +19987,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 190000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,798 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pKY7xWMsofuNSpZPIa9c-MZuFdvQqOWq&sz=w800"
@@ -20004,9 +20004,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 870000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,229 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=120BdtXuncZQ4j1Yj0zWxF8ACnmFHkYUX&sz=w800"
@@ -20021,9 +20021,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 820000,
     "auctionDate": "19th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "4,256 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1UCn7J_TZp2FBlVk0wIkOzUB9ZiuqqhmL&sz=w800"
@@ -20038,9 +20038,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 202500,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=11mJfcOiSWCW6oNcvxgDftGBhxIQnA_E4&sz=w800"
@@ -20055,7 +20055,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 299700,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,679 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -20072,9 +20072,9 @@ export const PROPERTIES: Property[] = [
     "area": "Padang Serai",
     "reservePrice": 137700,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,120 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZYzt1mRPv7orFv5N9bshHZgM-VwVjuyb&sz=w800"
@@ -20089,7 +20089,7 @@ export const PROPERTIES: Property[] = [
     "area": "Padang Serai",
     "reservePrice": 270000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,200 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -20106,9 +20106,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 250000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1xyTbPzRQMYj6Yn57Mzo8PzL_EUUdtjHh&sz=w800"
@@ -20123,7 +20123,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 198000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -20140,9 +20140,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lunas",
     "reservePrice": 260000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13JpWwX2mHZ_8Y25w3hXVP9Vlj9owfqfy&sz=w800"
@@ -20157,7 +20157,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Kangsar",
     "reservePrice": 283500,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,434 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -20174,7 +20174,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 162000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,085 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -20191,9 +20191,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Manjung",
     "reservePrice": 178200,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,270 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1iraMzPSfw5z6uaSlFYEPj2YwvpkXOvHd&sz=w800"
@@ -20208,9 +20208,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 420000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,102 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1iVz5tmE9IzuzXeRDdT-xzDzT-7yOuVtT&sz=w800"
@@ -20225,9 +20225,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 330000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,099 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=11qyt3Q5nCCy45dWsVGvcNVypO-EwNuDC&sz=w800"
@@ -20242,9 +20242,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kampar",
     "reservePrice": 189000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1KmjghbqYn0ksEF6qHhBzZ-DG4ELpja0i&sz=w800"
@@ -20259,9 +20259,9 @@ export const PROPERTIES: Property[] = [
     "area": "Taiping",
     "reservePrice": 460000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,458 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1DVqe8-sp3SAEFZAbgoVRDRxAfoX1Pg6U&sz=w800"
@@ -20276,10 +20276,10 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 700000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "5,112 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1BTDpUh4ecFFCr35Mk9mA05E8X5tMdN4E&sz=w800"
     ]
@@ -20293,9 +20293,9 @@ export const PROPERTIES: Property[] = [
     "area": "Taiping",
     "reservePrice": 180000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,099 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1t7bFCK2KfeidIzHZkvGeZe2_OXZqBT7b&sz=w800"
@@ -20310,9 +20310,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 360000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,454 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=16hP-eBuvNQLgFXDe3q28XZzBvp28Seuf&sz=w800"
@@ -20327,9 +20327,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kampar",
     "reservePrice": 270000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1em4pDH0qfDL4cd18Ca0La12ZxDVgtjof&sz=w800"
@@ -20345,8 +20345,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 214000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "721 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AG12e4xWKZExZf6z4L0Dv78WBIATqHze&sz=w800"
@@ -20362,7 +20362,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 88573.5,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "495 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -20378,7 +20378,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kepala Batas",
     "reservePrice": 554040,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,894 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -20396,7 +20396,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 63180,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "538 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -20412,7 +20412,7 @@ export const PROPERTIES: Property[] = [
     "area": "Tasek Gelugor",
     "reservePrice": 306000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,087 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -20430,7 +20430,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 425000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "700 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -20446,7 +20446,7 @@ export const PROPERTIES: Property[] = [
     "area": "Tanjong Tokong",
     "reservePrice": 1350000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,162 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -20463,9 +20463,9 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang Ampat",
     "reservePrice": 380000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,970 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Nj6gxfRJtokzKvQRZeHKbhihS5Yal67Y&sz=w800"
@@ -20481,8 +20481,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 393660,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,206 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1IxdObrTkEGOFpwut8Ta5H3sls7HMM4Xj&sz=w800"
@@ -20498,8 +20498,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 247860,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "700 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=10ryUPJG5LTPIvFR-mjDfguxKN65I3Ji1&sz=w800"
@@ -20514,9 +20514,9 @@ export const PROPERTIES: Property[] = [
     "area": "Perai",
     "reservePrice": 204120,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,024 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1IozIylvLBdpxOe5dVeC-R78SKa8SwXRM&sz=w800"
@@ -20531,9 +20531,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kepala Batas",
     "reservePrice": 356400,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,637 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ejRh4oo1wln7eOIbrkqbt5dqW-F8DzHy&sz=w800"
@@ -20548,9 +20548,9 @@ export const PROPERTIES: Property[] = [
     "area": "Penang",
     "reservePrice": 2600000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,700 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1WhABsBHc2dDqJaZNIzvDHyIrw9Bxkz4V&sz=w800"
@@ -20565,7 +20565,7 @@ export const PROPERTIES: Property[] = [
     "area": "Tanjong Bungah",
     "reservePrice": 2800000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,595 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -20582,9 +20582,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bayan Lepas",
     "reservePrice": 650000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,696 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nIud1ecg0aDs8OLR7xfLsY5p6Cfk84h7&sz=w800"
@@ -20599,9 +20599,9 @@ export const PROPERTIES: Property[] = [
     "area": "Nibong Tebal",
     "reservePrice": 270000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ImCOyquDclHbp231RlOxtyDgeuCaZfVU&sz=w800"
@@ -20616,9 +20616,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 180000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,981 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_MRRYlzMjoiOwl6vM98MWwUG_gYXrth3&sz=w800"
@@ -20633,7 +20633,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 129600,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,099 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -20650,9 +20650,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 175000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -20668,7 +20668,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 153900,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "785 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -20684,9 +20684,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 432000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,713 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=12tl5dgvjc7K4qP2Goq2xGzpbnDbak2ON&sz=w800"
@@ -20701,9 +20701,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 234000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=12XKLZjHUR-3j7CHPJPN7XT4bjX_tsecY&sz=w800"
@@ -20718,9 +20718,9 @@ export const PROPERTIES: Property[] = [
     "area": "Menglembu",
     "reservePrice": 260000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1b82n6d8KM2LhF1rmcnUTNCawiWy8n7PU&sz=w800"
@@ -20735,9 +20735,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 200000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1v2IDTpAVr816szhIdoomAO-dWW3cU4Pj&sz=w800"
@@ -20752,9 +20752,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 300000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,800 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1FOrpmA0L3yu1i1Pq2maHveyDSXZQVKkU&sz=w800"
@@ -20769,9 +20769,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 290000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dwSOS9EctZUcseq0XVJxcJXxE3kxwGU7&sz=w800"
@@ -20786,9 +20786,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 315000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,196 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1CVGM0hWZMFqwxz64FajrDzajaMsHXX7j&sz=w800"
@@ -20803,10 +20803,10 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 750000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,391 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=13xct4lKXISNHWkWsywpd2TfzhghXeVDE&sz=w800"
     ]
@@ -20820,9 +20820,9 @@ export const PROPERTIES: Property[] = [
     "area": "Perak",
     "reservePrice": 230000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "102 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1HfpeOHviv1OUYQrhr9BB_PYMBUvEDrAy&sz=w800"
@@ -20837,9 +20837,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 240000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,819 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1zcFXX1GtcMbThAX5buR8teYfcaBSdIjF&sz=w800"
@@ -20855,8 +20855,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 135000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "689 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1yNCrc-XsxzYgiA0Q0lae67jbUBwdQ3LQ&sz=w800"
@@ -20872,8 +20872,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "667 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=170nkWqGV-793kQOlEMtZ-p5rHsgp0etw&sz=w800"
@@ -20889,7 +20889,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 226800,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "904 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -20906,7 +20906,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "775 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -20923,8 +20923,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 165000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "474 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1PS1bU9CqMoIuJXG53eSZXXpRzA5bfKKq&sz=w800"
@@ -20939,10 +20939,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kulim",
     "reservePrice": 550000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,585 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1yV3NQeiDdmqv-x_fCyQSXvNdEJlaQu6z&sz=w800"
     ]
@@ -20956,9 +20956,9 @@ export const PROPERTIES: Property[] = [
     "area": "Padang Serai",
     "reservePrice": 150000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,100 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1r-LHOvnexm3EmHhSTH6OO0fmMt-UaszH&sz=w800"
@@ -20973,9 +20973,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulim",
     "reservePrice": 390000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,930 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1W_nWu99QAZf19PE_Iq6QSSsiAR8hiJvf&sz=w800"
@@ -20990,9 +20990,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lunas",
     "reservePrice": 260000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "800 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=158cOz7K9gwecbHgGSCPvw9-9eBA-l80H&sz=w800"
@@ -21007,9 +21007,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput",
     "reservePrice": 315000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,200 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1Dro9eBhblJK20Y4akbVrtfP6LV3Pd4c4&sz=w800"
@@ -21024,9 +21024,9 @@ export const PROPERTIES: Property[] = [
     "area": "Langkap",
     "reservePrice": 210000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,512 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13JbsphC-ZGLY64raGTQV--B5fq5AooT_&sz=w800"
@@ -21041,9 +21041,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bagan Serai",
     "reservePrice": 110000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1kjgvoDxdUwb63Nf_XZcsQxe8HNGwGXtE&sz=w800"
@@ -21058,9 +21058,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kamunting",
     "reservePrice": 290000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1gGfJURzv3iSAuy_9GV5POiX8Dd5OtBTN&sz=w800"
@@ -21075,9 +21075,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kamunting",
     "reservePrice": 11000000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "225,815 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1JfjdmuwFmChVh2IXcLtn1MruRfpABXey&sz=w800"
@@ -21092,9 +21092,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 113400,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-K7KdSxOkO8-2Zayt9Faif7YjkKtWgix&sz=w800"
@@ -21110,8 +21110,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 60000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "592 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1fEZjeGL7YLuwQ1O0dlGhgUGQtHK38_GE&sz=w800"
@@ -21126,9 +21126,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 567000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,601 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1_Wh7WMZXT5DmsMUQe5AX5dSBvrHMOzSR&sz=w800"
@@ -21143,7 +21143,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Lalang",
     "reservePrice": 423000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "4,004 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -21160,7 +21160,7 @@ export const PROPERTIES: Property[] = [
     "area": "Langgar",
     "reservePrice": 370000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "5,803 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -21177,7 +21177,7 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Setar",
     "reservePrice": 390000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "7,493 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -21194,9 +21194,9 @@ export const PROPERTIES: Property[] = [
     "area": "Padang Serai",
     "reservePrice": 234000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,200 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Fx-P9ILUWKz1fnCLEY2nn8XWKpccriB4&sz=w800"
@@ -21211,9 +21211,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 405000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,074 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1g64bxa8lY4eaYFCmQGwzs7faRDre1og0&sz=w800"
@@ -21228,9 +21228,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ayer Tawar",
     "reservePrice": 105100,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1clq6OcykSJA4tYgB0a3520ICJME2MopQ&sz=w800"
@@ -21246,7 +21246,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 144000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "969 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -21262,7 +21262,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 198000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "900 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -21279,10 +21279,10 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 280000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "5,307 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1XR2qkwT2kvPSNFGGKx-5p8FiYCl_h03E&sz=w800"
     ]
@@ -21296,9 +21296,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 400000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,420 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1WP1gGxqUqQoGlj33ZWM9h6sggLiaJXzr&sz=w800"
@@ -21313,9 +21313,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 180000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_MRRYlzMjoiOwl6vM98MWwUG_gYXrth3&sz=w800"
@@ -21330,9 +21330,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 178200,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1EB57yvrURh2pEyGFkRF5gMuEAx5HSoEM&sz=w800"
@@ -21347,9 +21347,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 230000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "958 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1yHzTkfeqNw0qdU3-jFrfJnPvPxi7E6OP&sz=w800"
@@ -21364,7 +21364,7 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang",
     "reservePrice": 170000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,001 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -21381,9 +21381,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kamunting",
     "reservePrice": 170000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,024 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1exeylDJuclFa1mGj964pMAkSe9Z3qGtJ&sz=w800"
@@ -21398,9 +21398,9 @@ export const PROPERTIES: Property[] = [
     "area": "Parit Buntar",
     "reservePrice": 190000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,163 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=19PbX41s-PNujWa-tsq7e5TbXgD8AGaVW&sz=w800"
@@ -21415,9 +21415,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 418000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,798 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1W92KFVCu9F0XzVhSW9AjLZoUkvLwL_hL&sz=w800"
@@ -21432,9 +21432,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kampar",
     "reservePrice": 140000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "958 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ATwx6u-KUR7c42i-Nm-lOqNbpvXuy46u&sz=w800"
@@ -21449,7 +21449,7 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 225000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,144 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -21466,9 +21466,9 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang",
     "reservePrice": 300000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,271 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1RjGxu5ErBcc7q6qJchKcpZ0v1SfV4J3z&sz=w800"
@@ -21484,8 +21484,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 441000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,055 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1IxdObrTkEGOFpwut8Ta5H3sls7HMM4Xj&sz=w800"
@@ -21501,8 +21501,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170586,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "700 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AHF1ON41jZf_18azS1snqvX5aP04nC13&sz=w800"
@@ -21518,7 +21518,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 137700,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "538 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -21534,9 +21534,9 @@ export const PROPERTIES: Property[] = [
     "area": "Balik Pulau",
     "reservePrice": 620000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,300 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1dOv9se8INzuJEpd-dKOWcEd6fN9ct9aj&sz=w800"
@@ -21552,8 +21552,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 233280,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "700 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1mLS8eAInZL5uRc1nbIOm9tPhT-7rS_ev&sz=w800"
@@ -21569,8 +21569,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "688 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1gq0_9yZy6g05FxmT2X1OMlgEhQikBtZR&sz=w800"
@@ -21585,7 +21585,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 270000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,380 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -21602,7 +21602,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 380000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,930 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -21619,9 +21619,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Ketil",
     "reservePrice": 470000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,444 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1MBwdQhtO2vma_Z7013hgSxdlviIeX_Ni&sz=w800"
@@ -21636,9 +21636,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulim",
     "reservePrice": 390000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,080 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=163EbwGb3fZZK-ennLaHbkNoE-0fZVWmV&sz=w800"
@@ -21653,7 +21653,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 275000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,019 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -21670,9 +21670,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 249480,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,173 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15g9iAHP5tedTqiE90CFia417bhfWCjuO&sz=w800"
@@ -21687,7 +21687,7 @@ export const PROPERTIES: Property[] = [
     "area": "Temoh",
     "reservePrice": 205200,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,088 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -21704,9 +21704,9 @@ export const PROPERTIES: Property[] = [
     "area": "Taiping",
     "reservePrice": 180000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1HA8HhbKU5XPJTzIShw3eXdZV_Hbe7cW2&sz=w800"
@@ -21721,9 +21721,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput (U)",
     "reservePrice": 90000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pjK1C-Cf4o2CT00y0BISrHIEw-lFAse4&sz=w800"
@@ -21738,9 +21738,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Kinta",
     "reservePrice": 300000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,512 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1-H2QCO07rMDZLjdiYq1n1x5XMikYcBIG&sz=w800"
@@ -21755,9 +21755,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pusat Bandar Sri Manjung",
     "reservePrice": 540000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1bF1myUDl8YM92NR4dH0YiPkSQPUegVYU&sz=w800"
@@ -21773,8 +21773,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 224000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "818 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AKksC8g6oy6FwBDYxNdsO2TTuG3Tofke&sz=w800"
@@ -21789,9 +21789,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 380000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,701 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=19m5hNftr2-HW-Q-8VbHU2K6UUCfmmP5V&sz=w800"
@@ -21806,9 +21806,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Siput",
     "reservePrice": 85000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pjK1C-Cf4o2CT00y0BISrHIEw-lFAse4&sz=w800"
@@ -21824,7 +21824,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 207000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "721 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -21841,8 +21841,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1200000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,486 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1VDMWEBWc3KLj9BPP_CPHBeXqqAd2PoQR&sz=w800"
@@ -21858,7 +21858,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "753 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -21875,8 +21875,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "710 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=125tHdT-v0v6460iafG6HPKdWMel5V_Yz&sz=w800"
@@ -21891,9 +21891,9 @@ export const PROPERTIES: Property[] = [
     "area": "Nibong Tebal",
     "reservePrice": 390000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,432 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1v9LFlic0nEarGhg3n1yF5ujyuy7elKQ4&sz=w800"
@@ -21908,9 +21908,9 @@ export const PROPERTIES: Property[] = [
     "area": "Langkawi",
     "reservePrice": 121500,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1H5j-O19Q68FACYx3pm4yIeEdY4QFhhG9&sz=w800"
@@ -21925,9 +21925,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 171000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,110 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1trflrcZBtV_FN3OWcIbOe_-G5HREakGE&sz=w800"
@@ -21942,7 +21942,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 176000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -21959,9 +21959,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 450000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,388 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1aIplpOlOVvXq_xqjI-7cpqUTP_ZeYZSg&sz=w800"
@@ -21976,9 +21976,9 @@ export const PROPERTIES: Property[] = [
     "area": "Penang",
     "reservePrice": 2304000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "4,136 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1vRg8RYwDgdOESMkON3y0ql3xsZ-6Wknz&sz=w800"
@@ -21994,7 +21994,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 422900,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22011,7 +22011,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "753 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22028,7 +22028,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 492075,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,658 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22044,7 +22044,7 @@ export const PROPERTIES: Property[] = [
     "area": "Butterworth",
     "reservePrice": 400950,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22062,7 +22062,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 413100,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,270 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22079,8 +22079,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "785 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1xX0KE_0ntppnAmwNZXhyWh7ojfjD-1Wo&sz=w800"
@@ -22095,7 +22095,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 236196,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,240 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22112,7 +22112,7 @@ export const PROPERTIES: Property[] = [
     "area": "Jitra",
     "reservePrice": 300000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22130,8 +22130,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,800 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1-sWXAQSgtsq4pml_afNcLOMU6PYVbK3L&sz=w800"
@@ -22146,9 +22146,9 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 144000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10Hrhnv8IUWZDXx2IoMTwzo9uZRhyL6-v&sz=w800"
@@ -22163,9 +22163,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 510300,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,625 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=12tl5dgvjc7K4qP2Goq2xGzpbnDbak2ON&sz=w800"
@@ -22180,7 +22180,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 280000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,497 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22197,9 +22197,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ipoh",
     "reservePrice": 612000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,799 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1dHMOKzHFOzY1j8mlRVM78nNMo8R0hVyi&sz=w800"
@@ -22214,7 +22214,7 @@ export const PROPERTIES: Property[] = [
     "area": "Lumut",
     "reservePrice": 180000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22231,9 +22231,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 500000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,562 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10cRu-ch-MP9pvRpGBvpjT7lJPwm_laMC&sz=w800"
@@ -22250,7 +22250,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1kjgvoDxdUwb63Nf_XZcsQxe8HNGwGXtE&sz=w800"
@@ -22265,9 +22265,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 180000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1W2jD4UXLZk7n0gpip5OEnkxczepmjO7G&sz=w800"
@@ -22282,7 +22282,7 @@ export const PROPERTIES: Property[] = [
     "area": "Teluk Intan",
     "reservePrice": 320000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,026 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22300,8 +22300,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,711 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1LadajHYEiP3irTQE2Q7IrRrRCAVh9_8g&sz=w800"
@@ -22316,7 +22316,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 250000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "799 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22334,8 +22334,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "807 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1En-uZPNBFIDHVES8mejuqxzufahY9Tta&sz=w800"
@@ -22351,8 +22351,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 275400,
     "auctionDate": "2nd Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "990 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=104Aaf5Pw9TduPdEh6YiJF6PsYwh6SiFv&sz=w800"
@@ -22367,7 +22367,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 200000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22384,10 +22384,10 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 260000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,498 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Land",
+    "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_MRRYlzMjoiOwl6vM98MWwUG_gYXrth3&sz=w800"
     ]
@@ -22401,9 +22401,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seri Iskandar",
     "reservePrice": 320000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,621 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=17AVw8ZesdQsXd_vf4r5aEuZJXeYiv1z8&sz=w800"
@@ -22418,7 +22418,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sitiawan",
     "reservePrice": 210000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,156 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22435,9 +22435,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ayer Tawar",
     "reservePrice": 99000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "775 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1AxtkYUWMrOqZlOPL-uri1pIo-Zmq8VQr&sz=w800"
@@ -22454,7 +22454,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PEIRBuW-e5zDZ5LG7nwtYxOj7hqxK6y0&sz=w800"
@@ -22470,7 +22470,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 98415,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "495 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22487,8 +22487,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 511800,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,389 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Hv08_vr6hBvjRKYDma3PiB4pgM55AlW0&sz=w800"
@@ -22504,7 +22504,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 262440,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "710 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22521,7 +22521,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 364500,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "958 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22538,8 +22538,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "538 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1PQ9pPOXX2MwyWoztMh9uHo9_e0cS5WuI&sz=w800"
@@ -22554,9 +22554,9 @@ export const PROPERTIES: Property[] = [
     "area": "District Of Timor Laut",
     "reservePrice": 900000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "12,691 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1pA7GODhBlI9jsMdPM3_wG7rkzFoyXI-l&sz=w800"
@@ -22572,7 +22572,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "656 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22588,7 +22588,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 382500,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,595 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -22605,9 +22605,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sungai Petani",
     "reservePrice": 380000,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1JYA7HCaBrrI-DnBZaltNelzzO7wJoS_W&sz=w800"
@@ -22622,9 +22622,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lunas",
     "reservePrice": 270000,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1daof5xviwe44B-oz6_yXVlhNbBwirsN5&sz=w800"
@@ -22639,9 +22639,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pusing",
     "reservePrice": 307800,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SZMPMOs1b0n9-G5cERgqqvf_Jk0IkFI9&sz=w800"
@@ -22658,7 +22658,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jQDqnZbl37_-9WgtxUy-Ys1Zt3n4DJXS&sz=w800"
@@ -22675,7 +22675,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Luhmotw-nBwlrGdmYM6Ysc11bzRX_ioX&sz=w800"
@@ -22690,7 +22690,7 @@ export const PROPERTIES: Property[] = [
     "area": "Temoh",
     "reservePrice": 170000,
     "auctionDate": "7th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "899 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22708,7 +22708,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "700 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22725,7 +22725,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 252000,
     "auctionDate": "7th Dec 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "700 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22741,7 +22741,7 @@ export const PROPERTIES: Property[] = [
     "area": "Gurun",
     "reservePrice": 308000,
     "auctionDate": "8th Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,970 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22758,9 +22758,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 299700,
     "auctionDate": "8th Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,990 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13HLw0et6x-fmfect_OK33p50u75CgCrW&sz=w800"
@@ -22775,7 +22775,7 @@ export const PROPERTIES: Property[] = [
     "area": "Chemor",
     "reservePrice": 270000,
     "auctionDate": "8th Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,604 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -22794,7 +22794,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "8th Dec 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OGHO1CzvEyfMG0z2gD1BcuJImkjJah9Y&sz=w800"
@@ -22809,9 +22809,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Gajah",
     "reservePrice": 400000,
     "auctionDate": "8th Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "5,414 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1AxtkYUWMrOqZlOPL-uri1pIo-Zmq8VQr&sz=w800"
@@ -22829,7 +22829,7 @@ export const PROPERTIES: Property[] = [
     "landArea": "—",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=11-KvfJKVNVNlqF8q80I6EfhYJ3bL6_0U&sz=w800"
     ]
@@ -22843,9 +22843,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahat",
     "reservePrice": 300000,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZEMtZ6Q_1-XN5JHjYRBXD22G_wTb1FCs&sz=w800"
@@ -22929,8 +22929,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 171000,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "904 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1LubRxRyq3sOGjjmkDZaKK86IHkqqfsMg&sz=w800"
@@ -22946,7 +22946,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 190000,
     "auctionDate": "10th Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "560 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -22962,9 +22962,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Setar",
     "reservePrice": 260000,
     "auctionDate": "16th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,119 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1vQ4C3ZZtxX58Cl5ZizEOuaBrcrMf-fgr&sz=w800"
@@ -22979,9 +22979,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Setar",
     "reservePrice": 520000,
     "auctionDate": "16th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=12pnRxU5XJa52NKgxeVH3AUYvdHE839Ym&sz=w800"
@@ -22996,7 +22996,7 @@ export const PROPERTIES: Property[] = [
     "area": "Simpang Ampat Semanggol",
     "reservePrice": 27000,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,464 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -23013,9 +23013,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Kinta",
     "reservePrice": 170000,
     "auctionDate": "17th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "747 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ps4VkuMxqniCCaeVJgpAs1LIJaygXUZu&sz=w800"
@@ -23030,9 +23030,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Kedah",
     "reservePrice": 430000,
     "auctionDate": "23rd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,218 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1oEZz6CC2YoqhMlNeXTcAXLx8jUmA4DXr&sz=w800"
@@ -23047,7 +23047,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kedah",
     "reservePrice": 370000,
     "auctionDate": "23rd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,464 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -23064,9 +23064,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 850000,
     "auctionDate": "23rd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,751 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=120BdtXuncZQ4j1Yj0zWxF8ACnmFHkYUX&sz=w800"
@@ -23081,9 +23081,9 @@ export const PROPERTIES: Property[] = [
     "area": "Padang Serai",
     "reservePrice": 380000,
     "auctionDate": "30th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,370 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=142SxFAYtVFrB9rADjRI582dsM1-dW_MV&sz=w800"
@@ -23098,10 +23098,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kulim",
     "reservePrice": 400000,
     "auctionDate": "30th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,692 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=16oM4t1zAi2b156HLPh_WgwkLd06YXNpt&sz=w800"
     ]
@@ -23115,9 +23115,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Mertajam",
     "reservePrice": 558000,
     "auctionDate": "11th Feb 2027 (Thu)",
-    "landArea": "—",
+    "landArea": "2,153 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1K7qGx52O5BnXFFQZPlPDvLhaEz3X_L2z&sz=w800"
@@ -23132,9 +23132,9 @@ export const PROPERTIES: Property[] = [
     "area": "Jitra",
     "reservePrice": 270000,
     "auctionDate": "30th Mar 2027 (Tue)",
-    "landArea": "—",
+    "landArea": "1,359 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=13T6cmlctad3xlLdk6mnFQz9Pu0TG9UE8&sz=w800"
@@ -23150,8 +23150,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 414000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,894 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZxB4elmvQT3a48B2xNgAao6ZzXCsgzUr&sz=w800"
@@ -23166,9 +23166,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 263000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,216 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1m4yY-YLLuNRxX1EukQQmzDUFKKSA3dO1&sz=w800"
@@ -23184,8 +23184,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 900000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,712 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1QvSrM5CpBDmQqI9tjBlGnk35ufgByQm0&sz=w800"
@@ -23200,9 +23200,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 480000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,338 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1lvlQXgaUVw1E2m1slEoYzG7Mrw5IFwoF&sz=w800"
@@ -23217,9 +23217,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 840000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,697 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=174wz6edb3DA7bbJ9FpD0AIE-vlqfU9pE&sz=w800"
@@ -23235,8 +23235,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,367 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Q5THcRm7dnFjoFJGT2Wq4yRrbGhZ_ouN&sz=w800"
@@ -23251,9 +23251,9 @@ export const PROPERTIES: Property[] = [
     "area": "Gelang Patah",
     "reservePrice": 420000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "932 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1sN5rt0s3inNoy1Rj2ThuB-yn077qTI0e&sz=w800"
@@ -23268,7 +23268,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Tinggi",
     "reservePrice": 420000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -23286,8 +23286,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,001 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1_-CPNUFJmr_4PJUUnbFFU6RQHaup_W3R&sz=w800"
@@ -23303,7 +23303,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 549000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,432 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -23319,9 +23319,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 460000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17Z8ameyU0VSU_mq6GN_s4nhitRhnoC0F&sz=w800"
@@ -23336,9 +23336,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Tiram",
     "reservePrice": 840000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,220 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1zZNzfcjpjCNCvMt74zjUqofGPT658VVU&sz=w800"
@@ -23354,8 +23354,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 470000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,227 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iGNnDExu0qfEDILy_256nKa_4JDKPav_&sz=w800"
@@ -23370,9 +23370,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Penawar",
     "reservePrice": 243000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1QrWDoh4PzTkeQn-nbDayVC7JtJjHOZZY&sz=w800"
@@ -23387,9 +23387,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 1053000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "8,374 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ibuBPMmWivh2v9R88m2YVBn5gZbni3fx&sz=w800"
@@ -23404,7 +23404,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kangkar Pulai",
     "reservePrice": 450000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -23421,7 +23421,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pontian",
     "reservePrice": 202500,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,131 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -23438,7 +23438,7 @@ export const PROPERTIES: Property[] = [
     "area": "Muar",
     "reservePrice": 1050000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,575 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -23455,7 +23455,7 @@ export const PROPERTIES: Property[] = [
     "area": "Masai",
     "reservePrice": 280000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "775 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -23473,8 +23473,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,216 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1tOb5byR4vvLUI9Tc_AXRk_avsWPRtgRm&sz=w800"
@@ -23489,9 +23489,9 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 570000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1gqJf2AmW5_pSZ6ivw4t-OIdSBG3tJugG&sz=w800"
@@ -23506,7 +23506,7 @@ export const PROPERTIES: Property[] = [
     "area": "Segamat",
     "reservePrice": 357210,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "10,796 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -23524,8 +23524,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 288000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,076 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZxB4elmvQT3a48B2xNgAao6ZzXCsgzUr&sz=w800"
@@ -23541,8 +23541,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 496000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,249 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1CYzKeq6EOY7tvvJFSBzvKvOiFzWCPtZq&sz=w800"
@@ -23557,7 +23557,7 @@ export const PROPERTIES: Property[] = [
     "area": "Muar",
     "reservePrice": 730000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,004 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -23576,7 +23576,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1zZNzfcjpjCNCvMt74zjUqofGPT658VVU&sz=w800"
@@ -23592,7 +23592,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 277020,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -23609,8 +23609,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,141 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1hkrQyRSD2LD0-4TEolCVD5Ms-SDQ2qNy&sz=w800"
@@ -23626,8 +23626,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 261000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,133 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1Dvs1rWwAemeiW6DO3ATRv1xYtmQbuKNE&sz=w800"
@@ -23642,7 +23642,7 @@ export const PROPERTIES: Property[] = [
     "area": "Masai",
     "reservePrice": 276000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -23659,9 +23659,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 1170000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,520 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1hMOzhA5kpaeV2XbJF3udZvZyQccrmKjb&sz=w800"
@@ -23677,7 +23677,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,010 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -23694,7 +23694,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 324000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "520 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -23710,9 +23710,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 780000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,239 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1yeI7p3gajnFVt3dzyZcB3g4RXUbCBMRn&sz=w800"
@@ -23728,8 +23728,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 390000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,141 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=17hWCadsrb-Hfh88H4Lf_fX8UYAIFHl0C&sz=w800"
@@ -23744,9 +23744,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Tinggi",
     "reservePrice": 300000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,370 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ihMErLN2RChBH3bjKi5OGkx-nHL69y2L&sz=w800"
@@ -23762,8 +23762,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "692 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=14qP5GltNARAbpTE0Q-bZQ7JXy9Qo6llC&sz=w800"
@@ -23778,7 +23778,7 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 650000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,429 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -23795,9 +23795,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulai",
     "reservePrice": 360000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "960 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nE5kF1ak1zyav6V5c24JH9IujouAILw6&sz=w800"
@@ -23813,8 +23813,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 333000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "947 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1sPCmCoN_jtu9XjcmOyqsg5LgV-cRHbMN&sz=w800"
@@ -23830,8 +23830,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "807 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Mden_k5q8UGyYaoPn-rOHLQPZCIHPAQ-&sz=w800"
@@ -23846,9 +23846,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 510000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,630 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1fph8q04MCOn8qzf6lymRzErqpFvn9_vr&sz=w800"
@@ -23863,10 +23863,10 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 1170000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,884 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Condo/Apartment",
+    "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=16n1YlBgbWJES4uthaqRi8HWhi9XCi_7p&sz=w800"
     ]
@@ -23880,9 +23880,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 670000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,681 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1UuteDpSv7hXLzCNGlD6YMuoJ0H2ySX17&sz=w800"
@@ -23897,9 +23897,9 @@ export const PROPERTIES: Property[] = [
     "area": "Segamat",
     "reservePrice": 460000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,602 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1FSW7IhgG94gK8HcC8HW_1KdxytVYG2wx&sz=w800"
@@ -23915,8 +23915,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,464 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1P7_0DGny6GuG2-HL1e4o2pUpDnELc073&sz=w800"
@@ -23932,7 +23932,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 310000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,001 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -23949,8 +23949,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 480000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,218 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1-B8CW6T36VwrllI2x6EX4Eg1NjyMjDK-&sz=w800"
@@ -23967,7 +23967,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1b70w5WvmNpVmtXYf7Z_QO7XLDEfL3mtg&sz=w800"
@@ -23984,7 +23984,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1b70w5WvmNpVmtXYf7Z_QO7XLDEfL3mtg&sz=w800"
@@ -23999,9 +23999,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Pahat",
     "reservePrice": 190000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,120 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1NtqE9CMxZ2Y7upO4yumhy3W27E4NpK5f&sz=w800"
@@ -24034,7 +24034,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 300000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,540 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -24050,7 +24050,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Tinggi",
     "reservePrice": 314000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,518 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -24068,8 +24068,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 160000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "657 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1-JFgM3cgpBJ2yHEAtZv3GzUxemT2yGfC&sz=w800"
@@ -24084,9 +24084,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 480000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1fph8q04MCOn8qzf6lymRzErqpFvn9_vr&sz=w800"
@@ -24101,9 +24101,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 560000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,173 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SeoFhmeY13Al9W_GfX5V3z06s8-HCW_d&sz=w800"
@@ -24118,9 +24118,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 288000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "982 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1EGvGUNH38WYdk0tJ5CJICk6bwB-fOQKq&sz=w800"
@@ -24136,8 +24136,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 380000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,119 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1tvQ9tWsGKH_L3gA1LbsjMjun1FCZQz3j&sz=w800"
@@ -24153,8 +24153,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 108000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "495 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1uXatIkDFeMuMfVLvlkubz60a7v_sJQTm&sz=w800"
@@ -24169,10 +24169,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kulai",
     "reservePrice": 900000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,246 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1a7nixWGRGvCbd6u5pjBPbQtqg85chp2J&sz=w800"
     ]
@@ -24187,8 +24187,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "947 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1a-KALqaOs3IA_GugVN3O-XVm1FsgKES3&sz=w800"
@@ -24203,9 +24203,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 590000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,608 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1__mJoQfQkDIXRxLmEwqSL9aLDbf5uVkI&sz=w800"
@@ -24220,9 +24220,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 600000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,884 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1UuteDpSv7hXLzCNGlD6YMuoJ0H2ySX17&sz=w800"
@@ -24237,9 +24237,9 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 320000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "800 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1NOlLoOumyCmBEvXCIEZmgVdwoi2FImMK&sz=w800"
@@ -24254,9 +24254,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 400000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1N_X4kRis-djL_W_L4Vqi5s99v_3V_uDl&sz=w800"
@@ -24271,7 +24271,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Pahat",
     "reservePrice": 210000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "775 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -24288,7 +24288,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Pahat",
     "reservePrice": 495000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -24305,9 +24305,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 750000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,680 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14uVfwT_i0gTiTsDadNE0cpPxW2Q1jOPt&sz=w800"
@@ -24322,7 +24322,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 660000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "4,026 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -24339,9 +24339,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 234900,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,078 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1iPs4k6gC3jlyET56DAIWa5RWA9hlyoY7&sz=w800"
@@ -24356,9 +24356,9 @@ export const PROPERTIES: Property[] = [
     "area": "Yong Peng",
     "reservePrice": 113400,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,203 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15BEus8OMvQ4Tw1Rll4EcknuTJ72Qmwxt&sz=w800"
@@ -24373,7 +24373,7 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 450000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -24391,8 +24391,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,324 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iGNnDExu0qfEDILy_256nKa_4JDKPav_&sz=w800"
@@ -24407,9 +24407,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 342000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,981 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1N_X4kRis-djL_W_L4Vqi5s99v_3V_uDl&sz=w800"
@@ -24425,8 +24425,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "603 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1a-KALqaOs3IA_GugVN3O-XVm1FsgKES3&sz=w800"
@@ -24441,10 +24441,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Tinggi",
     "reservePrice": 324000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,687 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1zSYmb72eVig-mV-Z2fvVul7bAUbhW_FZ&sz=w800"
     ]
@@ -24458,9 +24458,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Penawar",
     "reservePrice": 450000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1b3h22-HftX7PDmoA6_3-ymcvA8d9afX3&sz=w800"
@@ -24475,9 +24475,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 360000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,360 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1IhBEk2er7KUq92-Xh9CurFksC_7p9cE_&sz=w800"
@@ -24493,8 +24493,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 252000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,151 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1dsVPebx01AYIgDj9QUHJ3PqTA6glM7r9&sz=w800"
@@ -24509,9 +24509,9 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 558000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,680 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Q_yZsQ5FeagYyKMNZyBdjq_NyQNCkf1C&sz=w800"
@@ -24527,8 +24527,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 242757,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,324 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iGNnDExu0qfEDILy_256nKa_4JDKPav_&sz=w800"
@@ -24543,9 +24543,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 1100000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,411 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ukeqXNuRZQm-FmvDt8x_wNxiqYT27bpx&sz=w800"
@@ -24560,9 +24560,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 430000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1yLhulHgudk2fruEWvhw_iK6nWyS5qpsK&sz=w800"
@@ -24577,7 +24577,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 765000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,392 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -24594,7 +24594,7 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 480000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,170 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -24611,7 +24611,7 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 470000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -24628,9 +24628,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulai",
     "reservePrice": 315900,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,760 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1solBiABEf55EIXsL2AE2HdhWmxjbp7vX&sz=w800"
@@ -24645,9 +24645,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 396000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,440 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=198rik_9JKa4Euj6BpPZQIwBQ8BGlMwzM&sz=w800"
@@ -24662,10 +24662,10 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 860000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "5,685 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1sfZr7NqZxHo20ztnLw2e86tL5E3FR9y9&sz=w800"
     ]
@@ -24679,9 +24679,9 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 400000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,080 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1WNCioqBHSZXmJ0g30Gu8UvYlxGMk-nx3&sz=w800"
@@ -24697,8 +24697,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 350000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,206 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RtloHoAwjdBTfwwFuWzjVi-iyQ5sdcwM&sz=w800"
@@ -24713,9 +24713,9 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 530000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,305 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Q_yZsQ5FeagYyKMNZyBdjq_NyQNCkf1C&sz=w800"
@@ -24730,9 +24730,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulai",
     "reservePrice": 510000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1NYtIHVf5DXNK6uQl-h24R2DVYOkl3R09&sz=w800"
@@ -24747,9 +24747,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulai",
     "reservePrice": 280000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "998 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nE5kF1ak1zyav6V5c24JH9IujouAILw6&sz=w800"
@@ -24764,9 +24764,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulai",
     "reservePrice": 290000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,080 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=124POV7AkE0asKIzZpZyK3uZObboHHNMB&sz=w800"
@@ -24781,9 +24781,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 900000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,708 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1wFTqbAHzAm70jAfQ0Yni_xH7DgKFAj6r&sz=w800"
@@ -24798,9 +24798,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tangkak",
     "reservePrice": 265000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,430 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1rl3KeJi0CGoCgrgfed577l7jHlPc9FVn&sz=w800"
@@ -24815,9 +24815,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Tiram",
     "reservePrice": 360000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1G1h9xITJW5IDBgpxbPBzcGwZ9HNjQBz9&sz=w800"
@@ -24833,8 +24833,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,206 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1wCbEgG54DqthDxG7JrpFAFIqidLSrIZ1&sz=w800"
@@ -24849,9 +24849,9 @@ export const PROPERTIES: Property[] = [
     "area": "Segamat",
     "reservePrice": 370000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,740 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=18icqNdDLwpXrGG_lOCz30U4M1PzYvWxw&sz=w800"
@@ -24867,8 +24867,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,238 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1FJVKX_wbNwCa6VoK-3DkpkQ6thsxKnh7&sz=w800"
@@ -24883,7 +24883,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 333000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,805 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -24901,7 +24901,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "2,712 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24918,7 +24918,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "2,713 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24935,7 +24935,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "2,712 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24952,7 +24952,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "13th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "2,712 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -24969,8 +24969,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,227 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iGNnDExu0qfEDILy_256nKa_4JDKPav_&sz=w800"
@@ -24986,8 +24986,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 210600,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "818 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1pzRXZtALTROseO-JPg6NwDPHhO78HsOX&sz=w800"
@@ -25003,8 +25003,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 235000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,076 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZxB4elmvQT3a48B2xNgAao6ZzXCsgzUr&sz=w800"
@@ -25019,7 +25019,7 @@ export const PROPERTIES: Property[] = [
     "area": "Chaah",
     "reservePrice": 350000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,270 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -25036,9 +25036,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 700000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,679 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Nqr11K6iYnPykcJ1W-PohilJQogA8FlX&sz=w800"
@@ -25053,9 +25053,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 430000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1N_X4kRis-djL_W_L4Vqi5s99v_3V_uDl&sz=w800"
@@ -25071,7 +25071,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "904 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25088,8 +25088,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 145800,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "710 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=12OPKhEu7YKGwpgniaZGUXN5uU26KijVu&sz=w800"
@@ -25105,8 +25105,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 189000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "893 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1pzRXZtALTROseO-JPg6NwDPHhO78HsOX&sz=w800"
@@ -25121,9 +25121,9 @@ export const PROPERTIES: Property[] = [
     "area": "Masai",
     "reservePrice": 540000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jNStP101LCA_mPR9Ccv8hYRDC_qTW2A4&sz=w800"
@@ -25139,8 +25139,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 410000,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,001 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1qpsMOcG2mTjKP5MBtpvrE2M3dX4SS1rx&sz=w800"
@@ -25155,9 +25155,9 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Pahat",
     "reservePrice": 500000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,616 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1R76x3PwdhUJc0Js2Qi8l1xGcB0DQsCEo&sz=w800"
@@ -25173,8 +25173,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "16th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,216 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1KrGGWqxr-m1VDnY7d_MIKoZYUvabJWYY&sz=w800"
@@ -25189,9 +25189,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Penawar",
     "reservePrice": 432000,
     "auctionDate": "16th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,996 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1b3h22-HftX7PDmoA6_3-ymcvA8d9afX3&sz=w800"
@@ -25206,9 +25206,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Tiram",
     "reservePrice": 324000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,282 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1zZNzfcjpjCNCvMt74zjUqofGPT658VVU&sz=w800"
@@ -25225,7 +25225,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=198rik_9JKa4Euj6BpPZQIwBQ8BGlMwzM&sz=w800"
@@ -25240,9 +25240,9 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 600000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,960 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1mfvBWu7sG64d0bMXvzl8TB82rt-PMyA9&sz=w800"
@@ -25258,8 +25258,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,109 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=17hWCadsrb-Hfh88H4Lf_fX8UYAIFHl0C&sz=w800"
@@ -25275,8 +25275,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 260000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,076 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1gfCbITD9Nc3bBESX5yt6l_rfZpqKKo8J&sz=w800"
@@ -25291,9 +25291,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Tiram",
     "reservePrice": 440000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,220 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1zZNzfcjpjCNCvMt74zjUqofGPT658VVU&sz=w800"
@@ -25309,8 +25309,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 307800,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "979 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1eBNzgZo5Bl-d1nACVExteG4vbs4b6dMk&sz=w800"
@@ -25325,9 +25325,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 291600,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "954 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=164IzV8OvDCMp5oWxoftYY1NBIg-6t6vk&sz=w800"
@@ -25343,8 +25343,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,324 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iGNnDExu0qfEDILy_256nKa_4JDKPav_&sz=w800"
@@ -25359,9 +25359,9 @@ export const PROPERTIES: Property[] = [
     "area": "Masai",
     "reservePrice": 560000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,500 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1cXy08hlwiwNJhi_ghxNe5sasQDeJmmAw&sz=w800"
@@ -25376,9 +25376,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 380000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,060 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1zD3Pt31Rt_WOQ0F5pM80yJaIaOZAs5cx&sz=w800"
@@ -25393,9 +25393,9 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 430000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,298 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1WLf2Ei_DOmqomrZjVDR9MPY_qspweMUk&sz=w800"
@@ -25410,7 +25410,7 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 320000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "936 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -25427,9 +25427,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 370000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,900 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17_iFt5jaxcZ6IKCYCReUB6QOoSDx54UF&sz=w800"
@@ -25444,7 +25444,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 360000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "770 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -25461,9 +25461,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 520000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,017 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=198rik_9JKa4Euj6BpPZQIwBQ8BGlMwzM&sz=w800"
@@ -25478,9 +25478,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 620000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,561 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=12IoOtTbQoO4ow7jzhIfArsZ9_n-ucPYb&sz=w800"
@@ -25495,9 +25495,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kulai",
     "reservePrice": 225000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,357 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_AoKten6Y_k4fI-Et6zoQyiBOeLPDX_C&sz=w800"
@@ -25513,8 +25513,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 261000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,076 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1gfCbITD9Nc3bBESX5yt6l_rfZpqKKo8J&sz=w800"
@@ -25529,9 +25529,9 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 670000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,669 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1WNCioqBHSZXmJ0g30Gu8UvYlxGMk-nx3&sz=w800"
@@ -25547,8 +25547,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 720000,
     "auctionDate": "23rd Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "957 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1AN54al_N9Mq_ZtXDr1tS7dwNytoftHl7&sz=w800"
@@ -25563,7 +25563,7 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 1100000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,000 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -25580,9 +25580,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Penawar",
     "reservePrice": 315000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,372 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1b3h22-HftX7PDmoA6_3-ymcvA8d9afX3&sz=w800"
@@ -25597,7 +25597,7 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Pahat",
     "reservePrice": 400950,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,300 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -25614,7 +25614,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 364500,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,566 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -25631,9 +25631,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 369000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,614 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17Z8ameyU0VSU_mq6GN_s4nhitRhnoC0F&sz=w800"
@@ -25648,7 +25648,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Tiram",
     "reservePrice": 387000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -25665,9 +25665,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Penawar",
     "reservePrice": 405000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,858 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1b3h22-HftX7PDmoA6_3-ymcvA8d9afX3&sz=w800"
@@ -25682,9 +25682,9 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 828000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,916 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=16n1YlBgbWJES4uthaqRi8HWhi9XCi_7p&sz=w800"
@@ -25699,7 +25699,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Tiram",
     "reservePrice": 350000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,507 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -25717,7 +25717,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 500000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,238 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -25735,7 +25735,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RtloHoAwjdBTfwwFuWzjVi-iyQ5sdcwM&sz=w800"
@@ -25750,9 +25750,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Tinggi",
     "reservePrice": 307800,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,724 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1KqZawkP5T5WqLl-sXddVYhNrwvfUC5ga&sz=w800"
@@ -25767,9 +25767,9 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 950000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,835 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=14QTk5FUPoP61R1Xf2u-L1ikqVeW1hi0K&sz=w800"
@@ -25784,9 +25784,9 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 470000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,570 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1gqJf2AmW5_pSZ6ivw4t-OIdSBG3tJugG&sz=w800"
@@ -25801,9 +25801,9 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 490000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,361 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1WNCioqBHSZXmJ0g30Gu8UvYlxGMk-nx3&sz=w800"
@@ -25818,7 +25818,7 @@ export const PROPERTIES: Property[] = [
     "area": "Muar",
     "reservePrice": 445500,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,282 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -25835,9 +25835,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Penawar",
     "reservePrice": 450000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1QrWDoh4PzTkeQn-nbDayVC7JtJjHOZZY&sz=w800"
@@ -25852,7 +25852,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 243000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -25869,7 +25869,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 378000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -25886,9 +25886,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 430000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,180 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1KwKPocOLnLPMdrF-KnCM_Vq_2T6w2yWw&sz=w800"
@@ -25905,7 +25905,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1cXy08hlwiwNJhi_ghxNe5sasQDeJmmAw&sz=w800"
@@ -25921,8 +25921,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 340000,
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,259 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1XlZbrcGLZy7FqOg-zuyNv_naOaxK8NTe&sz=w800"
@@ -25939,7 +25939,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1PJqngqwbIe15KGdsD0MgjZIsTXkje2-n&sz=w800"
@@ -25956,7 +25956,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "26th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1uVpsCe4aP0bt727ZRKzPVUnMB4oMzdKb&sz=w800"
@@ -25972,8 +25972,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 343000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,237 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1pWoY_0Ag5xXDLVR1AsGcPPROdHSsBh_J&sz=w800"
@@ -25989,8 +25989,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=12uMaFbriAN-v1czZmg6aa9B4nD8d7Y_o&sz=w800"
@@ -26006,7 +26006,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,646 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26023,7 +26023,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 459000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,237 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26039,7 +26039,7 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 450000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,596 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -26058,7 +26058,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1wyfTVPr4K9QwEQQHWBeEWyaxY6LNkQlR&sz=w800"
@@ -26074,7 +26074,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "30th Nov 2026 (Mon)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "807 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26090,9 +26090,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ulu Tiram",
     "reservePrice": 450000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1G1h9xITJW5IDBgpxbPBzcGwZ9HNjQBz9&sz=w800"
@@ -26107,9 +26107,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kluang",
     "reservePrice": 190000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "972 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1QKwz_lBxVTbe2pz5WE6cpW9o5M4DbYFQ&sz=w800"
@@ -26124,7 +26124,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 432000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,920 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -26141,7 +26141,7 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 477000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,140 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -26158,7 +26158,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kulai",
     "reservePrice": 650000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,358 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -26177,7 +26177,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "1st Dec 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1pWoY_0Ag5xXDLVR1AsGcPPROdHSsBh_J&sz=w800"
@@ -26192,7 +26192,7 @@ export const PROPERTIES: Property[] = [
     "area": "Skudai",
     "reservePrice": 260000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "760 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -26209,9 +26209,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Tinggi",
     "reservePrice": 350000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XiO0Jq37UL12zRStvaRKmUwAfJgC7SmC&sz=w800"
@@ -26226,7 +26226,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Tinggi",
     "reservePrice": 307000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,331 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -26243,7 +26243,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Tinggi",
     "reservePrice": 450000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,571 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -26261,7 +26261,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 256000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,324 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -26278,8 +26278,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 243000,
     "auctionDate": "3rd Dec 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=12uMaFbriAN-v1czZmg6aa9B4nD8d7Y_o&sz=w800"
@@ -26295,8 +26295,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 284000,
     "auctionDate": "8th Dec 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,324 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iGNnDExu0qfEDILy_256nKa_4JDKPav_&sz=w800"
@@ -26311,7 +26311,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kulai",
     "reservePrice": 250000,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,056 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -26328,7 +26328,7 @@ export const PROPERTIES: Property[] = [
     "area": "Iskandar Puteri",
     "reservePrice": 940000,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,207 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -26345,7 +26345,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Gudang",
     "reservePrice": 450000,
     "auctionDate": "10th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,104 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -26362,9 +26362,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tangkak",
     "reservePrice": 560000,
     "auctionDate": "16th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,832 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pnEluiOI6tmHSX5LksU0yMDNeJEWQhL8&sz=w800"
@@ -26379,9 +26379,9 @@ export const PROPERTIES: Property[] = [
     "area": "Johor Bahru",
     "reservePrice": 570000,
     "auctionDate": "19th Jan 2027 (Tue)",
-    "landArea": "—",
+    "landArea": "1,798 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1BC5xauSpKEtKCh2-r-OjwIww2fXpkSp6&sz=w800"
@@ -26396,9 +26396,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Kinabalu",
     "reservePrice": 860000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,860 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XggXFzd0_vyio1bUq7f8pOqpVy6HmUDM&sz=w800"
@@ -26414,8 +26414,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 239600,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,265 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1tcPYFeIzhSZDZW0yZ9jnu1-KXMa0IfpU&sz=w800"
@@ -26430,9 +26430,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tawau",
     "reservePrice": 170000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=184tVdwPhyVA7ZuDqbggBDFzWX0uheyg8&sz=w800"
@@ -26448,8 +26448,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 320000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,029 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1zdlQtAAQGNBFHjpV56uDJez7YgkLBy6F&sz=w800"
@@ -26465,8 +26465,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 230000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,000 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1uqoAqHgZa7f9Q_tR1aTnvr4omVvuqwHi&sz=w800"
@@ -26482,8 +26482,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 520000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,428 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1j_ttGyMQwO8qFzzYxcQsSdTfShjSifIA&sz=w800"
@@ -26499,8 +26499,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 250000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "550 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1OkA4QZY9MH1rXS-t3JQtjhNTM_JYAo0H&sz=w800"
@@ -26516,8 +26516,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cTJ3GpfP2oGquZk0OeRWSfyVtnYmMckr&sz=w800"
@@ -26533,8 +26533,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 220000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "976 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1NbEM2CaXmov0EVHqXp2wYrSUeSb5FTOn&sz=w800"
@@ -26549,9 +26549,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lahad Datu",
     "reservePrice": 560000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,723 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1pkXFpPotYm6ZYGt1PyExIMkNUZw6Ol1T&sz=w800"
@@ -26567,8 +26567,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 370000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "988 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1crikyVFRSSdavN_0QB_J_-1ZgoAgIZah&sz=w800"
@@ -26584,8 +26584,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 195000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cTJ3GpfP2oGquZk0OeRWSfyVtnYmMckr&sz=w800"
@@ -26601,8 +26601,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cTJ3GpfP2oGquZk0OeRWSfyVtnYmMckr&sz=w800"
@@ -26618,8 +26618,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 245000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "976 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1NbEM2CaXmov0EVHqXp2wYrSUeSb5FTOn&sz=w800"
@@ -26634,9 +26634,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tawau",
     "reservePrice": 280000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,589 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1UNY632qO7pkrMnhaBgRZlK8SzWYC7Zub&sz=w800"
@@ -26652,8 +26652,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 200000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cTJ3GpfP2oGquZk0OeRWSfyVtnYmMckr&sz=w800"
@@ -26669,8 +26669,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 164100,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,265 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1tcPYFeIzhSZDZW0yZ9jnu1-KXMa0IfpU&sz=w800"
@@ -26686,8 +26686,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 393700,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "799 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1POYoG8gVmX9aZXrLUnKTLObiJKLmLpN_&sz=w800"
@@ -26702,9 +26702,9 @@ export const PROPERTIES: Property[] = [
     "area": "Papar",
     "reservePrice": 91600,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,989 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1KVrTPjVEXglI-61FjM4H3t7nSbWnle9b&sz=w800"
@@ -26720,8 +26720,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 361300,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,066 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=10lsvbm86qxnKLjDki3Vz2tVrU1JVZS6Q&sz=w800"
@@ -26737,8 +26737,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 119900,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cTJ3GpfP2oGquZk0OeRWSfyVtnYmMckr&sz=w800"
@@ -26754,8 +26754,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 166100,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "898 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1cTJ3GpfP2oGquZk0OeRWSfyVtnYmMckr&sz=w800"
@@ -26771,8 +26771,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 72900,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "446 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Y__PhKR0pLkXgi7eGmjxvSKqMPI89ThU&sz=w800"
@@ -26788,8 +26788,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 420000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,129 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1tcPYFeIzhSZDZW0yZ9jnu1-KXMa0IfpU&sz=w800"
@@ -26805,8 +26805,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 531000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "930 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1EDggp2OB8PlayiJvUrLC-9PU5rnvVs7C&sz=w800"
@@ -26821,9 +26821,9 @@ export const PROPERTIES: Property[] = [
     "area": "Siburan",
     "reservePrice": 240000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "684 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nnN4AT7xNLe2lApTPela-2I7NJqdsStZ&sz=w800"
@@ -26838,9 +26838,9 @@ export const PROPERTIES: Property[] = [
     "area": "Siburan",
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "967 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1nnN4AT7xNLe2lApTPela-2I7NJqdsStZ&sz=w800"
@@ -26855,9 +26855,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 640000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,808 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=15qugREuMGBc8V3WomCVOfIDPwcso1bz7&sz=w800"
@@ -26873,8 +26873,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "910 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1R7nj9bAVv84wN2D5LwK78oEq9vCiozEy&sz=w800"
@@ -26889,9 +26889,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuching",
     "reservePrice": 990000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,746 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1HC_Hdcnq2_rt4xE0gT5TUxX_BkDra344&sz=w800"
@@ -26907,8 +26907,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 335000,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "743 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1N641xqbPeIRCPbEJnbAObNzgp2nN1Fi5&sz=w800"
@@ -26923,9 +26923,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 460000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,033 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1xdX1gq0oCvwx-W9sHwrXLnmIalHupkjv&sz=w800"
@@ -26941,8 +26941,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 206800,
     "auctionDate": "21st Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "943 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1N641xqbPeIRCPbEJnbAObNzgp2nN1Fi5&sz=w800"
@@ -26957,9 +26957,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 324000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,147 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1UJMYP6QRqHYd0DkopW9f9FPmuUoJRFxo&sz=w800"
@@ -26974,9 +26974,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuching",
     "reservePrice": 433500,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,200 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1F4VJkOJIS9ndkAREcJ_QPLehS7wASvo3&sz=w800"
@@ -26992,8 +26992,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "900 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1TNJsPK8-yUnPb0fcFdQkIV5nul6O4oRM&sz=w800"
@@ -27009,8 +27009,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 414000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "850 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=18mt3IL1KUEmyugdqq7phmq3x6F0ubKWL&sz=w800"
@@ -27025,9 +27025,9 @@ export const PROPERTIES: Property[] = [
     "area": "District Of Penampang",
     "reservePrice": 810000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "25,265 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1lzvpNIdIywqFmSlxDe54b1oQ0ffgPfV_&sz=w800"
@@ -27044,7 +27044,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1xOPrnX4-X6mOV3QrXaw97UcmFI1RpUKV&sz=w800"
@@ -27059,9 +27059,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 389000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,147 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1TFZa9-AaafW7C5Nhf9GVdGnrMFKHd8WT&sz=w800"
@@ -27076,9 +27076,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sibu",
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,903 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1uWqg2PjRRXVt2WmuejjlnyYYOedkoLWS&sz=w800"
@@ -27093,7 +27093,7 @@ export const PROPERTIES: Property[] = [
     "area": "Sibu",
     "reservePrice": 290000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,903 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -27110,9 +27110,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sibu",
     "reservePrice": 480000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "5,924 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1DnNFpLxhBUdpOaeWg6n5bIiowBsHjt6v&sz=w800"
@@ -27128,8 +27128,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 430000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "871 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1-xpI_4uuN8g8hJ2pWbfdfK1rx-j6UsLi&sz=w800"
@@ -27144,9 +27144,9 @@ export const PROPERTIES: Property[] = [
     "area": "Papar",
     "reservePrice": 122231,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,550 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1kDUAR8g0jEOn179mRzo9qjX3Ckd-uU-s&sz=w800"
@@ -27161,9 +27161,9 @@ export const PROPERTIES: Property[] = [
     "area": "Keningau",
     "reservePrice": 138175,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,575 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1gjIkLpZ0_WrE8SqACUK2Y-PQwX6nj1PI&sz=w800"
@@ -27178,9 +27178,9 @@ export const PROPERTIES: Property[] = [
     "area": "Papar",
     "reservePrice": 141718,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,550 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1kDUAR8g0jEOn179mRzo9qjX3Ckd-uU-s&sz=w800"
@@ -27196,8 +27196,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 64298,
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "665 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1Y__PhKR0pLkXgi7eGmjxvSKqMPI89ThU&sz=w800"
@@ -27212,9 +27212,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sibu",
     "reservePrice": 300000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,291 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1DU0HKyBHk_XoKMl0TcTJjrcVCg3mY_KW&sz=w800"
@@ -27229,9 +27229,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sarikei",
     "reservePrice": 150000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "887 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Lvm89SMj0kBom8kI2M-BZ4Cm6Pdup2Rh&sz=w800"
@@ -27246,10 +27246,10 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 650000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "7,710 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1_wT1kw1wcVahtfiD3oIvKwa0gETVLTUp&sz=w800"
     ]
@@ -27263,9 +27263,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 580000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "4,459 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1FTFuMlyRF8oNm5SUy-i2i7atvzHcBP3g&sz=w800"
@@ -27280,9 +27280,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Kinabalu",
     "reservePrice": 1400000,
     "auctionDate": "27th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "4,215 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1Cbr95HNq1tlnOnydd8SkRLlPmVOYHeQw&sz=w800"
@@ -27297,9 +27297,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 340000,
     "auctionDate": "27th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "983 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1yjfbGPN8swOO0IX3-dScA3XghHfSd1dT&sz=w800"
@@ -27314,9 +27314,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 450000,
     "auctionDate": "27th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,924 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1hhkTSuGRxcpKhuXVFSBkPeIo19q5DyyC&sz=w800"
@@ -27331,9 +27331,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 525500,
     "auctionDate": "27th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,752 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1GAZh2giqmgysSW5jsXPtXHzljeKF-JXx&sz=w800"
@@ -27348,9 +27348,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Baram Land District",
     "reservePrice": 289980,
     "auctionDate": "27th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "25,704 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1F5KZc_TL7os5nMFBrkAUEnDVMJPxBHLW&sz=w800"
@@ -27365,9 +27365,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuching",
     "reservePrice": 480000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,874 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1YWy2cx0V-8NtZDVJgZhocniuGKnEtVcG&sz=w800"
@@ -27382,9 +27382,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sandakan",
     "reservePrice": 381000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,760 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1YvsbYQTWDQ3QhzyRCSYuR7qnnok216nM&sz=w800"
@@ -27401,8 +27401,8 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1cG27VIngNbPKwjdnR-c3Ofd4V4eLsZLQ&sz=w800"
     ]
@@ -27416,9 +27416,9 @@ export const PROPERTIES: Property[] = [
     "area": "Penampang",
     "reservePrice": 423000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,386 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1LwSEAwwLFOVPPyyz8HcQ2NjnwsWfHyjg&sz=w800"
@@ -27433,9 +27433,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bintulu",
     "reservePrice": 396000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "742 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1mr7xNJ0mxr-lQGsZJMoWTMJN5ktORp52&sz=w800"
@@ -27452,7 +27452,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jaj-pdIzYZI8x6RRgPjvc3TpoZ-h9ttC&sz=w800"
@@ -27467,9 +27467,9 @@ export const PROPERTIES: Property[] = [
     "area": "Seduan",
     "reservePrice": 410000,
     "auctionDate": "30th Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "4,034 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1BbCy0yYuxFt7iZY6renD2ZHeJIpizwKb&sz=w800"
@@ -27484,9 +27484,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 405000,
     "auctionDate": "30th Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,476 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1yjfbGPN8swOO0IX3-dScA3XghHfSd1dT&sz=w800"
@@ -27501,10 +27501,10 @@ export const PROPERTIES: Property[] = [
     "area": "Lahad Datu",
     "reservePrice": 108000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,953 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1kuGzfJ3whd4118e5569sfzQtEPLpI10e&sz=w800"
     ]
@@ -27519,8 +27519,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 144000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "608 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1zexQPo6SqYcl6h0KF2_FVbZ0vgHpv3ZZ&sz=w800"
@@ -27535,9 +27535,9 @@ export const PROPERTIES: Property[] = [
     "area": "Off Jalan Lapangan Terbang",
     "reservePrice": 2100000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,546 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1p1D-8wTLt9FsHlxKgj_Tgfv1bI-EO2U-&sz=w800"
@@ -27552,9 +27552,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuching",
     "reservePrice": 520000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "747 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1gMxTagvnz9FU-yvBF1htDwD55P1OJqH2&sz=w800"
@@ -27569,9 +27569,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuching",
     "reservePrice": 576000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "5,312 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1cN098RIlrknlN_e4Si_4ev358ph52wYb&sz=w800"
@@ -27588,7 +27588,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=10LDs6ioszod-_JODPb7xvp4ffuuvor6m&sz=w800"
@@ -27605,7 +27605,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=10LDs6ioszod-_JODPb7xvp4ffuuvor6m&sz=w800"
@@ -27620,9 +27620,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 270000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "725 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1hhkTSuGRxcpKhuXVFSBkPeIo19q5DyyC&sz=w800"
@@ -27637,9 +27637,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 230000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,838 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1es-C6PlzWRu8kG8Za58_1pfUiYTrGDj-&sz=w800"
@@ -27654,9 +27654,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 900000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,162 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=16XD3xiATaf0KTYPhJxYMR518u30on1tP&sz=w800"
@@ -27671,9 +27671,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bintulu",
     "reservePrice": 270000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,758 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1m2N5xvqjAWDiCdi-uLBjKFPrqXNbZEj6&sz=w800"
@@ -27688,9 +27688,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 900000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,161 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=16XD3xiATaf0KTYPhJxYMR518u30on1tP&sz=w800"
@@ -27705,9 +27705,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 1125000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,453 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=16XD3xiATaf0KTYPhJxYMR518u30on1tP&sz=w800"
@@ -27722,9 +27722,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sibu",
     "reservePrice": 500000,
     "auctionDate": "9th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,995 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1DnNFpLxhBUdpOaeWg6n5bIiowBsHjt6v&sz=w800"
@@ -27740,8 +27740,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 164100,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "661 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iOpZZO4PxQCUr7MdQqLQeF2YT1WDLZ9i&sz=w800"
@@ -27756,9 +27756,9 @@ export const PROPERTIES: Property[] = [
     "area": "Penampang",
     "reservePrice": 568700,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,564 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Fs6qjKFQ36iSHR4YyypDsYAULbJRMNS-&sz=w800"
@@ -27774,8 +27774,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 150000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "608 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1zexQPo6SqYcl6h0KF2_FVbZ0vgHpv3ZZ&sz=w800"
@@ -27791,8 +27791,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 130000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "630 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1kgdfKzuQjAVyMdlNb9qTBXHVFeIZbyEa&sz=w800"
@@ -27808,8 +27808,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 180000,
     "auctionDate": "11th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "574 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=109YrUgjlZOWvogCPDsEeZxwj82uv_iR7&sz=w800"
@@ -27824,9 +27824,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuching",
     "reservePrice": 207000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,574 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jiTtMSYgDiM-9LSdYUoSE-KQ3jdo58oh&sz=w800"
@@ -27841,9 +27841,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Kinabalu",
     "reservePrice": 630000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,440 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1fcJp5nH_BKHhx6R-CcSN-aBbE1bRqzYL&sz=w800"
@@ -27860,7 +27860,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "12th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1d4cHV1Lo7DwidaR50-3C42mXywrmQgku&sz=w800"
@@ -27875,9 +27875,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 300000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "724 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ad5oUI2XXQC8cryOBQTGzvBGjNUlxpZn&sz=w800"
@@ -27892,9 +27892,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 500000,
     "auctionDate": "13th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,855 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Ke_TgtQcfV-bRRfZ-79Fn3IS7_7fYOFW&sz=w800"
@@ -27909,9 +27909,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Belud",
     "reservePrice": 244800,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "6,146 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1mX-0mwxWVTvPi9XK019sMVNwZD4rASP_&sz=w800"
@@ -27926,10 +27926,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kuching",
     "reservePrice": 420000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,025 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1IqLdGTc9Ubl8p-EvqoSa11Cs5JzON6ef&sz=w800"
     ]
@@ -27944,8 +27944,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 459270,
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,153 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1RAjU4PxpkgGYrDQSdFh3-f-IMEdc79u0&sz=w800"
@@ -27960,9 +27960,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sandakan",
     "reservePrice": 386300,
     "auctionDate": "19th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,118 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1uKnCdsCA-iPQmWDCX7gvMrw67_nt8u7S&sz=w800"
@@ -27977,9 +27977,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Kinabalu",
     "reservePrice": 480000,
     "auctionDate": "19th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,427 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1TeN041tcPOXobMuj3U_RVW9ga41LyQjC&sz=w800"
@@ -27994,9 +27994,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sibu",
     "reservePrice": 288000,
     "auctionDate": "19th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,874 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1DnNFpLxhBUdpOaeWg6n5bIiowBsHjt6v&sz=w800"
@@ -28013,7 +28013,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "19th Nov 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1RZ6lVeCYOeVsyjabspJkqAGErY7RiJiL&sz=w800"
@@ -28029,8 +28029,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 330000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "937 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1iOpZZO4PxQCUr7MdQqLQeF2YT1WDLZ9i&sz=w800"
@@ -28045,9 +28045,9 @@ export const PROPERTIES: Property[] = [
     "area": "Penampang",
     "reservePrice": 810000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,893 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1r5kDAyzjKLuOHIW-mBrvdDTVvOcMgJXU&sz=w800"
@@ -28062,9 +28062,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 380000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "982 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1H3qrUO-VnGY-OyF1pnEZKAegOZxtLZPc&sz=w800"
@@ -28080,8 +28080,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 117000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "608 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1zexQPo6SqYcl6h0KF2_FVbZ0vgHpv3ZZ&sz=w800"
@@ -28097,8 +28097,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 170000,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "608 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1zexQPo6SqYcl6h0KF2_FVbZ0vgHpv3ZZ&sz=w800"
@@ -28113,9 +28113,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuching",
     "reservePrice": 216000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "886 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1eLhyltam30OPkFbl6tptAmnhqgrNGOrW&sz=w800"
@@ -28130,9 +28130,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sandakan",
     "reservePrice": 390000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,200 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1YvsbYQTWDQ3QhzyRCSYuR7qnnok216nM&sz=w800"
@@ -28148,8 +28148,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 152000,
     "auctionDate": "27th Nov 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "630 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1fVug7BKDeuBkkAn5wOzoxu0MM-vakSxB&sz=w800"
@@ -28164,9 +28164,9 @@ export const PROPERTIES: Property[] = [
     "area": "Sandakan",
     "reservePrice": 252000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,377 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17IS5Y_-FkyT74iOIgIA2S6oZYsMdmx3V&sz=w800"
@@ -28181,9 +28181,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 250000,
     "auctionDate": "10th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,115 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1lXzlDMHVx7J7N7fQWFM66ZBeaWfqw0zO&sz=w800"
@@ -28198,9 +28198,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 330000,
     "auctionDate": "10th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,808 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1yjfbGPN8swOO0IX3-dScA3XghHfSd1dT&sz=w800"
@@ -28215,9 +28215,9 @@ export const PROPERTIES: Property[] = [
     "area": "Miri",
     "reservePrice": 320000,
     "auctionDate": "10th Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,484 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1hhkTSuGRxcpKhuXVFSBkPeIo19q5DyyC&sz=w800"
@@ -28232,7 +28232,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuching",
     "reservePrice": 480000,
     "auctionDate": "30th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "5,166 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -28249,9 +28249,9 @@ export const PROPERTIES: Property[] = [
     "area": "Jerantut",
     "reservePrice": 300000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,132 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=11fy0oqTMmR9vBLBcyauJbu5bA9vJjXJa&sz=w800"
@@ -28266,9 +28266,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bentong",
     "reservePrice": 170000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "960 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1TwsPv5fHxt9x91z5IIGz8PQTZezx9loy&sz=w800"
@@ -28283,9 +28283,9 @@ export const PROPERTIES: Property[] = [
     "area": "Raub",
     "reservePrice": 180000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1f7Mws5Y-7cDkgbx08yGxSa7KZm26Vghs&sz=w800"
@@ -28302,7 +28302,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "23rd Oct 2026 (Fri)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=16VxJn3gTJM2Vy6pHbTLrEhJzU7FoBdgi&sz=w800"
@@ -28318,7 +28318,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 460000,
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "538 sq.ft",
     "tenure": "Freehold",
     "type": "Condo/Apartment",
     "images": [
@@ -28334,7 +28334,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 270000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,113 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -28351,9 +28351,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 360000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,560 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SRLzzURtXLjCBHJ6mTGVqfHNPemdB77Z&sz=w800"
@@ -28368,9 +28368,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 198000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1EVkhmMeLXkLbKymWp0skwP9_uAypLBnJ&sz=w800"
@@ -28385,9 +28385,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 261000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,363 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1rgQfnDfZa02nOg0W1piVdSbdaSXyyQm5&sz=w800"
@@ -28402,9 +28402,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 225000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,664 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1QggiZc4xGKqz9yOm_caK1ciCcO34fd6h&sz=w800"
@@ -28419,9 +28419,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 549000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,720 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1G-8Sq2f-QSTK_z51ILwEryAPXdXUWQ10&sz=w800"
@@ -28438,7 +28438,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1RAvCRk6wsxYi6BlOGxVXmayPBgMwsVGG&sz=w800"
@@ -28470,9 +28470,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 810000,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,671 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1V_IXq8Iu6S7uLUfc7mVjF4P0n0ZZG0z3&sz=w800"
@@ -28488,8 +28488,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 283500,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,003 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=181AlKyx-YoUlpBT6IjGHSMgK36QhUCBQ&sz=w800"
@@ -28504,7 +28504,7 @@ export const PROPERTIES: Property[] = [
     "area": "Jerantut",
     "reservePrice": 320000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -28523,7 +28523,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=19skvyHdI8o8wwBHJx1I0HL6-9N5LRwIv&sz=w800"
@@ -28539,8 +28539,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 486000,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,603 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1aPzQo7x7rE4EzFiaQ8VAbJU55mZmMVpk&sz=w800"
@@ -28555,9 +28555,9 @@ export const PROPERTIES: Property[] = [
     "area": "Jerantut",
     "reservePrice": 216000,
     "auctionDate": "29th Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,650 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1WDpAc0GCRRY7KnI2rdyTaqIL4nHgubzq&sz=w800"
@@ -28572,9 +28572,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 129907.8,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,716 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1NfTkwiZldFQd8O3BDCczJmQ_p7FSnqgP&sz=w800"
@@ -28589,7 +28589,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 196830,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,615 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -28606,7 +28606,7 @@ export const PROPERTIES: Property[] = [
     "area": "Mentakab",
     "reservePrice": 131220,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,130 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -28623,9 +28623,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 255150,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,668 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PVAUDpVozAhq4OrtXc9TYOAXD682lEIr&sz=w800"
@@ -28640,9 +28640,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 500000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,800 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1Ch708pshCaltyKzmrREKkglDjKryQtw-&sz=w800"
@@ -28658,7 +28658,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 850000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "4,500 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -28674,7 +28674,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 290000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -28692,7 +28692,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 441000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -28709,8 +28709,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,345 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1CDECK9bzBDjs2qY1wZG5Gm3plEIjGLEF&sz=w800"
@@ -28725,7 +28725,7 @@ export const PROPERTIES: Property[] = [
     "area": "Mentakab",
     "reservePrice": 383820,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,917 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -28742,9 +28742,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 267300,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,525 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1LPMWmMDinX4ZKtimNqmUAtDRGqfClUeF&sz=w800"
@@ -28759,7 +28759,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 240000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,380 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -28776,7 +28776,7 @@ export const PROPERTIES: Property[] = [
     "area": "Temerloh",
     "reservePrice": 240000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,562 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -28793,7 +28793,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 170000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -28810,9 +28810,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 390000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,876 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=13peazI6ym99Zui0X2Xcjj6LB2DXAoR5K&sz=w800"
@@ -28827,7 +28827,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 162000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -28844,9 +28844,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 260000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=12tqDTem4VGe_Bt8jbXZiFQpI7GZri5S5&sz=w800"
@@ -28861,7 +28861,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 198000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -28878,9 +28878,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 400000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PVAUDpVozAhq4OrtXc9TYOAXD682lEIr&sz=w800"
@@ -28895,9 +28895,9 @@ export const PROPERTIES: Property[] = [
     "area": "Jerantut",
     "reservePrice": 198000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=11fy0oqTMmR9vBLBcyauJbu5bA9vJjXJa&sz=w800"
@@ -28912,9 +28912,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pekan",
     "reservePrice": 150000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "997 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1XESenfuBIryO69pO339_AMHgjdgaKtYy&sz=w800"
@@ -28929,9 +28929,9 @@ export const PROPERTIES: Property[] = [
     "area": "Lanchang",
     "reservePrice": 302000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,060 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1N5bPWf9tPqW60NMvRaUti8Xe5n149pr1&sz=w800"
@@ -28947,8 +28947,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 623700,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "5,730 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1fxz-llS_O2tHm39ZObMCwOcYTSdMzBov&sz=w800"
@@ -28963,9 +28963,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 171000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "979 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Ef4BxeGWXK8lECEgF-vNIR4wAqrpdjuV&sz=w800"
@@ -28980,9 +28980,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 114900,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1JZ_rdmSUbiu22sL0Htf7I4ZPrnL3ZHc2&sz=w800"
@@ -28997,9 +28997,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 100383,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,076 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1DF28RYXLghkh5y18wb8EXhjrPsog1eWO&sz=w800"
@@ -29014,7 +29014,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 450000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,733 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29031,9 +29031,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 200000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,130 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1cQhiCeEslKJ0nTPf1eyJo8d08o9Zkpox&sz=w800"
@@ -29048,9 +29048,9 @@ export const PROPERTIES: Property[] = [
     "area": "Raub",
     "reservePrice": 440000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,800 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1fIYKlyNuh8Yadr_JFwEju__mENoQFOGC&sz=w800"
@@ -29065,10 +29065,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 826686,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "6,638 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1B3eegN9huTcQUmhYyZqLKTrdewJYPEGj&sz=w800"
     ]
@@ -29082,9 +29082,9 @@ export const PROPERTIES: Property[] = [
     "area": "Raub",
     "reservePrice": 426465,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,600 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1qZwsVwlVSSGobevaxFe4tIwOFpcr8SVd&sz=w800"
@@ -29099,7 +29099,7 @@ export const PROPERTIES: Property[] = [
     "area": "Mentakab",
     "reservePrice": 174960,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,625 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29116,7 +29116,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 330000,
     "auctionDate": "12th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,956 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29134,8 +29134,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 450000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,604 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1hECCcf8z-B_M9rVTNeTFiShdFDSS3qQ5&sz=w800"
@@ -29152,7 +29152,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1nfH9Fwme1Yl3P53lNWVQcaR7EXJ5aa4j&sz=w800"
@@ -29167,9 +29167,9 @@ export const PROPERTIES: Property[] = [
     "area": "Mentakab",
     "reservePrice": 310000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,849 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PHTEI6wkA2AnXlPgH9l7_BgyGcYxwlNa&sz=w800"
@@ -29184,9 +29184,9 @@ export const PROPERTIES: Property[] = [
     "area": "Rompin",
     "reservePrice": 153000,
     "auctionDate": "19th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "31,948 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1Ufc567McR8XRGZb13bAjPc6QtQnRkMfc&sz=w800"
@@ -29201,7 +29201,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 170000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,140 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29219,7 +29219,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 113400,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,130 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -29235,9 +29235,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 360000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,360 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1R99hGoFH-V8tt15VDd-VXg3AOfPYP5HQ&sz=w800"
@@ -29252,7 +29252,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 170000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,080 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29270,8 +29270,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "24th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "463 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=14jSYVxy5CpzQrzey9RaiO-kvrf-9MFJq&sz=w800"
@@ -29286,9 +29286,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 530000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,706 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1kMLqBQQsDzapaQtQvUw1UxeuX6j4ryve&sz=w800"
@@ -29303,9 +29303,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 345000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,831 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=10JOrD9a5xn5g300on-AaDOn2ZqiRZmvb&sz=w800"
@@ -29320,7 +29320,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lipis",
     "reservePrice": 350000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,504 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29337,9 +29337,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 240000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,798 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1NfTkwiZldFQd8O3BDCczJmQ_p7FSnqgP&sz=w800"
@@ -29354,9 +29354,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 260000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1wkcXeLbsQ23ws_Y0lqtR1wTJm-_1JWs6&sz=w800"
@@ -29371,7 +29371,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 270000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,280 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29388,9 +29388,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 700000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,017 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1V_IXq8Iu6S7uLUfc7mVjF4P0n0ZZG0z3&sz=w800"
@@ -29405,7 +29405,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 279000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,313 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29422,9 +29422,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 261000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,353 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1TX3kvdiEZPqkw_8KE-1CMwBDfHYUGPYp&sz=w800"
@@ -29439,7 +29439,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 360000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,927 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29456,7 +29456,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 297000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,760 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29475,7 +29475,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1JJMmUHfljaOqg0r_PycvhEoqnhZMKEvt&sz=w800"
@@ -29492,7 +29492,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1JJMmUHfljaOqg0r_PycvhEoqnhZMKEvt&sz=w800"
@@ -29507,7 +29507,7 @@ export const PROPERTIES: Property[] = [
     "area": "Temerloh",
     "reservePrice": 162000,
     "auctionDate": "26th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,496 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29524,7 +29524,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 324000,
     "auctionDate": "30th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29541,7 +29541,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Lipis",
     "reservePrice": 570000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,701 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -29558,7 +29558,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 207000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,140 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29609,7 +29609,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 1800000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "7,902 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -29626,7 +29626,7 @@ export const PROPERTIES: Property[] = [
     "area": "Temerloh",
     "reservePrice": 120000,
     "auctionDate": "15th Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,023 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29643,9 +29643,9 @@ export const PROPERTIES: Property[] = [
     "area": "Temerloh",
     "reservePrice": 576000,
     "auctionDate": "28th Dec 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,832 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1tXD6NKru3Bg9cerJxVlhZ1URm0O5VLJB&sz=w800"
@@ -29660,10 +29660,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 550000,
     "auctionDate": "27th Jan 2027 (Wed)",
-    "landArea": "—",
+    "landArea": "7,050 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1rgQfnDfZa02nOg0W1piVdSbdaSXyyQm5&sz=w800"
     ]
@@ -29677,9 +29677,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 180000,
     "auctionDate": "27th Jan 2027 (Wed)",
-    "landArea": "—",
+    "landArea": "1,001 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1bLTUvHVjBbg-wFQjiE6sNiVqk_lpy8kL&sz=w800"
@@ -29694,9 +29694,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 402000,
     "auctionDate": "27th Jan 2027 (Wed)",
-    "landArea": "—",
+    "landArea": "1,534 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1JZ_rdmSUbiu22sL0Htf7I4ZPrnL3ZHc2&sz=w800"
@@ -29711,7 +29711,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 300000,
     "auctionDate": "27th Jan 2027 (Wed)",
-    "landArea": "—",
+    "landArea": "1,959 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29728,9 +29728,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuantan",
     "reservePrice": 280000,
     "auctionDate": "28th Jul 2027 (Wed)",
-    "landArea": "—",
+    "landArea": "1,529 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1WzKmWvg1_8oR98aTrZ07o7-5qlApcOxd&sz=w800"
@@ -29745,9 +29745,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 236196,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,931 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1UYmluA9RuLwbtluHbGEV0ZYh6VB_wRyY&sz=w800"
@@ -29763,8 +29763,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 270000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "689 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1MMKWXLI1W9Fk5Td9zCeZZQZ2GcRf2WOD&sz=w800"
@@ -29780,8 +29780,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 400000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "4,853 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1aYNWgI8-Pcdbwm4wvCdP-rwHXhMqCBS-&sz=w800"
@@ -29796,9 +29796,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Gajah",
     "reservePrice": 180000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "920 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1wKKukC8nf0OaczYB96h03k2N6MvJuzBR&sz=w800"
@@ -29813,9 +29813,9 @@ export const PROPERTIES: Property[] = [
     "area": "Merlimau",
     "reservePrice": 310000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,404 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1rkQlZ_G3IpPzaGSXnQ6ukkMSxc6ejCx-&sz=w800"
@@ -29830,7 +29830,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bandar Raya Bersejarah",
     "reservePrice": 380000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -29847,9 +29847,9 @@ export const PROPERTIES: Property[] = [
     "area": "Krubong",
     "reservePrice": 380000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,734 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1jWamGwaXZ7lIgbW8UNpXb2DBLmRjNTHP&sz=w800"
@@ -29864,9 +29864,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 250000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,722 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1L8XUPOYms0_pj8wOgEDYVyJ_yomKF37I&sz=w800"
@@ -29881,7 +29881,7 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 405000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,456 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -29898,7 +29898,7 @@ export const PROPERTIES: Property[] = [
     "area": "Durian Tunggal",
     "reservePrice": 283500,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,442 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29915,9 +29915,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 300000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,530 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Gu474BemRsuD5lI8ivveGamnibyS13pf&sz=w800"
@@ -29932,7 +29932,7 @@ export const PROPERTIES: Property[] = [
     "area": "Masjid Tanah",
     "reservePrice": 240000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29949,7 +29949,7 @@ export const PROPERTIES: Property[] = [
     "area": "Masjid Tanah",
     "reservePrice": 210000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29966,7 +29966,7 @@ export const PROPERTIES: Property[] = [
     "area": "Masjid Tanah",
     "reservePrice": 120000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,097 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -29983,9 +29983,9 @@ export const PROPERTIES: Property[] = [
     "area": "Durian Tunggal",
     "reservePrice": 270000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XeHqY0PPI2bI40kkZ2r3odjED9IZVa8S&sz=w800"
@@ -30001,8 +30001,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 57000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "213 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1bcKjVyyCeGdDZjU2h3NukWLdLHHrw5t7&sz=w800"
@@ -30018,8 +30018,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 113000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "267 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RACPMrY2OdzPnOYsZxjFW-wkgVKhsKx8&sz=w800"
@@ -30035,8 +30035,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 533000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "500 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1vba46xjirUC-TVZQrA_1Q4wU1xMrVqpT&sz=w800"
@@ -30052,8 +30052,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 138000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "267 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1RACPMrY2OdzPnOYsZxjFW-wkgVKhsKx8&sz=w800"
@@ -30068,9 +30068,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 585000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,401 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1907IswoMUEmBuWujeRth9JAK_zgpuCpV&sz=w800"
@@ -30086,8 +30086,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 225000,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "351 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1uF1F0-bIsctLpJe0XLcJtnM0PkKSzgy6&sz=w800"
@@ -30102,9 +30102,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Gajah",
     "reservePrice": 270000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,520 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1XFkyKpBVNVt0RQepgmvs65kQYFbgUkPW&sz=w800"
@@ -30119,9 +30119,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 400000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,582 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=17lJWsu_ubEfS9TSN6DNz7HvBD6U45mKr&sz=w800"
@@ -30136,9 +30136,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 400000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,818 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=187pqlybAi1KQ0-IRw8LTE4zPD6ijNYv9&sz=w800"
@@ -30153,7 +30153,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Sungai Baru",
     "reservePrice": 162000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30170,9 +30170,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Sungai Baru",
     "reservePrice": 180000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,700 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_kTuTldDVC6b5EjrsFxAPwgRn2Mqrwm4&sz=w800"
@@ -30187,9 +30187,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Gajah",
     "reservePrice": 250000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "3,229 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1dYw1O4VvLPvJr87fZT_cruDGg9n-TW-R&sz=w800"
@@ -30204,7 +30204,7 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 400000,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30222,8 +30222,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 275400,
     "auctionDate": "29th Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "732 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=13r1pn2EVJG7At5v5QzDbsKH6g6eaRptZ&sz=w800"
@@ -30239,8 +30239,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 372000,
     "auctionDate": "30th Oct 2026 (Fri)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "904 sq.ft",
+    "tenure": "—",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=108PXt0ztiqjHXm5l3Bf3sBF0dhGnxogq&sz=w800"
@@ -30255,9 +30255,9 @@ export const PROPERTIES: Property[] = [
     "area": "Hang Tuah Jaya",
     "reservePrice": 625000,
     "auctionDate": "30th Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,271 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1AZwZz_Ed8j2yG7EIKO7oKh3jeJElawct&sz=w800"
@@ -30272,9 +30272,9 @@ export const PROPERTIES: Property[] = [
     "area": "Hang Tuah Jaya",
     "reservePrice": 441000,
     "auctionDate": "30th Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,881 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1AZwZz_Ed8j2yG7EIKO7oKh3jeJElawct&sz=w800"
@@ -30289,7 +30289,7 @@ export const PROPERTIES: Property[] = [
     "area": "Hang Tuah Jaya",
     "reservePrice": 306000,
     "auctionDate": "30th Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30306,10 +30306,10 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 460000,
     "auctionDate": "30th Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "6,200 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1aXNWyunjxtiGfxjEq1ZAAVC6_cs1taOT&sz=w800"
     ]
@@ -30324,8 +30324,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 102400,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "645 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1H5OEonP2ngh5lS0NgdmkHojUJXetJqC5&sz=w800"
@@ -30341,8 +30341,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 81600,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "484 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1QQvA2xgjYxYz-7XxndTT76k1EPHdDD7h&sz=w800"
@@ -30357,7 +30357,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Katil",
     "reservePrice": 336000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30374,9 +30374,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Gajah",
     "reservePrice": 283500,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1yIj3HESSL-MIVZtjer0XAl-KvSW2sekM&sz=w800"
@@ -30391,9 +30391,9 @@ export const PROPERTIES: Property[] = [
     "area": "Jasin",
     "reservePrice": 243000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,333 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1apOu-PoUhR8KavYebod1bIWOA_ofqZ79&sz=w800"
@@ -30408,9 +30408,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Gajah",
     "reservePrice": 540000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,736 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_esJMlbgQ9eimjEgHhjS8AqHIYH_yuUM&sz=w800"
@@ -30425,7 +30425,7 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 210000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,300 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30442,9 +30442,9 @@ export const PROPERTIES: Property[] = [
     "area": "Hang Tuah Jaya",
     "reservePrice": 335000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,240 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1OH3PhdwyP14wS9qakLnoSizRrTX6hiiR&sz=w800"
@@ -30459,9 +30459,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Sungai Baru",
     "reservePrice": 140000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "840 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1H5FaI-VpwHmzY13S3U7DcSDSo0eFIxlW&sz=w800"
@@ -30476,9 +30476,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 230000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Gu474BemRsuD5lI8ivveGamnibyS13pf&sz=w800"
@@ -30493,9 +30493,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 300000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,540 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1TcpW3DPDVwtTsgoxfLB4h70pFw3xZbcO&sz=w800"
@@ -30510,9 +30510,9 @@ export const PROPERTIES: Property[] = [
     "area": "Masjid Tanah",
     "reservePrice": 220000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,615 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_kTuTldDVC6b5EjrsFxAPwgRn2Mqrwm4&sz=w800"
@@ -30527,7 +30527,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ayer Molek",
     "reservePrice": 250000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,765 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30544,7 +30544,7 @@ export const PROPERTIES: Property[] = [
     "area": "Durian Tunggal",
     "reservePrice": 360000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,431 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30562,9 +30562,9 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 25200000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "builtUp": "19,353 sq.ft",
+    "tenure": "Leasehold",
+    "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1907IswoMUEmBuWujeRth9JAK_zgpuCpV&sz=w800"
     ]
@@ -30578,7 +30578,7 @@ export const PROPERTIES: Property[] = [
     "area": "Merlimau",
     "reservePrice": 180000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "958 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30595,7 +30595,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Katil",
     "reservePrice": 300000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "3,024 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -30612,9 +30612,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 120000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ugwnr0MejkPjBuEFOSVDNa5Y0bDk6mSc&sz=w800"
@@ -30629,7 +30629,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bemban",
     "reservePrice": 180000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,302 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30646,7 +30646,7 @@ export const PROPERTIES: Property[] = [
     "area": "Masjid Tanah",
     "reservePrice": 171000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,300 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30663,9 +30663,9 @@ export const PROPERTIES: Property[] = [
     "area": "Masjid Tanah",
     "reservePrice": 200000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,614 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_kTuTldDVC6b5EjrsFxAPwgRn2Mqrwm4&sz=w800"
@@ -30680,7 +30680,7 @@ export const PROPERTIES: Property[] = [
     "area": "Jasin",
     "reservePrice": 187200,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30697,10 +30697,10 @@ export const PROPERTIES: Property[] = [
     "area": "Batu Berendam",
     "reservePrice": 700000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,004 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1f7Y-dAdmVgvVTIFZnRJvEIGVARs5LxtA&sz=w800"
     ]
@@ -30714,9 +30714,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 250000,
     "auctionDate": "13th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "780 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1xKvsUAKMiSiMs_-YgadKOPBdMXmadZnD&sz=w800"
@@ -30731,9 +30731,9 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 500000,
     "auctionDate": "13th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "2,018 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1SjEZ-KALMo3-Y5UeOvPNTIljW-_pbm2z&sz=w800"
@@ -30748,9 +30748,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Gajah",
     "reservePrice": 262440,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,702 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1_esJMlbgQ9eimjEgHhjS8AqHIYH_yuUM&sz=w800"
@@ -30765,9 +30765,9 @@ export const PROPERTIES: Property[] = [
     "area": "Ayer Panas",
     "reservePrice": 405000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,679 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1pO6OPvC5a3rBhKZBTU6DZmB6tsCNpZhO&sz=w800"
@@ -30782,9 +30782,9 @@ export const PROPERTIES: Property[] = [
     "area": "Hang Tuah Jaya",
     "reservePrice": 490000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,881 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1AZwZz_Ed8j2yG7EIKO7oKh3jeJElawct&sz=w800"
@@ -30799,7 +30799,7 @@ export const PROPERTIES: Property[] = [
     "area": "Durian Tunggal",
     "reservePrice": 350000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,576 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30817,8 +30817,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 84000,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "980 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1m6rE8Xs58T7JYKId2BqL4LwsTw3NzJbK&sz=w800"
@@ -30833,9 +30833,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alai",
     "reservePrice": 100000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "743 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1aYNWgI8-Pcdbwm4wvCdP-rwHXhMqCBS-&sz=w800"
@@ -30850,9 +30850,9 @@ export const PROPERTIES: Property[] = [
     "area": "Jasin",
     "reservePrice": 165000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1KKzFE7kWIn1X-Qgt8qyUgfpG1wDTWYDA&sz=w800"
@@ -30867,7 +30867,7 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 430000,
     "auctionDate": "20th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "2,133 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -30884,9 +30884,9 @@ export const PROPERTIES: Property[] = [
     "area": "Bukit Katil",
     "reservePrice": 268300,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,238 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1rjXKFVJxtb8GmbBJbF2Rr6tWlAvo91ps&sz=w800"
@@ -30902,8 +30902,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 88700,
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "484 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1QQvA2xgjYxYz-7XxndTT76k1EPHdDD7h&sz=w800"
@@ -30918,7 +30918,7 @@ export const PROPERTIES: Property[] = [
     "area": "Merlimau",
     "reservePrice": 171243,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,696 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -30935,7 +30935,7 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Gajah",
     "reservePrice": 387000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,284 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -30954,7 +30954,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "25th Nov 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1GSh-qEl7lVx-Jg7p4oHczXwrg0baUL_A&sz=w800"
@@ -30969,10 +30969,10 @@ export const PROPERTIES: Property[] = [
     "area": "Melaka",
     "reservePrice": 370000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,680 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1HlQfnpbpk5tw0Hgd6kICkdtN_RRfIsbb&sz=w800"
     ]
@@ -30986,9 +30986,9 @@ export const PROPERTIES: Property[] = [
     "area": "Alor Gajah",
     "reservePrice": 130000,
     "auctionDate": "27th Nov 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,023 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Lb-0Vr2DBlpZqdCMIingSrLCPNHgi9Ll&sz=w800"
@@ -31003,9 +31003,9 @@ export const PROPERTIES: Property[] = [
     "area": "Krubong",
     "reservePrice": 180000,
     "auctionDate": "2nd Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "888 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1jWamGwaXZ7lIgbW8UNpXb2DBLmRjNTHP&sz=w800"
@@ -31020,9 +31020,9 @@ export const PROPERTIES: Property[] = [
     "area": "Merlimau",
     "reservePrice": 170000,
     "auctionDate": "3rd Dec 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,377 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1a0_Bgu9yBJMvyOZnA5Mz4MT5JCzvHX-7&sz=w800"
@@ -31037,9 +31037,9 @@ export const PROPERTIES: Property[] = [
     "area": "Hang Tuah Jaya",
     "reservePrice": 216000,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,200 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ugwnr0MejkPjBuEFOSVDNa5Y0bDk6mSc&sz=w800"
@@ -31054,7 +31054,7 @@ export const PROPERTIES: Property[] = [
     "area": "Durian Tunggal",
     "reservePrice": 270000,
     "auctionDate": "16th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,173 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -31071,7 +31071,7 @@ export const PROPERTIES: Property[] = [
     "area": "Jasin",
     "reservePrice": 180000,
     "auctionDate": "16th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,195 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -31088,9 +31088,9 @@ export const PROPERTIES: Property[] = [
     "area": "Masjid Tanah",
     "reservePrice": 320000,
     "auctionDate": "18th Dec 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "1,362 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1txOEhVBkyBJotqPBLmJzyuBzJIQzjBEV&sz=w800"
@@ -31105,9 +31105,9 @@ export const PROPERTIES: Property[] = [
     "area": "",
     "reservePrice": 150000,
     "auctionDate": "28th Jan 2027 (Thu)",
-    "landArea": "—",
+    "landArea": "800 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1a0_Bgu9yBJMvyOZnA5Mz4MT5JCzvHX-7&sz=w800"
@@ -31122,10 +31122,10 @@ export const PROPERTIES: Property[] = [
     "area": "Bachok",
     "reservePrice": 164746.71,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "9,553 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1hwEjBWyPilVFN808zeBNT0FhAUTqX4Y2&sz=w800"
     ]
@@ -31139,7 +31139,7 @@ export const PROPERTIES: Property[] = [
     "area": "Machang",
     "reservePrice": 76545,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,166 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -31157,8 +31157,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 607500,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,539 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1P_tYzggRw4v7DreyiW2M9QtL3lzP0Uqb&sz=w800"
@@ -31173,10 +31173,10 @@ export const PROPERTIES: Property[] = [
     "area": "Machang",
     "reservePrice": 226800,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "5,070 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=10WXV5Q_tGbA20kyeqLqr1wMlOgs5TUxQ&sz=w800"
     ]
@@ -31190,7 +31190,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 203719.05,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "31,366 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -31208,7 +31208,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 360000,
     "auctionDate": "20th Oct 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "2,088 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -31224,9 +31224,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 180000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1m7S9pBwNjRYlX_5pNqunvl2ST3xb6TGH&sz=w800"
@@ -31241,7 +31241,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 207000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "5,662 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -31258,7 +31258,7 @@ export const PROPERTIES: Property[] = [
     "area": "Machang",
     "reservePrice": 280000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,272 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -31309,9 +31309,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 648000,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,486 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1whYzw1eiaRgpi7fsYiHA4OUqj6yg1DnH&sz=w800"
@@ -31326,7 +31326,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 218700,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "4,079 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -31344,8 +31344,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 398580.75,
     "auctionDate": "22nd Oct 2026 (Thu)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "3,616 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1whYzw1eiaRgpi7fsYiHA4OUqj6yg1DnH&sz=w800"
@@ -31360,10 +31360,10 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 360855,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "3,714 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZueQPUjMnDAZKhJ2xoTRGBFX1oFq7Gis&sz=w800"
     ]
@@ -31377,9 +31377,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 121500,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,072 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1m7S9pBwNjRYlX_5pNqunvl2ST3xb6TGH&sz=w800"
@@ -31394,7 +31394,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 360000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "4,596 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -31411,7 +31411,7 @@ export const PROPERTIES: Property[] = [
     "area": "Machang",
     "reservePrice": 440000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "6,028 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -31428,9 +31428,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 216000,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "1,400 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1m7S9pBwNjRYlX_5pNqunvl2ST3xb6TGH&sz=w800"
@@ -31445,10 +31445,10 @@ export const PROPERTIES: Property[] = [
     "area": "Ketereh",
     "reservePrice": 283500,
     "auctionDate": "22nd Oct 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "6,652 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
-    "type": "Terrace",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=10DDAh4f9UJZ8sLswJg81oXB0CDhWsHlX&sz=w800"
     ]
@@ -31462,9 +31462,9 @@ export const PROPERTIES: Property[] = [
     "area": "Jajahan Tanah Merah",
     "reservePrice": 157500,
     "auctionDate": "23rd Oct 2026 (Fri)",
-    "landArea": "—",
+    "landArea": "2,863 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1fuMN02TXB0w4il3YXy3wVBx5SFwFXSfH&sz=w800"
@@ -31479,9 +31479,9 @@ export const PROPERTIES: Property[] = [
     "area": "Cherang Ruku",
     "reservePrice": 90000,
     "auctionDate": "27th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "6,156 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1Ycw3pPiIT2lxPJbmRmFNf5IFNJLmvygg&sz=w800"
@@ -31496,9 +31496,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Puteh",
     "reservePrice": 185000,
     "auctionDate": "27th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1D5MGMI9kpodxpT-49x-2KBQEfARc0A_C&sz=w800"
@@ -31513,9 +31513,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 275400,
     "auctionDate": "28th Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,413 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1QyQJGfDSGxQpqoCt2ImrHOilq41hzYHQ&sz=w800"
@@ -31530,7 +31530,7 @@ export const PROPERTIES: Property[] = [
     "area": "Machang",
     "reservePrice": 90344.97,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "2,702 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -31547,7 +31547,7 @@ export const PROPERTIES: Property[] = [
     "area": "Ketereh",
     "reservePrice": 80000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -31564,7 +31564,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bachok",
     "reservePrice": 140000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -31581,7 +31581,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Puteh",
     "reservePrice": 70000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,040 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -31600,7 +31600,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "2nd Nov 2026 (Mon)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Land",
     "images": [
       "https://drive.google.com/thumbnail?id=1QzWfW8XxmxOUliK_79gB5DPFLe8i00dL&sz=w800"
@@ -31615,7 +31615,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 60000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "19,816 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -31632,7 +31632,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 227191.05,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "4,542 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -31650,8 +31650,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 31887,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "129 sq.ft",
+    "tenure": "—",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1XSYm795DHY8NBTcQKsQgHYd9bboY0JHp&sz=w800"
@@ -31667,7 +31667,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 875893.5,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "4,051 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -31683,7 +31683,7 @@ export const PROPERTIES: Property[] = [
     "area": "Gua Musang",
     "reservePrice": 783000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,755 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -31700,9 +31700,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 175500,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Xj9QoOskMkN91YUxUlXM4gCwbjGxvrad&sz=w800"
@@ -31717,9 +31717,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tumpat",
     "reservePrice": 130500,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1JKmZ6SUtFvBFuHWATJURPGIqaVQUNX2r&sz=w800"
@@ -31734,7 +31734,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 120000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "8,407 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -31752,8 +31752,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 810000,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,604 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1KRn7q7Bvxpp_d76G41PfVUlveNMSptMK&sz=w800"
@@ -31768,7 +31768,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 35000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "4,972 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -31785,7 +31785,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 50000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "5,844 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -31803,7 +31803,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 196830,
     "auctionDate": "3rd Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -31819,9 +31819,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 315000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,734 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1f626nwN_7XZ51JEYzxG7bzVK1uQX_cRG&sz=w800"
@@ -31836,7 +31836,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 50000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "5,887 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -31853,7 +31853,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 120000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "6,015 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -31870,9 +31870,9 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 175500,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1E170faHSnwzxECAWR4fgIGQoitiuHke9&sz=w800"
@@ -31887,7 +31887,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Mas",
     "reservePrice": 50000,
     "auctionDate": "3rd Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "5,866 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -31905,7 +31905,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 309889.15,
     "auctionDate": "10th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,238 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -31921,9 +31921,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 360855,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,539 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1nE1c3GqZCmlpoZzJQDiVuSB8Ip3I-eEY&sz=w800"
@@ -31938,7 +31938,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Puteh",
     "reservePrice": 154000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,078 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -31955,7 +31955,7 @@ export const PROPERTIES: Property[] = [
     "area": "Bachok",
     "reservePrice": 177300,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "4,446 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Commercial",
@@ -31972,7 +31972,7 @@ export const PROPERTIES: Property[] = [
     "area": "Pasir Puteh",
     "reservePrice": 760000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "29,482 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -31989,7 +31989,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kelantan",
     "reservePrice": 75000,
     "auctionDate": "10th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,098 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -32007,8 +32007,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "2,800 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=17RChLOf-21G-809Qlecl0JKFToJidWVd&sz=w800"
@@ -32023,9 +32023,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tumpat",
     "reservePrice": 290000,
     "auctionDate": "17th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,412 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1JKmZ6SUtFvBFuHWATJURPGIqaVQUNX2r&sz=w800"
@@ -32041,8 +32041,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 580000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,399 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=17RChLOf-21G-809Qlecl0JKFToJidWVd&sz=w800"
@@ -32058,8 +32058,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,400 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=17RChLOf-21G-809Qlecl0JKFToJidWVd&sz=w800"
@@ -32075,8 +32075,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 550000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,400 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=17RChLOf-21G-809Qlecl0JKFToJidWVd&sz=w800"
@@ -32092,8 +32092,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,400 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=17RChLOf-21G-809Qlecl0JKFToJidWVd&sz=w800"
@@ -32109,8 +32109,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,400 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=17RChLOf-21G-809Qlecl0JKFToJidWVd&sz=w800"
@@ -32126,8 +32126,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 540000,
     "auctionDate": "17th Nov 2026 (Tue)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,400 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=17RChLOf-21G-809Qlecl0JKFToJidWVd&sz=w800"
@@ -32142,9 +32142,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 374961.15,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,229 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Wbk7bqxdC7eDZ4Tx9dpR4MXGtyKQWQ8P&sz=w800"
@@ -32159,7 +32159,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Krai",
     "reservePrice": 162000,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,647 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -32176,7 +32176,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Krai",
     "reservePrice": 225990,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "42,033 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Land",
@@ -32193,10 +32193,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 306180,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "5,339 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=15V88LbtPWINMMHZkSR5Qf64eyEZsSfGz&sz=w800"
     ]
@@ -32210,9 +32210,9 @@ export const PROPERTIES: Property[] = [
     "area": "Tanah Merah",
     "reservePrice": 189540,
     "auctionDate": "23rd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,981 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1ChBR2DFrFMA3AidzgnFk8l19tAzyFilE&sz=w800"
@@ -32227,9 +32227,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 850000,
     "auctionDate": "25th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,223 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1whYzw1eiaRgpi7fsYiHA4OUqj6yg1DnH&sz=w800"
@@ -32245,7 +32245,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 295245,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "4,200 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -32261,7 +32261,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 134720,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,182 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32279,8 +32279,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 616734,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "4,176 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1MOwoQBFPWYXdm6ZAlxumV3Cnm8ZaWXPe&sz=w800"
@@ -32295,7 +32295,7 @@ export const PROPERTIES: Property[] = [
     "area": "Machang",
     "reservePrice": 22964,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "676 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -32312,7 +32312,7 @@ export const PROPERTIES: Property[] = [
     "area": "Tumpat",
     "reservePrice": 1065150,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "18,949 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32330,8 +32330,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 291600,
     "auctionDate": "9th Dec 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "1,400 sq.ft",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1KRn7q7Bvxpp_d76G41PfVUlveNMSptMK&sz=w800"
@@ -32346,9 +32346,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kota Bharu",
     "reservePrice": 238314.15,
     "auctionDate": "9th Dec 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Commercial",
     "images": [
       "https://drive.google.com/thumbnail?id=1MOwoQBFPWYXdm6ZAlxumV3Cnm8ZaWXPe&sz=w800"
@@ -32363,7 +32363,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kemaman",
     "reservePrice": 283500,
     "auctionDate": "20th Oct 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,595 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32380,7 +32380,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kemasik",
     "reservePrice": 360000,
     "auctionDate": "21st Oct 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,701 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32399,7 +32399,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "28th Oct 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=19zld3VnqXedR2U6zGYwzvWaAoHbzraU0&sz=w800"
@@ -32414,7 +32414,7 @@ export const PROPERTIES: Property[] = [
     "area": "Jerteh",
     "reservePrice": 120000,
     "auctionDate": "2nd Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,194 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -32431,9 +32431,9 @@ export const PROPERTIES: Property[] = [
     "area": "Marang",
     "reservePrice": 260000,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,238 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1SO329HlTuB0iauDAgqmwurzeJh94x9nJ&sz=w800"
@@ -32449,8 +32449,8 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 70000,
     "auctionDate": "4th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
-    "tenure": "Freehold",
+    "builtUp": "624 sq.ft",
+    "tenure": "Leasehold",
     "type": "Condo/Apartment",
     "images": [
       "https://drive.google.com/thumbnail?id=1VDlUd_pli5VG0taO_2zgNWyLn8v7GW5v&sz=w800"
@@ -32465,7 +32465,7 @@ export const PROPERTIES: Property[] = [
     "area": "Marang",
     "reservePrice": 236196,
     "auctionDate": "4th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "5,026 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32482,7 +32482,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kampung Raja",
     "reservePrice": 310000,
     "auctionDate": "5th Nov 2026 (Thu)",
-    "landArea": "—",
+    "landArea": "2,626 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32499,7 +32499,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kemaman",
     "reservePrice": 145800,
     "auctionDate": "9th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "1,110 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32516,7 +32516,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Terengganu",
     "reservePrice": 335340,
     "auctionDate": "9th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "3,195 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32533,9 +32533,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kertih",
     "reservePrice": 328050,
     "auctionDate": "9th Nov 2026 (Mon)",
-    "landArea": "—",
+    "landArea": "5,587 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ojEe1wjwdPnCOaVAd8DsK5EBUIefJ7OL&sz=w800"
@@ -32550,9 +32550,9 @@ export const PROPERTIES: Property[] = [
     "area": "Dungun",
     "reservePrice": 270000,
     "auctionDate": "11th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,027 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1n2rayqfX0h1h0c24tQYb_xMHASUJU3f_&sz=w800"
@@ -32567,7 +32567,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kemaman",
     "reservePrice": 145800,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "1,356 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -32584,7 +32584,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kemasik",
     "reservePrice": 320000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,637 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32602,7 +32602,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1712421,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "2,196 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -32619,7 +32619,7 @@ export const PROPERTIES: Property[] = [
     "reservePrice": 1240029,
     "auctionDate": "18th Nov 2026 (Wed)",
     "landArea": "—",
-    "builtUp": "—",
+    "builtUp": "1,399 sq.ft",
     "tenure": "Freehold",
     "type": "Commercial",
     "images": [
@@ -32635,9 +32635,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Terengganu",
     "reservePrice": 297000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,982 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1bKleAie7WOCjm441zR3rxRamqGdez9L0&sz=w800"
@@ -32652,9 +32652,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Terengganu",
     "reservePrice": 380000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "4,973 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1rmvURZCifmvCA0z34apG9f-FdO936lrQ&sz=w800"
@@ -32669,10 +32669,10 @@ export const PROPERTIES: Property[] = [
     "area": "Dungun",
     "reservePrice": 680000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "11,226 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1I27YWBWEx5A728SVUtet07bjTl3HL8_j&sz=w800"
     ]
@@ -32686,10 +32686,10 @@ export const PROPERTIES: Property[] = [
     "area": "Besut",
     "reservePrice": 290000,
     "auctionDate": "18th Nov 2026 (Wed)",
-    "landArea": "—",
+    "landArea": "2,648 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "Leasehold",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1xbIqTeOCWwlpX9I4oKoiDqjRXh772-0d&sz=w800"
     ]
@@ -32703,7 +32703,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Nerus",
     "reservePrice": 1433700,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "80,320 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32720,7 +32720,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kemaman",
     "reservePrice": 390000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,969 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32737,7 +32737,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kemaman",
     "reservePrice": 330000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,712 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Semi-D/Bungalow",
@@ -32754,10 +32754,10 @@ export const PROPERTIES: Property[] = [
     "area": "Chukai",
     "reservePrice": 370000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,734 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1ZLUR5m0kxvQljfwdgdgXSW5uGr2tB68J&sz=w800"
     ]
@@ -32771,9 +32771,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kemaman",
     "reservePrice": 240000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,399 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "Leasehold",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1UE-VpntlsAX9YGAak5E7ie5UXbXBAHnU&sz=w800"
@@ -32788,10 +32788,10 @@ export const PROPERTIES: Property[] = [
     "area": "Kemaman",
     "reservePrice": 480000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,826 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
-    "type": "Terrace",
+    "tenure": "—",
+    "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1Rf34emaO3qYOnbhKpuYcDHQz-fQ0XTNI&sz=w800"
     ]
@@ -32805,9 +32805,9 @@ export const PROPERTIES: Property[] = [
     "area": "Kuala Berang",
     "reservePrice": 180000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,800 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1PHPZcoFOu5EKqJl5prIMswetJqvXwDms&sz=w800"
@@ -32822,7 +32822,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kemaman",
     "reservePrice": 380000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,851 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -32839,7 +32839,7 @@ export const PROPERTIES: Property[] = [
     "area": "Kemaman",
     "reservePrice": 270000,
     "auctionDate": "24th Nov 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "1,318 sq.ft",
     "builtUp": "—",
     "tenure": "Freehold",
     "type": "Terrace",
@@ -32856,9 +32856,9 @@ export const PROPERTIES: Property[] = [
     "area": "Chukai",
     "reservePrice": 250000,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "3,401 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1Lcshk4f1_EPZ5YPVjYmKiX7_M4MRmeNi&sz=w800"
@@ -32873,9 +32873,9 @@ export const PROPERTIES: Property[] = [
     "area": "Marang",
     "reservePrice": 211410,
     "auctionDate": "1st Dec 2026 (Tue)",
-    "landArea": "—",
+    "landArea": "2,422 sq.ft",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1oTmU0lLdxsFse1uqK1NSnROys4rpHxEG&sz=w800"
@@ -32909,7 +32909,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "16th Dec 2026 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Semi-D/Bungalow",
     "images": [
       "https://drive.google.com/thumbnail?id=1UI4glFx05DMw20USmNWc5NFB2hCkA2jk&sz=w800"
@@ -32926,7 +32926,7 @@ export const PROPERTIES: Property[] = [
     "auctionDate": "6th Jan 2027 (Wed)",
     "landArea": "—",
     "builtUp": "—",
-    "tenure": "Freehold",
+    "tenure": "—",
     "type": "Terrace",
     "images": [
       "https://drive.google.com/thumbnail?id=1f1ZGpkzoXF4drj3lLjbvxe5W-WyqoP4R&sz=w800"
