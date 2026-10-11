@@ -12,15 +12,22 @@ import { buildWhatsAppUrl } from "@/lib/utils";
 
 const BUDGET_OPTIONS = PRICE_RANGES.filter((r) => r.label !== "Any Price");
 
-export default function ConsultationForm() {
+export interface ConsultationLead {
+  fullName: string;
+  whatsapp: string;
+  location: string;
+  budget: string;
+  propertyType: string;
+}
+
+interface ConsultationFormProps {
+  /** Called synchronously on submit, before WhatsApp opens. */
+  onLead?: (lead: ConsultationLead) => void;
+}
+
+export default function ConsultationForm({ onLead }: ConsultationFormProps = {}) {
   const [submitted, setSubmitted] = useState(false);
-  const [form, setForm] = useState<{
-    fullName: string;
-    whatsapp: string;
-    location: string;
-    budget: string;
-    propertyType: string;
-  }>({
+  const [form, setForm] = useState<ConsultationLead>({
     fullName: "",
     whatsapp: "",
     location: "All States",
@@ -39,6 +46,8 @@ export default function ConsultationForm() {
       `- Budget Range: ${form.budget}`,
       `- Property Type: ${form.propertyType}`,
     ].join("\n");
+
+    onLead?.(form);
 
     // Opens WhatsApp in a new tab: https://wa.me/[AGENT_PHONE_NUMBER]?text=[ENCODED_TEXT]
     // AGENT_PHONE_NUMBER is configured in lib/constants.ts → WHATSAPP_NUMBER
