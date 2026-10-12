@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import MetaPixel from "@/components/MetaPixel";
+import PageViewLogger from "@/components/PageViewLogger";
 
 export const metadata: Metadata = {
   title: "Free Bank Lelong Consultation | JomLelong",
@@ -15,6 +16,7 @@ export default function LandingLayout({
   return (
     <>
       <MetaPixel />
+      <PageViewLogger />
       {children}
     </>
   );

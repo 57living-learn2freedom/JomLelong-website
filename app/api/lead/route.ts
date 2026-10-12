@@ -2,6 +2,9 @@ import { type NextRequest } from "next/server";
 
 export const runtime = "nodejs";
 
+const SHEET_EVENTS = ["PageView", "Lead"] as const;
+type SheetEvent = (typeof SHEET_EVENTS)[number];
+
 const LEAD_FIELDS = [
   "fullName",
   "whatsapp",
@@ -11,6 +14,7 @@ const LEAD_FIELDS = [
 ] as const;
 
 const TRACKING_FIELDS = [
+  "visitorId",
   "utm_source",
   "utm_medium",
   "utm_campaign",
@@ -27,10 +31,15 @@ function pickString(body: Record<string, unknown>, key: string): string {
   return typeof value === "string" ? value.trim().slice(0, MAX_FIELD_LENGTH) : "";
 }
 
+function pickEvent(body: Record<string, unknown>): SheetEvent | null {
+  const value = body.event ?? "Lead";
+  return SHEET_EVENTS.find((event) => event === value) ?? null;
+}
+
 export async function POST(request: NextRequest) {
   const webhookUrl = process.env.N8N_LEAD_WEBHOOK_URL;
   if (!webhookUrl) {
-    console.error("N8N_LEAD_WEBHOOK_URL is not set; lead was not stored.");
+    console.error("N8N_LEAD_WEBHOOK_URL is not set; event was not stored.");
     return Response.json({ ok: false }, { status: 500 });
   }
 
@@ -41,12 +50,20 @@ export async function POST(request: NextRequest) {
     return Response.json({ ok: false, error: "Invalid JSON" }, { status: 400 });
   }
 
-  const lead: Record<string, string> = {};
-  for (const key of [...LEAD_FIELDS, ...TRACKING_FIELDS]) {
-    lead[key] = pickString(body, key);
+  const event = pickEvent(body);
+  if (!event) {
+    return Response.json({ ok: false, error: "Unknown event" }, { status: 400 });
   }
 
-  if (!lead.fullName || !lead.whatsapp) {
+  const fields: Record<string, string> = {};
+  for (const key of TRACKING_FIELDS) {
+    fields[key] = pickString(body, key);
+  }
+  for (const key of LEAD_FIELDS) {
+    fields[key] = event === "Lead" ? pickString(body, key) : "";
+  }
+
+  if (event === "Lead" && (!fields.fullName || !fields.whatsapp)) {
     return Response.json(
       { ok: false, error: "Name and WhatsApp number are required" },
       { status: 400 }
@@ -54,8 +71,9 @@ export async function POST(request: NextRequest) {
   }
 
   const payload = {
+    event,
     submittedAt: new Date().toISOString(),
-    ...lead,
+    ...fields,
     userAgent: request.headers.get("user-agent") ?? "",
   };
 
