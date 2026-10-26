@@ -18,6 +18,7 @@ import type { Property } from "@/lib/data";
 import { formatPrice } from "@/lib/data";
 import { buildWhatsAppUrl } from "@/lib/utils";
 import LoanCalculator from "./LoanCalculator";
+import ShareThisAd from "./ShareThisAd";
 
 const SWIPE_THRESHOLD_PX = 50;
 
@@ -298,6 +299,8 @@ export default function PropertyDetailModal({
               <MessageCircle className="h-4 w-4" />
               Inquire on WhatsApp
             </a>
+
+            <ShareThisAd property={property} />
           </div>
         </div>
       </div>

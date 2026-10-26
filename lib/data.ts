@@ -69893,3 +69893,7 @@ export function formatPrice(price: number): string {
     maximumFractionDigits: 0,
   }).format(price);
 }
+
+export function getPropertyById(id: string): Property | undefined {
+  return PROPERTIES.find((property) => property.id === id);
+}
