@@ -1,34 +1,37 @@
 import { Building2, Percent, ShieldCheck, Users } from "lucide-react";
-
-const STATS = [
-  {
-    icon: Building2,
-    value: "2000+",
-    label: "Properties Listed",
-  },
-  {
-    icon: Percent,
-    value: "Up to 40%",
-    label: "Below Market Value",
-  },
-  {
-    icon: Users,
-    value: "2,000+",
-    label: "Happy Buyers Assisted",
-  },
-  {
-    icon: ShieldCheck,
-    value: "Licensed",
-    label: "Registered REN Agency",
-  },
-] as const;
+import { PROPERTIES } from "@/lib/data";
 
 export default function TrustBar() {
+  const listedCount = PROPERTIES.length.toLocaleString("en-US");
+
+  const stats = [
+    {
+      icon: Building2,
+      value: listedCount,
+      label: "Properties Listed",
+    },
+    {
+      icon: Percent,
+      value: "Up to 40%",
+      label: "Below Market Value",
+    },
+    {
+      icon: Users,
+      value: "2,000+",
+      label: "Happy Buyers Assisted",
+    },
+    {
+      icon: ShieldCheck,
+      value: "Licensed",
+      label: "Registered REN Agency",
+    },
+  ] as const;
+
   return (
     <section className="border-y border-zinc-200 bg-white py-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-6 lg:grid-cols-4">
-          {STATS.map((stat) => (
+          {stats.map((stat) => (
             <div
               key={stat.label}
               className="flex items-center gap-3 sm:gap-4"
